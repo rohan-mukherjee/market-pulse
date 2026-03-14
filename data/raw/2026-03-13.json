@@ -1,0 +1,631 @@
+{
+  "metadata": {
+    "reportDate": "2026-03-13",
+    "dataAsOf": "2026-03-13",
+    "lastUpdated": "2026-03-14 16:29 IST",
+    "marketStatus": "closed (EOD, Fri)",
+    "title": "Daily Indian Equities Market Research (EOD) - 2026-03-13"
+  },
+  "hero": {
+    "moodPills": [
+      "Risk-off tape (buyers absent, sellers urgent)",
+      "Oil shock risk back on the table (inflation + earnings hit)",
+      "Volatility elevated (bigger candles, stricter risk control)",
+      "Defensives barely holding; cyclicals taking the punch"
+    ],
+    "stance": "Defensive and patient: protect capital first, add only on strength or after stabilization.",
+    "regime": "Risk-off correction",
+    "mainDriver": "Iran-war driven crude spike + heavy FII selling + rupee making new lows => repricing of risk."
+  },
+  "todayIn30Seconds": {
+    "regime": "Risk-off correction with oversold/unstable conditions (expect sharp swings, not smooth trends).",
+    "investorStance": "Reduce risk, keep cash ready, focus on quality and relative strength; avoid hero trades.",
+    "topDrivers": [
+      "Crude stayed above $100 (Brent closed $103.14) raising inflation/earnings worries. citeturn36search0turn36news40",
+      "Benchmarks confirmed a technical correction and are trading below key moving averages; RSI reported below 30 (oversold = price fell too fast). citeturn18news30",
+      "FIIs were heavy net sellers (~₹10,717 Cr) while DIIs bought (~₹9,977 Cr) but couldn’t absorb the supply fully. citeturn38view0turn20news33",
+      "Rupee closed at a record low (~₹92.46/$), compounding risk sentiment and importing inflation via oil. citeturn12news32turn12news35",
+      "Market breadth collapsed: Nifty 50 had 3 advances vs 47 declines; Bank Nifty 0 vs 14. citeturn21view0"
+    ],
+    "topActions": [
+      "Swing trading: reduce frequency and size; prefer cash + tight process over taking forced setups.",
+      "Direct stocks: hold core quality positions; add only in small tranches to defensives or after a clear base (2–3 days of stabilization).",
+      "Fresh cash: keep 50–70% un-deployed; deploy the rest via staggered buys (3–5 tranches) if VIX cools below 20 and crude eases below $95.",
+      "Watchlist: track relative strength leaders (FMCG staples; select telecom) and avoid weakest links (metals, auto, PSU banks) until selling pressure fades."
+    ],
+    "bottomLine": "This is not a ‘buy the dip’ environment by default. Treat it as a risk control phase: wait for volatility to cool and for price to stop making fresh lows before taking bigger bets."
+  },
+  "changedSinceYesterday": {
+    "items": [
+      {
+        "label": "Nifty 50 close",
+        "oldValue": "23,639.15",
+        "newValue": "23,151.10",
+        "direction": "down",
+        "comment": "Yesterday’s close (Mar 12) was 23,639.15; Mar 13 ended at 23,151.10 (-2.06%). citeturn37view0turn21view0"
+      },
+      {
+        "label": "Sensex close",
+        "oldValue": "76,034.42",
+        "newValue": "74,563.92",
+        "direction": "down",
+        "comment": "Sensex slid from 76,034.42 (Mar 12) to 74,563.92 (Mar 13). citeturn37view0turn19view1"
+      },
+      {
+        "label": "Bank Nifty close",
+        "oldValue": "55,100.95",
+        "newValue": "53,757.85",
+        "direction": "down",
+        "comment": "Bank Nifty fell ~2.44% on Mar 13 (from 55,100.95 to 53,757.85). citeturn11view0"
+      },
+      {
+        "label": "Nifty Midcap 150 close",
+        "oldValue": "20,790.90",
+        "newValue": "20,233.00",
+        "direction": "down",
+        "comment": "Midcaps underperformed with a -2.68% drop (20,790.90 to 20,233.00). citeturn10view0"
+      },
+      {
+        "label": "Nifty Smallcap 250 close",
+        "oldValue": "15,266.45",
+        "newValue": "14,857.50",
+        "direction": "down",
+        "comment": "Smallcaps sold off hard: -2.68% (15,266.45 to 14,857.50). citeturn8view3"
+      },
+      {
+        "label": "India VIX",
+        "oldValue": "21.52",
+        "newValue": "22.65",
+        "direction": "up",
+        "comment": "Volatility stayed elevated; India VIX rose to 22.65. (Old value shown from Mar 12 close.) citeturn10view2turn26search0"
+      },
+      {
+        "label": "USD/INR (rupee)",
+        "oldValue": "92.19",
+        "newValue": "92.46",
+        "direction": "up",
+        "comment": "Rupee weakened further: previous close ~92.19 to ~92.46 per USD (record low close). citeturn12news32turn12news35"
+      },
+      {
+        "label": "FII net flow (cash equities)",
+        "oldValue": "₹-7,049.87 Cr",
+        "newValue": "₹-10,716.64 Cr",
+        "direction": "down",
+        "comment": "FII selling intensity increased vs Mar 12. citeturn19view1turn38view0"
+      },
+      {
+        "label": "DII net flow (cash equities)",
+        "oldValue": "₹+7,449.77 Cr",
+        "newValue": "₹+9,977.42 Cr",
+        "direction": "up",
+        "comment": "DIIs stepped up buying, but the tape still stayed weak. citeturn19view1turn38view0"
+      },
+      {
+        "label": "Brent crude",
+        "oldValue": "$100.46",
+        "newValue": "$103.14",
+        "direction": "up",
+        "comment": "Brent jumped again (close $100.46 -> $103.14). Oil remains the key macro risk for India. citeturn36search0"
+      },
+      {
+        "label": "US Dollar Index (DXY)",
+        "oldValue": "99.74",
+        "newValue": "100.36",
+        "direction": "up",
+        "comment": "Dollar strengthened further (supporting USD/INR weakness). citeturn36search3"
+      }
+    ]
+  },
+  "overviewMetrics": {
+    "nifty": {
+      "value": "23,151.10",
+      "changePct": "-2.06%",
+      "comment": "Closed at 23,151.10; worst week since June 2022 reported, and indices in correction territory. citeturn21view0turn18news32"
+    },
+    "sensex": {
+      "value": "74,563.92",
+      "changePct": "-1.93%",
+      "comment": "Closed 74,563.92 amid broad-based selling. citeturn19view1"
+    },
+    "bankNifty": {
+      "value": "53,757.85",
+      "changePct": "-2.44%",
+      "comment": "Banks weaker; Bank Nifty had 0 advances vs 14 declines. citeturn11view0turn21view0"
+    },
+    "midcap150": {
+      "value": "20,233.00",
+      "changePct": "-2.68%",
+      "comment": "Midcaps stayed under pressure; risk appetite still absent. citeturn10view0"
+    },
+    "smallcap250": {
+      "value": "14,857.50",
+      "changePct": "-2.68%",
+      "comment": "Smallcaps sold off sharply; this is typical of risk-off phases. citeturn8view3"
+    },
+    "indiaVix": {
+      "value": "22.65",
+      "zone": "elevated fear (above 20)",
+      "comment": "India VIX above 20 signals traders expect big swings; reduce leverage and position sizes. citeturn26search0turn10view2"
+    },
+    "usdInr": {
+      "value": "92.46",
+      "comment": "Rupee closed at a new record low; oil + dollar strength + FII outflows cited as drivers. citeturn12news32turn36news42"
+    },
+    "fiiFlow": {
+      "value": "₹-10,716.64 Cr",
+      "comment": "Large cash outflow; single-day outflow noted as the highest in 2026 so far. citeturn38view0turn20news33"
+    },
+    "diiFlow": {
+      "value": "₹+9,977.42 Cr",
+      "comment": "DIIs continued to buy on the way down, but broad risk sentiment stayed bearish. citeturn38view0turn18news30"
+    }
+  },
+  "globalMacro": {
+    "us": {
+      "sp500": {
+        "value": "6,632.19",
+        "changePct": "-0.6%"
+      },
+      "nasdaq": {
+        "value": "22,105.36",
+        "changePct": "-0.9%"
+      },
+      "dow": {
+        "value": "46,558.47",
+        "changePct": "-0.3%"
+      },
+      "driver": "US equities fell again with oil above $100 and conflict uncertainty keeping investors risk-off. citeturn14news28turn14news30",
+      "indiaRelevance": "When the US is risk-off and oil is spiking, EM (including India) usually sees tighter liquidity, weaker risk appetite, and more FII caution—especially for high-beta sectors."
+    },
+    "asia": {
+      "nikkei": {
+        "value": "53,819.61",
+        "changePct": "-1.16%"
+      },
+      "hangSeng": {
+        "value": "25,465.60",
+        "changePct": "-0.98%"
+      },
+      "shanghai": {
+        "value": "4,095",
+        "changePct": "-0.82%"
+      },
+      "indiaRelevance": "Asia was broadly weak, aligning with India’s risk-off mood; no regional ‘risk-on’ tailwind right now. citeturn15search0turn15search1turn16search3"
+    },
+    "europe": {
+      "dax": {
+        "value": "23,447.29",
+        "changePct": "-0.60%"
+      },
+      "ftse": {
+        "value": "10,261.15",
+        "changePct": "-0.43%"
+      },
+      "indiaRelevance": "Europe also closed lower; global equities are not providing relief. citeturn17search0turn17search12"
+    },
+    "macroVariables": {
+      "dxy": {
+        "value": "100.36",
+        "changePct": "+0.62%",
+        "indiaRelevance": "Stronger dollar -> tougher for INR and imported inflation; can pressure FIIs and rate-cut expectations. citeturn36search3"
+      },
+      "us10y": {
+        "value": "4.28%",
+        "changePct": "+0.01pp",
+        "indiaRelevance": "Higher US yields compete with EM flows; adds pressure on FIIs and INR. citeturn13search7"
+      },
+      "brent": {
+        "value": "$103.14",
+        "changePct": "+2.67%",
+        "indiaRelevance": "India is a large oil importer; higher Brent hits inflation, current account, and corporate margins (especially auto, paint, aviation). citeturn36search0turn36news40"
+      },
+      "gold": {
+        "value": "$5,061.70",
+        "changePct": "-1.25%",
+        "indiaRelevance": "Gold fell despite risk-off, suggesting USD strength is dominating; not a clean ‘panic hedge’ tape. citeturn36search2turn36search3"
+      },
+      "wti": {
+        "value": "$98.71",
+        "changePct": "+3.11%",
+        "indiaRelevance": "WTI near $100 keeps energy shock narrative active; watch for weekend headlines and any Strait-of-Hormuz updates. citeturn36search1turn36news41"
+      }
+    }
+  },
+  "indiaPulse": {
+    "marketType": "Broad-based sell-off with defensive pockets; indices in correction and volatility high.",
+    "breadth": "Extremely weak: Nifty 50 had 3 advances vs 47 declines; Nifty Bank 0 vs 14; Nifty 500 42 vs 456. citeturn21view0turn19view1",
+    "topGainers": [
+      {
+        "name": "Tata Consumer Products",
+        "changePct": "+2.29%",
+        "sector": "FMCG / consumption staples"
+      },
+      {
+        "name": "Hindustan Unilever",
+        "changePct": "+1.17%",
+        "sector": "FMCG / consumption staples"
+      },
+      {
+        "name": "Bharti Airtel",
+        "changePct": "+0.09%",
+        "sector": "Telecom"
+      }
+    ],
+    "topLosers": [
+      {
+        "name": "Larsen & Toubro",
+        "changePct": "-7.38%",
+        "sector": "Capital goods / infra"
+      },
+      {
+        "name": "Hindalco",
+        "changePct": "-6.07%",
+        "sector": "Metals"
+      },
+      {
+        "name": "Tata Steel",
+        "changePct": "-5.41%",
+        "sector": "Metals"
+      }
+    ],
+    "fact": "Nifty 50 ended at 23,151.10 (-2.06%) and Sensex at 74,563.92 (-1.93%). Only 3 Nifty constituents closed green; broader tape was weak with ~899 shares advancing vs ~3,200 declining (and ~125 unchanged) on NSE/BSE trackers. citeturn21view0turn19view1turn31search5",
+    "interpretation": "This is classic risk-off: oil shock + INR weakness + persistent FII selling. Defensives (FMCG) being green on a red day is a loud signal that money wants safety, not beta. citeturn19view0turn12news32turn36search0",
+    "view": "Treat rallies as ‘sell-the-rally’ until we see: (1) crude stops rising, (2) VIX falls below ~20, and (3) breadth improves. Until then, prioritize capital protection and selective buys in relative strength leaders."
+  },
+  "regime": {
+    "label": "Risk-off correction",
+    "riskScore": 78,
+    "fact": "Reuters noted benchmarks are in technical correction (>10% off highs) and below key moving averages; RSI below 30 flagged oversold. citeturn18news30",
+    "interpretation": "Oversold does NOT mean ‘safe to buy’—it means price has fallen fast. In geopolitical/oil-driven selloffs, oversold can stay oversold until the macro driver turns.",
+    "view": "Base-case: choppy downside with sharp bounces. Play defense, keep cash, and buy only (a) defensives on strength or (b) quality cyclicals only after stabilization.",
+    "whatWorks": [
+      "Defensive large caps (staples) and relative strength leaders",
+      "Staggered buying (tranches) instead of lump-sum",
+      "Higher cash allocation and shorter holding periods for trades",
+      "Strict stop-loss discipline and avoiding leverage"
+    ],
+    "whatFails": [
+      "Aggressive bottom-fishing in metals/auto/PSU banks",
+      "High-beta smallcaps without liquidity",
+      "Overtrading in high VIX (fees + whipsaws kill P&L)",
+      "Averaging down without a plan"
+    ],
+    "sizingNote": "If you must trade, go 1/3 to 1/2 usual size and accept fewer trades. In high VIX, your mistake cost is higher."
+  },
+  "sectorRotation": {
+    "leaders": [
+      "FMCG (outperformed; even green)",
+      "Select large-cap telecom resilience (Airtel marginally green)",
+      "Consumption (less damaged vs cyclicals)"
+    ],
+    "laggards": [
+      "Metals",
+      "Auto",
+      "PSU Banks",
+      "Infra/Capital goods",
+      "Defence (risk-off profit booking)"
+    ],
+    "relativeStrengthSectors": [
+      "FMCG",
+      "IT (less down than Nifty)",
+      "Pharma (slightly better than Nifty)",
+      "Consumption"
+    ],
+    "avoidForSwing": [
+      "Metals",
+      "Auto (until base forms)",
+      "PSU Banks",
+      "Mid/smallcap momentum names with broken supports"
+    ],
+    "gradualAccumulationCandidates": [
+      "Top-quality FMCG leaders",
+      "Large private banks (only after stabilization)",
+      "Select auto leaders for long-term (only via tranches once volatility cools)"
+    ],
+    "sectors": [
+      {
+        "sector": "FMCG",
+        "dayPerformance": "+0.62%",
+        "weeklyTone": "Defensive outperformance; acting as shelter",
+        "relativeStrengthVsNifty": "strong outperform",
+        "fiiBias": "likely defensive preference in risk-off",
+        "stance": "accumulate/hold",
+        "comment": "Nifty FMCG was green despite market fall—strong signal of defensive rotation. citeturn22search7turn19view0"
+      },
+      {
+        "sector": "Pharma",
+        "dayPerformance": "-1.90%",
+        "weeklyTone": "Defensive but not immune",
+        "relativeStrengthVsNifty": "mild outperform",
+        "fiiBias": "neutral to mild defensive",
+        "stance": "selective",
+        "comment": "Pharma fell, but less than the broader damage; treat as ‘relative safety’, not a sure bet. citeturn24search1"
+      },
+      {
+        "sector": "IT",
+        "dayPerformance": "-1.72%",
+        "weeklyTone": "Weak but relatively better than cyclicals",
+        "relativeStrengthVsNifty": "outperform",
+        "fiiBias": "mixed (global risk-off can hit IT too)",
+        "stance": "selective / wait",
+        "comment": "Nifty IT closed at 29,071.25 (-1.72%). citeturn22search11"
+      },
+      {
+        "sector": "Auto",
+        "dayPerformance": "-3.60%",
+        "weeklyTone": "Sharp drawdown; oversold but risky",
+        "relativeStrengthVsNifty": "underperform",
+        "fiiBias": "risk-off selling",
+        "stance": "avoid for swing; watch for base",
+        "comment": "Auto index was among the worst; oil spike is directly negative for auto sentiment and margins. citeturn22search6turn36search0"
+      },
+      {
+        "sector": "Metals",
+        "dayPerformance": "-4.82%",
+        "weeklyTone": "Breakdown; sustained selling pressure",
+        "relativeStrengthVsNifty": "strong underperform",
+        "fiiBias": "risk-off + macro uncertainty",
+        "stance": "avoid",
+        "comment": "Nifty Metal closed down 4.82% at 11,292.5. citeturn22search6turn19view0"
+      },
+      {
+        "sector": "Financials / Banks",
+        "dayPerformance": "-2.04%",
+        "weeklyTone": "Weak; sentiment hit by FII selling + risk-off",
+        "relativeStrengthVsNifty": "roughly inline",
+        "fiiBias": "negative (flow-driven)",
+        "stance": "hold core; avoid aggressive adds",
+        "comment": "Nifty Financial Services fell ~2.04%. citeturn32search3"
+      },
+      {
+        "sector": "PSU Banks",
+        "dayPerformance": "-3.72%",
+        "weeklyTone": "High beta + flow-driven selling",
+        "relativeStrengthVsNifty": "underperform",
+        "fiiBias": "negative",
+        "stance": "avoid for swing",
+        "comment": "Nifty PSU Bank fell 3.72% on Mar 13. citeturn32search2turn22search6"
+      },
+      {
+        "sector": "Capital Goods / Infra",
+        "dayPerformance": "-2.52%",
+        "weeklyTone": "Selling pressure; input-cost worry (oil) adds stress",
+        "relativeStrengthVsNifty": "underperform",
+        "fiiBias": "risk-off",
+        "stance": "wait",
+        "comment": "Nifty Infrastructure fell ~2.52%; L&T was a key drag (-7.38%). citeturn31search0turn19view1"
+      },
+      {
+        "sector": "Energy / Oil & Gas / Power",
+        "dayPerformance": "-2.07%",
+        "weeklyTone": "Mixed: upstream vs downstream divergence likely",
+        "relativeStrengthVsNifty": "inline",
+        "fiiBias": "selective (not blanket buy)",
+        "stance": "selective",
+        "comment": "Nifty Energy closed ~36,071.85 (-2.07%). citeturn25search1"
+      },
+      {
+        "sector": "Defence",
+        "dayPerformance": "-3.34%",
+        "weeklyTone": "Profit taking; high beta in risk-off",
+        "relativeStrengthVsNifty": "underperform",
+        "fiiBias": "risk-off trimming",
+        "stance": "hold core, avoid fresh chase",
+        "comment": "Defence index dropped ~3.34% (heavy hit similar to PSU banks). citeturn35search0turn35search2"
+      },
+      {
+        "sector": "Telecom",
+        "dayPerformance": "-2.57%",
+        "weeklyTone": "Better than cyclicals, but still volatile",
+        "relativeStrengthVsNifty": "underperform",
+        "fiiBias": "selective (Airtel relatively resilient)",
+        "stance": "selective",
+        "comment": "BSE Telecom index fell ~2.57% on Mar 13; within Nifty, Airtel was marginally positive. citeturn30view0turn19view1"
+      },
+      {
+        "sector": "Consumption",
+        "dayPerformance": "-1.67%",
+        "weeklyTone": "Holding up better than cyclicals",
+        "relativeStrengthVsNifty": "outperform",
+        "fiiBias": "defensive tilt",
+        "stance": "accumulate selectively",
+        "comment": "Nifty India Consumption closed 10,575 (-1.67%). citeturn34view0"
+      }
+    ],
+    "fact": "Sector pain was broad. Reuters reported all 16 major sectors fell this week, with auto (-10.6% weekly) and financials (-5.7% weekly) among the worst. On the day, cyclicals (metals, auto, PSU banks) led the fall; FMCG stood out as a rare pocket of strength. citeturn18news32turn22search6turn22search7turn19view0",
+    "interpretation": "This is rotation into safety. In these tapes, winners are simply ‘stocks that fall less’—that’s still meaningful because it shows where incremental money hides.",
+    "view": "Let rotation guide your watchlist: focus on defensives and relative strength, and wait for cyclicals to stop bleeding before deploying fresh money."
+  },
+  "breadthInternalStrength": {
+    "advanceDecline": "Nifty 50: 3/47; Nifty Bank: 0/14; Nifty 500: 42/456 (advances/declines). citeturn21view0",
+    "sectorBreadth": "All major sectors ended red; only defensive counters offered minor support. citeturn19view0turn35search2",
+    "defensivesLeading": "Yes: FMCG index green; FMCG names were among the only Nifty gainers. citeturn22search7turn19view1",
+    "cyclicalsWeak": "Yes: metals (-4.82%), auto (-3.60%), PSU banks (-3.72%). citeturn22search6turn32search2",
+    "buyingType": "DII support buying vs persistent FII selling (flow war). citeturn38view0turn20news33",
+    "summary": "Breadth is the real signal: when 90%+ constituents are red, stock-picking is harder and ‘risk control’ beats ‘idea hunting’."
+  },
+  "swingRadar": {
+    "setupQuality": "Poor (high VIX + downtrend + brutal breadth). Trade less.",
+    "fact": "India VIX is above 22 and breadth is extremely weak (3/47 in Nifty 50). citeturn26search0turn21view0",
+    "interpretation": "In such regimes, breakouts fail and supports break. The edge shifts from ‘finding setups’ to ‘not losing money’.",
+    "view": "Only take A+ setups (relative strength) and keep trades small. If you feel FOMO, you’re already late—step back.",
+    "setups": [
+      {
+        "stock": "Tata Consumer Products",
+        "setupType": "Relative strength momentum (defensive leader) – conditional breakout",
+        "conviction": "Medium (only because it was green in a red market; still needs confirmation)",
+        "entryZone": "Above ₹1,095–₹1,105 on a closing basis (needs follow-through strength)",
+        "stopLoss": "₹1,050 (below recent support; exit fast if leadership fails)",
+        "targets": ["₹1,150", "₹1,200"],
+        "timeframe": "1–3 weeks",
+        "riskReward": "~1:2 if entry triggers cleanly",
+        "technicalReason": "Only a couple of Nifty stocks were green; this was a top gainer, indicating defensive rotation + relative strength. citeturn19view0turn19view1",
+        "fundamentalTrigger": "Staple/consumption profile tends to attract money during risk-off phases.",
+        "invalidation": "If stock closes below ₹1,050 or market makes fresh lows with rising VIX, avoid/exit.",
+        "positionSizeTone": "Small (≤50% of usual) until VIX cools below 20.",
+        "comment": "This is a ‘market-immune’ setup attempt, not a value buy. Only act if price confirms strength."
+      },
+      {
+        "stock": "Hindustan Unilever",
+        "setupType": "Defensive base + relative strength – buy on strength, not weakness",
+        "conviction": "Medium-Low (defensive, but can still drift down in market panic)",
+        "entryZone": "Above ₹2,190–₹2,220 on a closing basis",
+        "stopLoss": "₹2,110",
+        "targets": ["₹2,260", "₹2,340"],
+        "timeframe": "2–4 weeks",
+        "riskReward": "~1:1.8",
+        "technicalReason": "Was among the very few Nifty gainers on the day, signalling rotation to safety. citeturn19view0turn19view1",
+        "fundamentalTrigger": "Staples are less sensitive to crude shock than autos/metals; institutions often hide here.",
+        "invalidation": "If it loses ₹2,110 decisively or if Nifty breaks 23,000 and VIX spikes further, step aside.",
+        "positionSizeTone": "Small; add only after market stabilizes",
+        "comment": "Don’t chase intraday spikes. Wait for a close above the zone."
+      }
+    ],
+    "avoidList": [
+      {
+        "name": "Metals basket (e.g., Tata Steel, Hindalco, JSW Steel)",
+        "reason": "Pure underperformance + oil/inflation shock narrative + heavy selling; avoid catching falling knives. citeturn19view0turn22search6"
+      },
+      {
+        "name": "Leveraged infra/capital goods names",
+        "reason": "High beta in risk-off; L&T’s sharp fall shows the market is aggressively derisking. citeturn19view1turn31search0"
+      },
+      {
+        "name": "PSU banks (broad)",
+        "reason": "High volatility + sharp drawdown; avoid until it forms a base and breadth improves. citeturn32search2turn21view0"
+      }
+    ]
+  },
+  "directStockInvestorAngle": {
+    "buckets": [
+      {
+        "bucket": "Core quality compounders (large caps with strong balance sheets)",
+        "stance": "Hold; add only in small tranches if they remain relatively strong",
+        "comment": "In risk-off, quality typically recovers first. Don’t average blindly; buy after price stabilizes."
+      },
+      {
+        "bucket": "Defensives (FMCG, select consumption)",
+        "stance": "Selective accumulation",
+        "comment": "Defensives are showing relative strength (FMCG green). Use them as portfolio stabilizers, not as ‘quick trades’. citeturn22search7turn19view0"
+      },
+      {
+        "bucket": "Cyclicals (metals, auto, infra)",
+        "stance": "Avoid fresh buys; hold only if long-term and risk fits",
+        "comment": "Oil shock + risk-off flows can keep these weak. Wait for oil to cool and for price to stop making lower lows. citeturn36search0turn22search6"
+      },
+      {
+        "bucket": "Thematics/PSU/Defence",
+        "stance": "Trim risk; avoid chasing",
+        "comment": "Even strong themes get sold in high-VIX tapes; defence index fell >3%. citeturn35search0turn35search2"
+      },
+      {
+        "bucket": "Mid & small caps",
+        "stance": "Underweight for now",
+        "comment": "Breadth and drawdowns suggest liquidity risk; keep this bucket smaller until VIX cools and flows stabilize. citeturn10view0turn8view3turn26search0"
+      }
+    ],
+    "fact": "Midcaps and smallcaps fell ~2.5–2.7% and breadth was extremely weak. citeturn10view0turn8view3turn21view0",
+    "interpretation": "In this phase, portfolio returns are driven more by risk exposure (beta) than by stock selection skill.",
+    "view": "Raise your quality bar. If you can’t explain why you own a stock in one sentence, you don’t own it in this tape."
+  },
+  "mutualFundInvestorAngle": {
+    "sip": "Continue SIPs (do not stop due to fear). SIPs help average in volatile periods.",
+    "lumpsum": "Avoid big lump-sum today. If you must deploy, do it in 3–5 tranches over 3–6 weeks.",
+    "deploymentStyle": "Staggered deployment: 20% now (only if comfortable), 20% on VIX < 20, rest after Nifty holds above a support and FII selling eases.",
+    "dryPowder": "Keep meaningful dry powder (30–50%) until macro driver (oil) cools and volatility reduces.",
+    "categories": [
+      {
+        "category": "Large-cap index / Nifty 50 funds",
+        "stance": "Accumulate via SIP/tranches",
+        "comment": "Index is in correction and oversold; better suited for staggered buying than lump-sum. citeturn18news30turn18news32"
+      },
+      {
+        "category": "Flexi-cap / Multi-cap",
+        "stance": "SIP + selective top-up",
+        "comment": "Let the fund manager rotate defensively; your job is disciplined cash deployment."
+      },
+      {
+        "category": "Mid-cap funds",
+        "stance": "SIP only; delay lump-sum",
+        "comment": "Midcaps are seeing sharper drawdowns; don’t add aggressively until volatility cools. citeturn10view0turn26search0"
+      },
+      {
+        "category": "Small-cap funds",
+        "stance": "SIP only; avoid fresh lump-sum",
+        "comment": "Smallcaps are most sensitive to risk-off + liquidity. citeturn8view3turn21view0"
+      },
+      {
+        "category": "Sector/thematic funds (auto, metals, PSU, defence)",
+        "stance": "No fresh adds for now",
+        "comment": "These are high-beta; protect capital first. citeturn22search6turn35search0"
+      }
+    ],
+    "fact": "FIIs have been heavy sellers while crude is above $100 and INR is weak—this is not a stable regime for risky allocations. citeturn38view0turn36search0turn12news32",
+    "interpretation": "SIP discipline matters more than ‘timing the bottom’. Lumpsum is a timing decision; SIP is a process decision.",
+    "view": "If you feel the urge to ‘go all-in’, you’re reacting emotionally. Use tranches and keep optionality."
+  },
+  "dosAndDonts": {
+    "dos": [
+      "Do track crude (Brent) and USD/INR daily; they are currently the ‘macro dashboard’ for India risk. citeturn36search0turn12news32",
+      "Do keep position sizes smaller and stops tighter in swing trades when VIX is above 20. citeturn26search0",
+      "Do prefer relative strength (stocks/indices falling less or staying green) over ‘cheap-looking’ names.",
+      "Do use staggered deployment (tranches) for fresh cash and MF top-ups."
+    ],
+    "donts": [
+      "Don’t average down in metals/auto/PSU banks without a clear base and risk limit. citeturn22search6turn32search2",
+      "Don’t take too many trades in a high-VIX tape; whipsaws will eat you.",
+      "Don’t ignore currency risk: INR weakness can keep pressure on valuations and sentiment. citeturn12news32turn36news42",
+      "Don’t confuse ‘oversold’ with ‘bottom’. Oversold can stay oversold in geopolitical shocks. citeturn18news30turn36news41"
+    ]
+  },
+  "keyLevelsAndTriggers": {
+    "niftySupport": "23,000 (psychological) then 22,800 (if selling continues)",
+    "niftyResistance": "23,500 then 23,650 (previous day close zone)",
+    "bankNiftySupport": "53,500 then 53,000",
+    "bankNiftyResistance": "54,600 then 55,100 (prior close area)",
+    "vixKeyLevel": "20 (below this, conditions improve); 25 (above this, expect more forced selling)",
+    "brentKeyLevel": "$100 (line in the sand); $105 (risk of further inflation panic)",
+    "usdInrKeyLevel": "92.50 (pressure zone); 93.00 (psychological; risk of more panic hedging)",
+    "improvingTriggers": [
+      "Brent cools and sustains below $95 for a few sessions. citeturn36search0",
+      "India VIX drops back below 20 and breadth improves (advances rise meaningfully). citeturn26search0turn21view0",
+      "FII selling reduces materially (net outflow < ₹2,000 Cr) for 2–3 days. citeturn38view0",
+      "Nifty reclaims 23,500 and holds (signals supply is easing)."
+    ],
+    "worseningTriggers": [
+      "Brent breaks above $105 and holds (inflation/earnings fear accelerates). citeturn36search0turn36news40",
+      "USD/INR moves above 93 with momentum (imported inflation + sentiment hit). citeturn12news32",
+      "VIX spikes above 25 (fear regime). citeturn10view2",
+      "Nifty breaks below 23,000 with expanding negative breadth (more distribution). citeturn21view0"
+    ]
+  },
+  "finalBottomLine": {
+    "investorConclusion": "Stay defensive. Hold quality, reduce junk, and add only in tranches to leaders. Don’t try to be a hero while oil and INR are flashing risk.",
+    "swingTraderConclusion": "Trade less. Only take relative-strength breakouts with small size and defined stops. If no clean follow-through, stay in cash.",
+    "mfConclusion": "Keep SIPs running. Avoid lump-sum. If deploying, do it via tranches over the next few weeks—let volatility work for you, not against you."
+  },
+  "archiveMeta": {
+    "summary": "Risk-off correction day: Nifty -2.06% to 23,151; VIX >22; crude >$100; rupee at record low ~92.46; FIIs sold ~₹10.7k Cr while DIIs bought ~₹10.0k Cr; cyclicals (metals/auto/PSU banks) hit hardest; FMCG was lone shelter.",
+    "tags": [
+      "risk-off",
+      "correction",
+      "crude-shock",
+      "fii-outflow",
+      "rupee-weakness",
+      "elevated-vix",
+      "defensive-rotation",
+      "breadth-collapse"
+    ]
+  },
+  "footer": {
+    "sourceContext": [
+      "Index closes & breadth: Moneycontrol advance/decline snapshot for 13 Mar 2026. citeturn21view0",
+      "Top gainers/losers in Nifty 50: Upstox and Angel One market wrap. citeturn19view1turn19view0",
+      "FII/DII net cash flows: Trendlyne and Economic Times. citeturn38view0turn20news33",
+      "Macro drivers: Reuters and Investing.com data for crude/DXY/gold/WTI. citeturn18news30turn36search0turn36search3turn36search2turn36search1",
+      "USD/INR context + RBI defence: Economic Times + Reuters forex reserves story. citeturn12news32turn36news42",
+      "Global indices: AP + Investing.com (US/Europe/Asia). citeturn14news28turn15search0turn15search1turn17search0"
+    ],
+    "disclaimer": "Educational research summary, not investment advice. Markets can move sharply due to geopolitics, policy and liquidity. Use your own risk limits and consult a SEBI-registered advisor if needed."
+  }
+}

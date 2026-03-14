@@ -1,0 +1,66 @@
+Open my current `market-pulse` project and work only inside this repo.
+
+Goal:
+Make the webpages render content automatically using:
+- `data/manifest.json`
+- `data/reports/*.json`
+
+And make sure the site uses only processed report files, not raw files.
+
+Tasks:
+
+1. Inspect current files:
+   - `index.html`
+   - `archive.html`
+   - `assets/js/app.js`
+   - `assets/js/archive.js`
+   - `assets/js/config.js`
+   - `assets/js/renderer.js`
+   - `data/manifest.json`
+   - `data/reports/*.json`
+
+2. Ensure `index.html` loads the latest processed report automatically by:
+   - reading `data/manifest.json`
+   - using `latestReport`
+   - loading the matching file from `data/reports/`
+
+3. Ensure `archive.html` reads `data/manifest.json` and renders the archive list automatically.
+
+4. Ensure only processed reports are used for display.
+   - Do not use `data/raw/` in webpage rendering
+   - `data/raw/` is input only, not display source
+
+5. Update JS only where needed:
+   - keep existing design and structure
+   - keep changes minimal
+   - use vanilla JS
+   - use robust fetch/load logic
+   - handle missing sections gracefully
+   - avoid hardcoded daily values in HTML
+
+6. If rendering logic already exists, improve/fix only what is necessary.
+
+7. Support this expected flow:
+   - when a new processed file is added to `data/reports/`
+   - and `data/manifest.json` is updated
+   - the latest report should automatically appear on `index.html`
+   - the archive should automatically update on `archive.html`
+
+8. Do not redesign UI.
+9. Do not touch CSS unless a rendering issue requires it.
+10. Keep code clean and production-usable.
+
+Validation requirements:
+- latest report must render from `manifest.json`
+- archive must render from `manifest.json`
+- report content must come from `data/reports/*.json`
+- raw files must never be rendered directly
+- adding future processed report files should require no HTML edits
+
+After completion, show me:
+1. files changed
+2. what each file now does
+3. whether latest rendering works
+4. whether archive rendering works
+5. any browser tests I should run manually
+6. any small future improvement you recommend

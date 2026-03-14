@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "date": "YYYY-MM-DD",
+    "title": "Market Pulse Daily",
+    "subtitle": "",
+    "marketStatus": "closed",
+    "lastUpdated": "",
+    "author": "Market Pulse Research"
+  },
+
+  "mood": {
+    "label": "",
+    "sentiment": "neutral",
+    "pills": []
+  },
+
+  "todayIn30Seconds": [],
+
+  "whatChanged": [],
+
+  "overview": {
+    "metrics": []
+  },
+
+  "globalMacro": {
+    "summary": "",
+    "regions": [],
+    "keyDrivers": []
+  },
+
+  "indianMarket": {
+    "summary": "",
+    "indices": [],
+    "flows": {
+      "fii": { "value": "", "sentiment": "neutral" },
+      "dii": { "value": "", "sentiment": "neutral" }
+    },
+    "highlights": []
+  },
+
+  "marketRegime": {
+    "current": "",
+    "description": "",
+    "signals": []
+  },
+
+  "sectorRotation": {
+    "summary": "",
+    "sectors": []
+  },
+
+  "breadth": {
+    "summary": "",
+    "indicators": []
+  },
+
+  "swingSetups": [],
+
+  "avoidList": [],
+
+  "keyLevels": {},
+
+  "investorPlan": {
+    "stance": "",
+    "summary": "",
+    "actions": []
+  },
+
+  "mutualFundView": {
+    "summary": "",
+    "recommendations": []
+  },
+
+  "dosAndDonts": {
+    "dos": [],
+    "donts": []
+  },
+
+  "news": [],
+
+  "sources": [],
+
+  "disclaimer": "This report is for educational and informational purposes only. It does not constitute investment advice. Always consult a qualified financial advisor before making investment decisions."
+}

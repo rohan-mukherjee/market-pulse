@@ -1,0 +1,55 @@
+Open my current `market-pulse` project and work only inside this repo.
+
+Goal:
+Convert the raw daily market research content I provide into a properly structured daily JSON report file, save it inside `data/reports/`, and update `data/manifest.json` so the report can render automatically in the webpage.
+
+Current project structure is already set up with:
+- `data/manifest.json`
+- `data/reports/_template.json`
+- `data/reports/*.json`
+- existing HTML/CSS/JS renderer files
+
+Your tasks:
+1. Read `data/reports/_template.json` and use it as the base schema.
+2. Convert the raw research content I paste below into a clean structured JSON object using the same schema.
+3. Save the report as a new file at:
+   `data/reports/YYYY-MM-DD.json`
+   Replace `YYYY-MM-DD` with the actual report date from the content.
+4. If the report date is unclear, stop and ask me for the exact filename date instead of guessing.
+5. Update `data/manifest.json` so that:
+   - `latestReport` points to the newest report date
+   - the new report is added at the top of the `reports` list
+   - the entry includes:
+     - `reportDate`
+     - `file`
+     - `title`
+     - `marketStatus`
+     - `regime`
+     - `stance`
+     - `mainDriver`
+     - `summary`
+     - `tags`
+6. Do not redesign or modify HTML/CSS unless absolutely required.
+7. Do not modify old report files unless there is a schema consistency issue that must be fixed.
+8. Keep the output faithful to my research. Do not invent content.
+9. If some sections are missing in my raw content, keep them empty, sparse, or structurally valid instead of making things up.
+10. Ensure all swing setups are logically valid:
+    - entry, stop loss, targets, timeframe, risk-reward
+    - do not keep invalid setups silently
+    - if something is inconsistent, fix it only if the intended meaning is obvious; otherwise flag it clearly
+11. Preserve enough detail for a 10-minute daily read.
+12. Make the JSON renderer-friendly and consistent with existing reports.
+
+After completing the work, show me:
+1. file created
+2. files updated
+3. final report date used
+4. any fields that need manual verification
+5. any schema or rendering risks I should know
+
+Important mapping guidance:
+- Full detailed daily content goes only into `data/reports/YYYY-MM-DD.json`
+- Summary/archive navigation data goes into `data/manifest.json`
+- Do not dump the full report inside manifest
+
+I will now paste the raw daily research content below.

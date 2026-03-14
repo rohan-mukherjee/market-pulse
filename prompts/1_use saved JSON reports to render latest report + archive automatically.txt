@@ -1,0 +1,68 @@
+Open my current `market-pulse` project and work only inside this repo.
+
+Goal:
+Use the saved JSON report files and `data/manifest.json` to make the website render automatically.
+
+Current structure already exists with:
+- `index.html`
+- `archive.html`
+- `assets/js/app.js`
+- `assets/js/archive.js`
+- `assets/js/config.js`
+- `assets/js/renderer.js`
+- `data/manifest.json`
+- `data/reports/*.json`
+
+Your tasks:
+1. Inspect the current HTML and JS structure first.
+2. Make sure `index.html` automatically loads the latest report using:
+   - `data/manifest.json`
+   - the `latestReport` field
+   - the matching file in `data/reports/`
+3. Make sure `archive.html` automatically reads `data/manifest.json` and renders the full archive list in reverse chronological order.
+4. If needed, update:
+   - `assets/js/app.js`
+   - `assets/js/archive.js`
+   - `assets/js/config.js`
+   - `assets/js/renderer.js`
+   but keep changes minimal and clean.
+5. Preserve the current premium layout and styling.
+6. Do not redesign the site unless something is required for rendering.
+7. Do not hardcode daily values into HTML.
+8. Keep the rendering data-driven from JSON.
+9. Handle missing or sparse sections gracefully:
+   - if a section is missing in a report JSON, do not break the page
+   - hide or skip empty sections cleanly
+10. Make sure archive cards can show:
+   - report date
+   - title
+   - market status
+   - regime
+   - stance
+   - main driver
+   - summary
+   - tags
+11. If report navigation is possible, support or prepare for:
+   - latest report
+   - archive page
+   - opening a specific daily report
+12. If there is no dedicated report page yet, tell me whether:
+   - `index.html` is being used for latest only
+   - or whether a reusable report page should be added later
+13. Keep the code in vanilla JS.
+14. Remove any dependency on hardcoded content if it still exists.
+15. Use clean fetch/load logic and robust error handling.
+
+Validation requirements:
+- `index.html` should load the latest report automatically
+- `archive.html` should list all reports from `manifest.json`
+- no old report data should need to be manually copied into HTML
+- adding a new `data/reports/YYYY-MM-DD.json` and updating `manifest.json` should be enough for future days
+
+After completing the work, show me:
+1. files changed
+2. what each changed file now does
+3. whether latest report rendering works
+4. whether archive rendering works
+5. any manual browser test I should do
+6. any future improvement you recommend, but do not implement unless necessary

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Market Pulse — Browse all past daily market reports.">
+  <meta name="theme-color" content="#0a0f1a">
+  <title>Archive — Market Pulse</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+  <!-- Site Header -->
+  <header class="site-header">
+    <div class="container">
+      <div class="site-brand">
+        <span class="site-title">Market Pulse</span>
+        <span class="site-tagline">Daily Market Intelligence</span>
+      </div>
+      <nav class="site-nav">
+        <a href="index.html" class="nav-link">Latest</a>
+        <a href="archive.html" class="nav-link active">Archive</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+
+    <!-- Loading State -->
+    <div id="loading-state" class="state-container">
+      <div class="loader"></div>
+      <p>Loading archive...</p>
+    </div>
+
+    <!-- Error State -->
+    <div id="error-state" class="state-container hidden">
+      <p class="error-message"></p>
+      <a href="index.html" class="btn">Go to Latest Report</a>
+    </div>
+
+    <!-- Archive Content -->
+    <div id="archive-content" class="hidden">
+      <div class="container">
+        <div class="archive-header">
+          <h1 class="archive-title">Report Archive</h1>
+          <p class="archive-subtitle">Browse all past Market Pulse daily reports</p>
+          <p id="archive-count" class="archive-count"></p>
+        </div>
+        <div id="archive-grid" class="archive-grid"></div>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2026 Market Pulse. For educational purposes only.</p>
+    </div>
+  </footer>
+
+  <!-- Scripts (config.js provides DateUtils, HtmlUtils, DataLoader) -->
+  <script src="assets/js/config.js"></script>
+  <script src="assets/js/archive.js"></script>
+
+</body>
+</html>

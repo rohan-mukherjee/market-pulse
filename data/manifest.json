@@ -1,0 +1,74 @@
+{
+  "site": {
+    "name": "Market Pulse",
+    "tagline": "Daily Market Intelligence",
+    "author": "Market Pulse Research"
+  },
+  "reports": [
+    {
+      "date": "2026-03-14",
+      "file": "2026-03-14.json",
+      "title": "Market Pulse Daily",
+      "subtitle": "Weekend Edition (data as of 2026-03-13)",
+      "mood": "Risk-off correction",
+      "marketStatus": "closed",
+      "regime": "Risk-off correction",
+      "stance": "Defensive bias; reduce risk, keep dry powder, deploy only in small tranches into relative strength",
+      "mainDriver": "Middle East war + crude above $100 -> rupee at record low + persistent FII de-risking -> broad Indian risk-off sell-off.",
+      "summary": "Risk-off correction strengthened: Nifty -2.06%, VIX ~22.75, rupee at record low close 92.46/$; sector rotation favors defensives while metals/auto/PSU banks lead the fall.",
+      "tags": [
+        "Risk-off correction",
+        "India VIX elevated",
+        "Rupee record low close",
+        "Crude above $100",
+        "FII selling",
+        "Defensives outperform",
+        "Metals and auto breakdown",
+        "Weak market breadth"
+      ]
+    },
+    {
+      "date": "2026-03-13",
+      "file": "2026-03-13.json",
+      "title": "Market Pulse Daily",
+      "subtitle": "Risk-off correction",
+      "mood": "Risk-off correction",
+      "marketStatus": "closed",
+      "regime": "Risk-off correction",
+      "stance": "Defensive and patient: protect capital first, add only on strength or after stabilization.",
+      "mainDriver": "Iran-war driven crude spike + heavy FII selling + rupee making new lows => repricing of risk.",
+      "summary": "Risk-off correction day: Nifty -2.06% to 23,151; VIX >22; crude >$100; rupee at record low ~92.46; FIIs sold ~₹10.7k Cr while DIIs bought ~₹10.0k Cr; cyclicals (metals/auto/PSU banks) hit hardest; FMCG was lone shelter.",
+      "tags": [
+        "risk-off",
+        "correction",
+        "crude-shock",
+        "fii-outflow",
+        "rupee-weakness",
+        "elevated-vix",
+        "defensive-rotation",
+        "breadth-collapse"
+      ]
+    },
+    {
+      "date": "2026-03-12",
+      "file": "2026-03-12.json",
+      "title": "Market Pulse Daily",
+      "subtitle": "Risk-off correction",
+      "mood": "Risk-off correction",
+      "marketStatus": "closed",
+      "regime": "Risk-off correction",
+      "stance": "Defensive first, selective offense only in relative-strength pockets.",
+      "mainDriver": "Oil up sharply + INR weakness + persistent FII selling = macro-driven risk-off day.",
+      "summary": "Risk-off day driven by oil shock and INR weakness. Autos and banks sold off hard; energy/power held up. FIIs sold heavily; DIIs absorbed. VIX stayed above 20.",
+      "tags": [
+        "risk-off",
+        "oil-shock",
+        "inr-weakness",
+        "fii-selling",
+        "energy-rotation",
+        "high-vix"
+      ]
+    }
+  ],
+  "latestReport": "2026-03-14"
+}

@@ -1,0 +1,20 @@
+Open my `market-pulse` project.
+
+Take the raw research from:
+`data/raw/YYYY-MM-DD.txt`
+
+Tasks:
+1. Read `data/reports/_template.json`
+2. Convert the raw content into a structured daily report JSON
+3. Save it as:
+   `data/reports/YYYY-MM-DD.json`
+4. Update `data/manifest.json`
+5. Do not touch HTML/CSS unless required
+6. Keep output faithful to the source content
+7. Flag any manual verification issues
+
+After completion, show:
+- file created
+- files updated
+- report date used
+- manual verification items

@@ -1,0 +1,69 @@
+Open my current `market-pulse` project and work only inside this repo.
+
+Current project structure includes:
+- `data/raw/`            -> contains day-wise raw JSON content files
+- `data/reports/`        -> contains processed final report JSON files
+- `data/manifest.json`   -> archive/latest registry
+- existing HTML/CSS/JS renderer files
+
+Goal:
+Process only raw dates that have NOT yet been processed into `data/reports/`, to save tokens and avoid duplicate work.
+
+Your tasks:
+
+1. Inspect these folders first:
+   - `data/raw/`
+   - `data/reports/`
+   - `data/manifest.json`
+
+2. Identify all raw files in `data/raw/`.
+
+3. Identify all already-processed report dates in `data/reports/`.
+
+4. Compare both sets and find only the dates that exist in `data/raw/` but do NOT yet exist in `data/reports/`.
+
+5. Process ONLY those missing/unprocessed dates.
+   - Do not reprocess dates that already exist in `data/reports/`
+   - Do not overwrite existing final report files unless there is a critical schema issue and you explain it first
+
+6. For each unprocessed raw file:
+   - read the raw JSON/content
+   - convert/map it into the final report schema used by `data/reports/_template.json` or the existing report structure
+   - save the final renderer-ready JSON as:
+     `data/reports/YYYY-MM-DD.json`
+
+7. Update `data/manifest.json` so that:
+   - `latestReport` points to the latest available processed date
+   - each new processed report is added to the top of the `reports` list in reverse chronological order
+   - each report entry includes:
+     - `reportDate`
+     - `file`
+     - `title`
+     - `marketStatus`
+     - `regime`
+     - `stance`
+     - `mainDriver`
+     - `summary`
+     - `tags`
+
+8. Do not redesign the website.
+9. Do not modify HTML/CSS/JS in this step unless there is a very small rendering-related requirement.
+10. Keep changes minimal, safe, and consistent.
+
+Important rules:
+- Process only not-yet-processed dates
+- Skip dates already present in `data/reports/`
+- Preserve schema consistency
+- Preserve detail for a 10-minute daily read
+- Do not invent missing content; keep sparse fields valid if needed
+- If any raw file has an unclear date, stop and flag it rather than guessing
+- If any swing setup is logically invalid, fix only if obvious, otherwise flag clearly
+
+After completion, show me:
+1. raw dates found
+2. processed dates already present
+3. newly processed dates in this run
+4. files created
+5. files updated
+6. any dates skipped and why
+7. any fields needing manual verification
