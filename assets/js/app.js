@@ -39,6 +39,7 @@ var App = {
       this.render();
       this.setupTabs();
       this.setupNavigation();
+      this.setupScrollTop();
       this.showContent();
       this.updatePageTitle();
     } catch (err) {
@@ -64,6 +65,9 @@ var App = {
     document.getElementById('tab-overview').innerHTML = Renderer.overviewTab(data);
     document.getElementById('tab-markets').innerHTML = Renderer.marketsTab(data);
     document.getElementById('tab-ideas').innerHTML = Renderer.ideasTab(data);
+    document.getElementById('tab-global').innerHTML = Renderer.globalNewsTab(data);
+    document.getElementById('tab-india').innerHTML = Renderer.indiaNewsTab(data);
+    document.getElementById('tab-stocks').innerHTML = Renderer.stocksTab(data);
     document.getElementById('tab-plan').innerHTML = Renderer.planTab(data);
 
     /* Footer sections */
@@ -84,7 +88,7 @@ var App = {
 
     /* Restore tab from URL hash */
     var hash = window.location.hash.replace('#', '');
-    if (['overview', 'markets', 'ideas', 'plan'].indexOf(hash) !== -1) {
+    if (['overview', 'markets', 'ideas', 'global', 'india', 'stocks', 'plan'].indexOf(hash) !== -1) {
       this.switchTab(hash);
     }
   },
@@ -156,6 +160,18 @@ var App = {
     } else if (targetDate) {
       window.location.href = 'index.html?date=' + targetDate;
     }
+  },
+
+  /* ---- Scroll to Top ---- */
+  setupScrollTop() {
+    var btn = document.getElementById('scroll-top-btn');
+    if (!btn) return;
+    window.addEventListener('scroll', function () {
+      btn.classList.toggle('hidden', window.scrollY < 300);
+    }, { passive: true });
+    btn.addEventListener('click', function () {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
   },
 
   /* ---- Page Title ---- */

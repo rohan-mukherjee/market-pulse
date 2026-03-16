@@ -241,6 +241,13 @@
       "European equities were also soft; the common thread is energy-price uncertainty."
     ]
   },
+  "globalNews": {
+    "riskLevel": "",
+    "marketImpactHorizon": "",
+    "themes": [],
+    "summary": "",
+    "view": ""
+  },
   "indianMarket": {
     "summary": "Macro-driven risk-off (oil + INR + flows) with rotation into power/energy.",
     "indices": [
@@ -296,6 +303,12 @@
       "Loser: Eicher Motors (-3.83%) — Auto",
       "Loser: Maruti Suzuki (-3.60%) — Auto"
     ]
+  },
+  "indiaNews": {
+    "importanceLevel": "",
+    "themes": [],
+    "summary": "",
+    "view": ""
   },
   "marketRegime": {
     "current": "Risk-off correction",
@@ -459,7 +472,7 @@
       "target": "₹490, ₹510 (stretch target, only if market stabilizes)",
       "stopLoss": "₹439 (below recent breakout area; if it breaks, thesis weakens)",
       "timeframe": "5–15 trading days",
-      "thesis": "Strong up day (+5.23%) with close near highs; indicates demand even in a falling market. Expectation of higher power/coal demand heading into early summer; coal remains a key power fuel. Invalidation: If Coal India falls below ₹439 or if crude cools sharply and leadership rotates away from energy/power, do not force this trade. Sizing: Half size (macro headline risk).",
+      "thesis": "Strong up day (+5.23%) with close near highs; indicates demand even in a falling market. Expectation of higher power/coal demand heading into early summer; coal remains a key power fuel. This is a tactical trade in a volatile tape—book partial profits faster than usual. R:R ~1:2 if entry on pullback Invalidation: If Coal India falls below ₹439 or if crude cools sharply and leadership rotates away from energy/power, do not force this trade. Sizing: Half size (macro headline risk).",
       "confidence": "medium"
     },
     {
@@ -469,7 +482,7 @@
       "target": "₹405, ₹420",
       "stopLoss": "₹375 (below recent swing low zone)",
       "timeframe": "5–20 trading days",
-      "thesis": "Closed higher (+2.80%) while the market fell; recently made a new 52-week high in the same session. Power demand narrative + sector rotation into power/energy. Invalidation: Break below ₹375 or broad market panic (Nifty decisively under 23,556) reduces follow-through odds. Sizing: Half size; trail stop if it moves in your favor.",
+      "thesis": "Closed higher (+2.80%) while the market fell; recently made a new 52-week high in the same session. Power demand narrative + sector rotation into power/energy. Use a trailing stop if price moves above ₹405; do not hold and hope in high VIX. R:R ~1:1.8 (depends on entry) Invalidation: Break below ₹375 or broad market panic (Nifty decisively under 23,556) reduces follow-through odds. Sizing: Half size; trail stop if it moves in your favor.",
       "confidence": "medium"
     }
   ],
@@ -487,6 +500,18 @@
       "reason": "VIX > 20 means bigger swings; liquidity gaps can turn small losses into large ones."
     }
   ],
+  "emergingOpportunities": {
+    "overallTone": "",
+    "ideas": [],
+    "summary": "",
+    "view": ""
+  },
+  "riskWatch": {
+    "overallTone": "",
+    "cases": [],
+    "summary": "",
+    "view": ""
+  },
   "keyLevels": {
     "nifty": {
       "instrument": "Nifty 50",

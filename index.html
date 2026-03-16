@@ -51,14 +51,19 @@
       <!-- Report Navigation -->
       <div id="report-nav" class="report-nav"></div>
 
-      <!-- Tab Navigation -->
-      <div class="container">
-        <nav id="tab-nav" class="tab-nav">
-          <button class="tab-btn active" data-tab="overview">Overview</button>
-          <button class="tab-btn" data-tab="markets">Markets</button>
-          <button class="tab-btn" data-tab="ideas">Ideas</button>
-          <button class="tab-btn" data-tab="plan">Plan</button>
-        </nav>
+      <!-- Tab Navigation (sticky) -->
+      <div class="tab-nav-wrapper">
+        <div class="container">
+          <nav id="tab-nav" class="tab-nav">
+            <button class="tab-btn active" data-tab="overview">Overview</button>
+            <button class="tab-btn" data-tab="markets">Markets</button>
+            <button class="tab-btn" data-tab="ideas">Ideas</button>
+            <button class="tab-btn" data-tab="global">Global</button>
+            <button class="tab-btn" data-tab="india">India</button>
+            <button class="tab-btn" data-tab="stocks">Stocks</button>
+            <button class="tab-btn" data-tab="plan">Plan</button>
+          </nav>
+        </div>
       </div>
 
       <!-- Tab Panels -->
@@ -66,6 +71,9 @@
         <div id="tab-overview" class="tab-panel active"></div>
         <div id="tab-markets" class="tab-panel hidden"></div>
         <div id="tab-ideas" class="tab-panel hidden"></div>
+        <div id="tab-global" class="tab-panel hidden"></div>
+        <div id="tab-india" class="tab-panel hidden"></div>
+        <div id="tab-stocks" class="tab-panel hidden"></div>
         <div id="tab-plan" class="tab-panel hidden"></div>
       </div>
 
@@ -77,6 +85,9 @@
 
     </div>
   </main>
+
+  <!-- Scroll to Top -->
+  <button id="scroll-top-btn" class="scroll-top-btn hidden" aria-label="Scroll to top">&#8679;</button>
 
   <!-- Footer -->
   <footer class="site-footer">

@@ -484,6 +484,208 @@ const Renderer = {
     return '<p class="disclaimer-text">' + HtmlUtils.esc(text) + '</p>';
   },
 
+  /* ---- Global News (Geopolitics) ---- */
+  globalNews(data) {
+    if (!data || (!data.themes || data.themes.length === 0) && !data.summary) return '';
+    var html = '<div class="section-card">' +
+      '<h3 class="section-title"><span class="icon">&#127758;</span> Geopolitics &amp; World News</h3>';
+
+    var riskLevel = data.riskLevel || '';
+    var horizon = data.marketImpactHorizon || '';
+    if (riskLevel || horizon) {
+      html += '<div class="news-meta-row">';
+      if (riskLevel) {
+        var rl = riskLevel.toLowerCase();
+        var rlCls = rl === 'high' || rl === 'critical' ? 'negative' : (rl === 'low' ? 'positive' : 'neutral');
+        html += '<span class="news-meta-badge ' + rlCls + '">Risk: ' + HtmlUtils.esc(riskLevel) + '</span>';
+      }
+      if (horizon) {
+        html += '<span class="news-meta-badge neutral">Impact horizon: ' + HtmlUtils.esc(horizon) + '</span>';
+      }
+      html += '</div>';
+    }
+
+    if (data.summary) {
+      html += '<p class="section-summary">' + HtmlUtils.esc(data.summary) + '</p>';
+    }
+
+    if (data.themes && data.themes.length > 0) {
+      data.themes.forEach(function (t) {
+        var cls = HtmlUtils.sentimentClass(t.sentiment);
+        html += '<div class="theme-card ' + cls + '">' +
+          '<div class="theme-header">' +
+            '<span class="theme-name">' + HtmlUtils.esc(t.theme) + '</span>' +
+            '<div class="theme-badges">' +
+              (t.region ? '<span class="theme-badge region">' + HtmlUtils.esc(t.region) + '</span>' : '') +
+              (t.status ? '<span class="theme-badge status">' + HtmlUtils.esc(t.status) + '</span>' : '') +
+              (t.signalStrength ? '<span class="theme-badge signal ' + HtmlUtils.sentimentClass(t.sentiment) + '">' + HtmlUtils.esc(t.signalStrength) + '</span>' : '') +
+            '</div>' +
+          '</div>' +
+          (t.marketImpact ? '<div class="theme-row"><span class="theme-label">Market Impact</span><span class="theme-value">' + HtmlUtils.esc(t.marketImpact) + '</span></div>' : '') +
+          (t.indiaImpact ? '<div class="theme-row"><span class="theme-label">India Impact</span><span class="theme-value">' + HtmlUtils.esc(t.indiaImpact) + '</span></div>' : '') +
+          (t.affectedAssets && t.affectedAssets.length > 0
+            ? '<div class="theme-row"><span class="theme-label">Affected Assets</span><span class="theme-value theme-tags">' +
+                t.affectedAssets.map(function (a) { return '<span class="theme-tag">' + HtmlUtils.esc(a) + '</span>'; }).join('') +
+              '</span></div>'
+            : '') +
+          (t.whatToTrackNext ? '<div class="theme-track">&#128270; ' + HtmlUtils.esc(t.whatToTrackNext) + '</div>' : '') +
+        '</div>';
+      });
+    }
+
+    if (data.view) {
+      html += '<div class="section-view-box">' + HtmlUtils.esc(data.view) + '</div>';
+    }
+
+    html += '</div>';
+    return html;
+  },
+
+  /* ---- India Strategic News ---- */
+  indiaNews(data) {
+    if (!data || (!data.themes || data.themes.length === 0) && !data.summary) return '';
+    var html = '<div class="section-card">' +
+      '<h3 class="section-title"><span class="icon">&#127470;&#127475;</span> India Strategic News</h3>';
+
+    if (data.importanceLevel) {
+      var il = data.importanceLevel.toLowerCase();
+      var ilCls = il === 'high' || il === 'critical' ? 'negative' : (il === 'low' ? 'positive' : 'neutral');
+      html += '<div class="news-meta-row">' +
+        '<span class="news-meta-badge ' + ilCls + '">Importance: ' + HtmlUtils.esc(data.importanceLevel) + '</span>' +
+      '</div>';
+    }
+
+    if (data.summary) {
+      html += '<p class="section-summary">' + HtmlUtils.esc(data.summary) + '</p>';
+    }
+
+    if (data.themes && data.themes.length > 0) {
+      data.themes.forEach(function (t) {
+        var cls = HtmlUtils.sentimentClass(t.sentiment);
+        html += '<div class="theme-card ' + cls + '">' +
+          '<div class="theme-header">' +
+            '<span class="theme-name">' + HtmlUtils.esc(t.theme) + '</span>' +
+            '<div class="theme-badges">' +
+              (t.category ? '<span class="theme-badge region">' + HtmlUtils.esc(t.category) + '</span>' : '') +
+              (t.status ? '<span class="theme-badge status">' + HtmlUtils.esc(t.status) + '</span>' : '') +
+              (t.timeHorizon ? '<span class="theme-badge neutral">' + HtmlUtils.esc(t.timeHorizon) + '</span>' : '') +
+            '</div>' +
+          '</div>' +
+          (t.marketImpact ? '<div class="theme-row"><span class="theme-label">Market Impact</span><span class="theme-value">' + HtmlUtils.esc(t.marketImpact) + '</span></div>' : '') +
+          (t.affectedSectors && t.affectedSectors.length > 0
+            ? '<div class="theme-row"><span class="theme-label">Sectors</span><span class="theme-value theme-tags">' +
+                t.affectedSectors.map(function (s) { return '<span class="theme-tag">' + HtmlUtils.esc(s) + '</span>'; }).join('') +
+              '</span></div>'
+            : '') +
+          (t.affectedStocks && t.affectedStocks.length > 0
+            ? '<div class="theme-row"><span class="theme-label">Stocks</span><span class="theme-value theme-tags">' +
+                t.affectedStocks.map(function (s) { return '<span class="theme-tag stock">' + HtmlUtils.esc(s) + '</span>'; }).join('') +
+              '</span></div>'
+            : '') +
+          (t.whatToTrackNext ? '<div class="theme-track">&#128270; ' + HtmlUtils.esc(t.whatToTrackNext) + '</div>' : '') +
+        '</div>';
+      });
+    }
+
+    if (data.view) {
+      html += '<div class="section-view-box">' + HtmlUtils.esc(data.view) + '</div>';
+    }
+
+    html += '</div>';
+    return html;
+  },
+
+  /* ---- Emerging Opportunities ---- */
+  emergingOpportunities(data) {
+    if (!data || (!data.ideas || data.ideas.length === 0) && !data.summary) return '';
+    var html = '<div class="section-card">' +
+      '<h3 class="section-title"><span class="icon">&#128640;</span> Emerging Opportunities</h3>';
+
+    if (data.overallTone) {
+      html += '<div class="news-meta-row">' +
+        '<span class="news-meta-badge neutral">Tone: ' + HtmlUtils.esc(data.overallTone) + '</span>' +
+      '</div>';
+    }
+    if (data.summary) {
+      html += '<p class="section-summary">' + HtmlUtils.esc(data.summary) + '</p>';
+    }
+
+    if (data.ideas && data.ideas.length > 0) {
+      html += '<div class="opp-grid">';
+      data.ideas.forEach(function (idea) {
+        var cls = HtmlUtils.sentimentClass(idea.sentiment);
+        html += '<div class="opp-card">' +
+          '<div class="opp-header">' +
+            '<span class="opp-company">' + HtmlUtils.esc(idea.company) + '</span>' +
+            '<span class="setup-confidence ' + (idea.conviction || 'medium') + '">' + HtmlUtils.esc(idea.conviction || 'medium') + '</span>' +
+          '</div>' +
+          (idea.theme ? '<div class="opp-theme">' + HtmlUtils.esc(idea.theme) + '</div>' : '') +
+          (idea.reasonForTracking ? '<div class="opp-reason">' + HtmlUtils.esc(idea.reasonForTracking) + '</div>' : '') +
+          (idea.earlySignals && idea.earlySignals.length > 0
+            ? '<div class="opp-signals">' +
+                idea.earlySignals.map(function (s) { return '<span class="opp-signal">' + HtmlUtils.esc(s) + '</span>'; }).join('') +
+              '</div>'
+            : '') +
+          '<div class="opp-footer">' +
+            (idea.timeHorizon ? '<span class="opp-horizon">&#128336; ' + HtmlUtils.esc(idea.timeHorizon) + '</span>' : '') +
+            (idea.watchlistAction ? '<span class="opp-action ' + cls + '">' + HtmlUtils.esc(idea.watchlistAction) + '</span>' : '') +
+          '</div>' +
+        '</div>';
+      });
+      html += '</div>';
+    }
+
+    html += '</div>';
+    return html;
+  },
+
+  /* ---- Risk & Damage Watch ---- */
+  riskWatch(data) {
+    if (!data || (!data.cases || data.cases.length === 0) && !data.summary) return '';
+    var html = '<div class="section-card">' +
+      '<h3 class="section-title"><span class="icon">&#9888;</span> Risk &amp; Damage Watch</h3>';
+
+    if (data.overallTone) {
+      html += '<div class="news-meta-row">' +
+        '<span class="news-meta-badge negative">Tone: ' + HtmlUtils.esc(data.overallTone) + '</span>' +
+      '</div>';
+    }
+    if (data.summary) {
+      html += '<p class="section-summary">' + HtmlUtils.esc(data.summary) + '</p>';
+    }
+
+    if (data.cases && data.cases.length > 0) {
+      html += '<div class="risk-grid">';
+      data.cases.forEach(function (c) {
+        var cls = HtmlUtils.sentimentClass(c.sentiment);
+        html += '<div class="risk-card ' + cls + '">' +
+          '<div class="risk-header">' +
+            '<span class="risk-company">' + HtmlUtils.esc(c.company) + '</span>' +
+            '<div class="theme-badges">' +
+              (c.severity ? '<span class="risk-severity ' + cls + '">' + HtmlUtils.esc(c.severity) + '</span>' : '') +
+              (c.riskType ? '<span class="theme-badge region">' + HtmlUtils.esc(c.riskType) + '</span>' : '') +
+            '</div>' +
+          '</div>' +
+          (c.issue ? '<div class="risk-issue">' + HtmlUtils.esc(c.issue) + '</div>' : '') +
+          (c.nearTermMarketRisk ? '<div class="theme-row"><span class="theme-label">Near-term Risk</span><span class="theme-value">' + HtmlUtils.esc(c.nearTermMarketRisk) + '</span></div>' : '') +
+          (c.monitoringSignals && c.monitoringSignals.length > 0
+            ? '<div class="opp-signals">' +
+                c.monitoringSignals.map(function (s) { return '<span class="opp-signal">' + HtmlUtils.esc(s) + '</span>'; }).join('') +
+              '</div>'
+            : '') +
+          '<div class="opp-footer">' +
+            (c.stance ? '<span class="opp-horizon">' + HtmlUtils.esc(c.stance) + '</span>' : '') +
+            (c.watchlistAction ? '<span class="opp-action ' + cls + '">' + HtmlUtils.esc(c.watchlistAction) + '</span>' : '') +
+          '</div>' +
+        '</div>';
+      });
+      html += '</div>';
+    }
+
+    html += '</div>';
+    return html;
+  },
+
   /* ================ Tab Assembly ================ */
 
   overviewTab(data) {
@@ -507,10 +709,214 @@ const Renderer = {
     return html;
   },
 
+  globalNewsTab(data) {
+    var html = '';
+    html += this.globalNews(data.globalNews);
+    if (!html) html = '<div class="empty-section">No global news data available for this report.</div>';
+    return html;
+  },
+
+  indiaNewsTab(data) {
+    var html = '';
+    html += this.indiaNews(data.indiaNews);
+    if (!html) html = '<div class="empty-section">No India strategic news available for this report.</div>';
+    return html;
+  },
+
+  /* ---- Stocks Tab (full detailed cards) ---- */
+  stocksTab(data) {
+    var html = '';
+    html += this.darkHorseTracker(data.emergingOpportunities);
+    html += this.damageWatchFull(data.riskWatch);
+    if (!html) html = '<div class="empty-section">No stock tracking data available for this report.</div>';
+    return html;
+  },
+
+  /* ---- Dark Horse Tracker (rich card) ---- */
+  darkHorseTracker(data) {
+    if (!data || !data.ideas || data.ideas.length === 0) return '';
+    var html = '<div class="section-card">' +
+      '<h3 class="section-title"><span class="icon">&#127879;</span> Dark Horse &amp; Bull Run Tracker</h3>';
+
+    if (data.overallTone) {
+      html += '<p class="section-summary">' + HtmlUtils.esc(data.overallTone) + '</p>';
+    }
+
+    data.ideas.forEach(function (idea) {
+      var convKey = (idea.convictionKey || idea.conviction || 'medium').toLowerCase();
+      var convCls = convKey.indexOf('very high') !== -1 || convKey.indexOf('high') !== -1 ? 'high'
+                  : convKey.indexOf('low') !== -1 ? 'low' : 'medium';
+      var sent = idea.sentiment || 'positive';
+
+      html += '<div class="stock-card ' + HtmlUtils.sentimentClass(sent) + '">' +
+
+        // Header row
+        '<div class="stock-card-header">' +
+          '<div class="stock-card-title-block">' +
+            '<span class="stock-card-company">' + HtmlUtils.esc(idea.company) + '</span>' +
+            (idea.trackingStatus
+              ? '<span class="stock-status-dot"></span><span class="stock-tracking-status">' + HtmlUtils.esc(idea.trackingStatus) + '</span>'
+              : '') +
+          '</div>' +
+          '<div class="stock-card-badges">' +
+            '<span class="setup-confidence ' + convCls + '">' + HtmlUtils.esc(idea.conviction || 'medium') + '</span>' +
+          '</div>' +
+        '</div>' +
+
+        // Theme + trigger
+        '<div class="stock-theme-row">' +
+          '<span class="stock-theme">' + HtmlUtils.esc(idea.theme) + '</span>' +
+          (idea.triggerType
+            ? '<span class="stock-trigger">' + HtmlUtils.esc(idea.triggerType) + '</span>'
+            : '') +
+        '</div>' +
+
+        // Why track
+        (idea.reasonForTracking
+          ? '<div class="stock-section-block">' +
+              '<div class="stock-block-label">Why Track</div>' +
+              '<div class="stock-block-body">' + HtmlUtils.esc(idea.reasonForTracking) + '</div>' +
+            '</div>'
+          : '') +
+
+        // Business quality
+        (idea.businessQualityView
+          ? '<div class="stock-section-block">' +
+              '<div class="stock-block-label">Business Quality</div>' +
+              '<div class="stock-block-body">' + HtmlUtils.esc(idea.businessQualityView) + '</div>' +
+            '</div>'
+          : '') +
+
+        // Valuation note
+        (idea.valuationNote
+          ? '<div class="stock-section-block">' +
+              '<div class="stock-block-label">Valuation</div>' +
+              '<div class="stock-block-body">' + HtmlUtils.esc(idea.valuationNote) + '</div>' +
+            '</div>'
+          : '') +
+
+        // Early signals
+        (idea.earlySignals && idea.earlySignals.length > 0
+          ? '<div class="stock-signals-row">' +
+              '<span class="stock-block-label">Early Signals</span>' +
+              idea.earlySignals.map(function (s) { return '<span class="opp-signal">' + HtmlUtils.esc(s) + '</span>'; }).join('') +
+            '</div>'
+          : '') +
+
+        // Footer: horizon + action + track next
+        '<div class="stock-card-footer">' +
+          (idea.timeHorizon ? '<span class="stock-horizon">&#128336; ' + HtmlUtils.esc(idea.timeHorizon) + '</span>' : '') +
+          (idea.watchlistAction
+            ? '<span class="stock-watchlist-action positive">' + HtmlUtils.esc(idea.watchlistAction) + '</span>'
+            : '') +
+        '</div>' +
+
+        (idea.whatToTrackNext
+          ? '<div class="theme-track">&#128270; <strong>Track next:</strong> ' + HtmlUtils.esc(idea.whatToTrackNext) + '</div>'
+          : '') +
+
+      '</div>';
+    });
+
+    if (data.view) {
+      html += '<div class="section-view-box">' + HtmlUtils.esc(data.view) + '</div>';
+    }
+
+    html += '</div>';
+    return html;
+  },
+
+  /* ---- Damage Watch Full (rich card) ---- */
+  damageWatchFull(data) {
+    if (!data || !data.cases || data.cases.length === 0) return '';
+    var html = '<div class="section-card">' +
+      '<h3 class="section-title"><span class="icon">&#128680;</span> Damage &amp; Risk Watch</h3>';
+
+    if (data.overallTone) {
+      html += '<p class="section-summary">' + HtmlUtils.esc(data.overallTone) + '</p>';
+    }
+
+    data.cases.forEach(function (c) {
+      var sevKey = (c.severityKey || c.severity || 'medium').toLowerCase();
+      var sevCls = sevKey.indexOf('high') !== -1 || sevKey.indexOf('critical') !== -1 ? 'negative' : 'neutral';
+
+      html += '<div class="stock-card damage ' + sevCls + '">' +
+
+        // Header
+        '<div class="stock-card-header">' +
+          '<div class="stock-card-title-block">' +
+            '<span class="stock-card-company">' + HtmlUtils.esc(c.company) + '</span>' +
+            (c.trackingStatus
+              ? '<span class="stock-status-dot damage"></span><span class="stock-tracking-status">' + HtmlUtils.esc(c.trackingStatus) + '</span>'
+              : '') +
+          '</div>' +
+          '<div class="stock-card-badges">' +
+            (c.severity ? '<span class="risk-severity ' + sevCls + '">' + HtmlUtils.esc(c.severity) + '</span>' : '') +
+            (c.riskType ? '<span class="theme-badge region">' + HtmlUtils.esc(c.riskType) + '</span>' : '') +
+          '</div>' +
+        '</div>' +
+
+        // Issue
+        (c.issue
+          ? '<div class="stock-section-block">' +
+              '<div class="stock-block-label">Issue</div>' +
+              '<div class="stock-block-body">' + HtmlUtils.esc(c.issue) + '</div>' +
+            '</div>'
+          : '') +
+
+        // Near-term market risk
+        (c.nearTermMarketRisk
+          ? '<div class="stock-section-block">' +
+              '<div class="stock-block-label">Near-term Risk</div>' +
+              '<div class="stock-block-body negative-text">' + HtmlUtils.esc(c.nearTermMarketRisk) + '</div>' +
+            '</div>'
+          : '') +
+
+        // Possible impact areas
+        (c.possibleImpactAreas && c.possibleImpactAreas.length > 0
+          ? '<div class="stock-signals-row">' +
+              '<span class="stock-block-label">Impact Areas</span>' +
+              c.possibleImpactAreas.map(function (s) { return '<span class="opp-signal risk-signal">' + HtmlUtils.esc(s) + '</span>'; }).join('') +
+            '</div>'
+          : '') +
+
+        // Monitoring signals
+        (c.monitoringSignals && c.monitoringSignals.length > 0
+          ? '<div class="stock-signals-row">' +
+              '<span class="stock-block-label">Monitor</span>' +
+              c.monitoringSignals.map(function (s) { return '<span class="opp-signal">' + HtmlUtils.esc(s) + '</span>'; }).join('') +
+            '</div>'
+          : '') +
+
+        // Footer: stance + action
+        '<div class="stock-card-footer">' +
+          (c.stance ? '<span class="stock-horizon">' + HtmlUtils.esc(c.stance) + '</span>' : '') +
+          (c.watchlistAction
+            ? '<span class="stock-watchlist-action negative">' + HtmlUtils.esc(c.watchlistAction) + '</span>'
+            : '') +
+        '</div>' +
+
+        (c.whatToTrackNext
+          ? '<div class="theme-track">&#128270; <strong>Track next:</strong> ' + HtmlUtils.esc(c.whatToTrackNext) + '</div>'
+          : '') +
+
+      '</div>';
+    });
+
+    if (data.view) {
+      html += '<div class="section-view-box">' + HtmlUtils.esc(data.view) + '</div>';
+    }
+
+    html += '</div>';
+    return html;
+  },
+
   ideasTab(data) {
     var html = '';
     html += this.swingSetups(data.swingSetups);
     html += this.avoidList(data.avoidList);
+    html += this.emergingOpportunities(data.emergingOpportunities);
+    html += this.riskWatch(data.riskWatch);
     html += this.news(data.news);
     if (!html) html = '<div class="empty-section">No ideas to share in this report.</div>';
     return html;

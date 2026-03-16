@@ -6,6 +6,51 @@
   },
   "reports": [
     {
+      "date": "2026-03-16",
+      "file": "2026-03-16.json",
+      "title": "Market Pulse Daily",
+      "subtitle": "Range-bound uncertainty masking a structural risk-off correction in the broader market.",
+      "mood": "Range-bound uncertainty masking a structural risk-off correction in the broader market.",
+      "marketStatus": "closed",
+      "regime": "Range-bound uncertainty masking a structural risk-off correction in the broader market.",
+      "stance": "Defensive Capital Preservation with Selective Accumulation",
+      "mainDriver": "The intersection of extreme Middle East geopolitical instability (Strait of Hormuz disruption) and relentless foreign capital outflows, offset only by aggressive domestic institutional buying in large-cap blue-chips.",
+      "summary": "March 16, 2026: The Indian equity market staged a deceptive 900-point relief rally on the Sensex, driven by short-covering as Brent crude temporarily cooled following a historic IEA reserve release. However, internal market breadth collapsed, FIIs dumped ₹10,716 Cr, and the VIX surged above 22, signaling a highly toxic, risk-off environment. The IDBI Bank divestment collapsed, shattering the PSU privatization narrative. Strategic focus must shift exclusively to domestic power infrastructure, telecom hardware, and capital preservation.",
+      "tags": [
+        "india equity",
+        "sensex",
+        "nifty",
+        "fii outflows",
+        "vix",
+        "brent crude",
+        "strait of hormuz",
+        "power infrastructure",
+        "risk-off"
+      ]
+    },
+    {
+      "date": "2026-03-15",
+      "file": "2026-03-15.json",
+      "title": "Market Pulse Daily",
+      "subtitle": "Panic sell-off",
+      "mood": "Panic sell-off",
+      "marketStatus": "closed",
+      "regime": "Panic sell-off",
+      "stance": "Highly Defensive",
+      "mainDriver": "Escalating US-Iran conflict and crude oil surging above $100 triggered a massive 1,470-point Sensex crash on Friday, with severe FII dumping overwhelming the market before the weekend.",
+      "summary": "Deep-dive daily market research report for the weekend of March 14-15, 2026. Analyzes the massive Friday market crash driven by the escalating US-Iran conflict, Brent crude sustaining above $100, and severe FII dumping. Highlights the stealth correction in broader markets, the flight to safety in FMCG, and the high-risk environment demanding capital preservation.",
+      "tags": [
+        "india markets",
+        "nifty",
+        "sensex",
+        "crude oil",
+        "geopolitics",
+        "fii selling",
+        "vix",
+        "defensive stance"
+      ]
+    },
+    {
       "date": "2026-03-14",
       "file": "2026-03-14.json",
       "title": "Market Pulse Daily",
@@ -70,5 +115,5 @@
       ]
     }
   ],
-  "latestReport": "2026-03-14"
+  "latestReport": "2026-03-16"
 }

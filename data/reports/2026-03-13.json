@@ -260,6 +260,13 @@
       "Europe also closed lower; global equities are not providing relief."
     ]
   },
+  "globalNews": {
+    "riskLevel": "",
+    "marketImpactHorizon": "",
+    "themes": [],
+    "summary": "",
+    "view": ""
+  },
   "indianMarket": {
     "summary": "Broad-based sell-off with defensive pockets; indices in correction and volatility high.",
     "indices": [
@@ -315,6 +322,12 @@
       "Loser: Hindalco (-6.07%) — Metals",
       "Loser: Tata Steel (-5.41%) — Metals"
     ]
+  },
+  "indiaNews": {
+    "importanceLevel": "",
+    "themes": [],
+    "summary": "",
+    "view": ""
   },
   "marketRegime": {
     "current": "Risk-off correction",
@@ -482,7 +495,7 @@
       "target": "₹1,150, ₹1,200",
       "stopLoss": "₹1,050 (below recent support; exit fast if leadership fails)",
       "timeframe": "1–3 weeks",
-      "thesis": "Only a couple of Nifty stocks were green; this was a top gainer, indicating defensive rotation + relative strength. Staple/consumption profile tends to attract money during risk-off phases. Invalidation: If stock closes below ₹1,050 or market makes fresh lows with rising VIX, avoid/exit. Sizing: Small (≤50% of usual) until VIX cools below 20.",
+      "thesis": "Only a couple of Nifty stocks were green; this was a top gainer, indicating defensive rotation + relative strength. Staple/consumption profile tends to attract money during risk-off phases. This is a ‘market-immune’ setup attempt, not a value buy. Only act if price confirms strength. R:R ~1:2 if entry triggers cleanly Invalidation: If stock closes below ₹1,050 or market makes fresh lows with rising VIX, avoid/exit. Sizing: Small (≤50% of usual) until VIX cools below 20.",
       "confidence": "medium"
     },
     {
@@ -492,7 +505,7 @@
       "target": "₹2,260, ₹2,340",
       "stopLoss": "₹2,110",
       "timeframe": "2–4 weeks",
-      "thesis": "Was among the very few Nifty gainers on the day, signalling rotation to safety. Staples are less sensitive to crude shock than autos/metals; institutions often hide here. Invalidation: If it loses ₹2,110 decisively or if Nifty breaks 23,000 and VIX spikes further, step aside. Sizing: Small; add only after market stabilizes",
+      "thesis": "Was among the very few Nifty gainers on the day, signalling rotation to safety. Staples are less sensitive to crude shock than autos/metals; institutions often hide here. Don’t chase intraday spikes. Wait for a close above the zone. R:R ~1:1.8 Invalidation: If it loses ₹2,110 decisively or if Nifty breaks 23,000 and VIX spikes further, step aside. Sizing: Small; add only after market stabilizes",
       "confidence": "low"
     }
   ],
@@ -510,6 +523,18 @@
       "reason": "High volatility + sharp drawdown; avoid until it forms a base and breadth improves."
     }
   ],
+  "emergingOpportunities": {
+    "overallTone": "",
+    "ideas": [],
+    "summary": "",
+    "view": ""
+  },
+  "riskWatch": {
+    "overallTone": "",
+    "cases": [],
+    "summary": "",
+    "view": ""
+  },
   "keyLevels": {
     "nifty": {
       "instrument": "Nifty 50",

@@ -8,12 +8,15 @@ I am an active Indian equity investor with a portfolio split across:
 Your job is to prepare a deep but practical daily market research output for me in FINAL JSON FORMAT ONLY.
 
 IMPORTANT OBJECTIVE
-Help me answer these 5 questions every day:
+Help me answer these 8 questions every day:
 1. What changed since yesterday?
 2. What matters today for Indian markets?
 3. What is noise vs real signal?
 4. Where is money rotating?
 5. What should I do with my portfolio / watchlist / fresh cash?
+6. What global geopolitical or world developments can affect Indian markets in the coming days, weeks, or months?
+7. What Indian political, regulatory, industrial, technology, or strategic developments can affect sectors or stocks in the future?
+8. Which underfollowed Indian companies may become future winners, and which companies are showing early warning signs of damage, weakness, or negative sentiment?
 
 CRITICAL OUTPUT RULE
 Do NOT write the answer as normal prose, markdown, headings, notes, bullets, or explanations outside the JSON.
@@ -36,6 +39,9 @@ STYLE OF THINKING
 - Clearly separate fact, interpretation, and actionable view inside the relevant fields
 - Do not give blind tips
 - Think in terms of market regime, risk management, sector rotation, and capital allocation
+- Separate daily market noise from structural developments that may matter over 1 week to 12 months
+- Prioritize forward-looking relevance where applicable
+- Avoid rumor, social media noise, and unverified narratives
 
 PRIMARY GOAL
 Generate a final JSON report file that can be directly saved as:
@@ -44,212 +50,310 @@ data/reports/YYYY-MM-DD.json
 JSON SCHEMA TO FOLLOW
 
 {
-  "metadata": {
-    "reportDate": "YYYY-MM-DD",
-    "dataAsOf": "YYYY-MM-DD",
-    "lastUpdated": "YYYY-MM-DD HH:MM IST",
-    "marketStatus": "",
-    "title": ""
-  },
-  "hero": {
-    "moodPills": [],
-    "stance": "",
-    "regime": "",
-    "mainDriver": ""
-  },
-  "todayIn30Seconds": {
-    "regime": "",
-    "investorStance": "",
-    "topDrivers": [],
-    "topActions": [],
-    "bottomLine": ""
-  },
-  "changedSinceYesterday": {
-    "items": [
-      {
-        "label": "",
-        "oldValue": "",
-        "newValue": "",
-        "direction": "up",
-        "comment": ""
-      }
-    ]
-  },
-  "overviewMetrics": {
-    "nifty": { "value": "", "changePct": "", "comment": "" },
-    "sensex": { "value": "", "changePct": "", "comment": "" },
-    "bankNifty": { "value": "", "changePct": "", "comment": "" },
-    "midcap150": { "value": "", "changePct": "", "comment": "" },
-    "smallcap250": { "value": "", "changePct": "", "comment": "" },
-    "indiaVix": { "value": "", "zone": "", "comment": "" },
-    "usdInr": { "value": "", "comment": "" },
-    "fiiFlow": { "value": "", "comment": "" },
-    "diiFlow": { "value": "", "comment": "" }
-  },
-  "globalMacro": {
-    "us": {
-      "sp500": { "value": "", "changePct": "" },
-      "nasdaq": { "value": "", "changePct": "" },
-      "dow": { "value": "", "changePct": "" },
-      "driver": "",
-      "indiaRelevance": ""
-    },
-    "asia": {
-      "nikkei": { "value": "", "changePct": "" },
-      "hangSeng": { "value": "", "changePct": "" },
-      "shanghai": { "value": "", "changePct": "" },
-      "indiaRelevance": ""
-    },
-    "europe": {
-      "dax": { "value": "", "changePct": "" },
-      "ftse": { "value": "", "changePct": "" },
-      "indiaRelevance": ""
-    },
-    "macroVariables": {
-      "dxy": { "value": "", "changePct": "", "indiaRelevance": "" },
-      "us10y": { "value": "", "changePct": "", "indiaRelevance": "" },
-      "brent": { "value": "", "changePct": "", "indiaRelevance": "" },
-      "gold": { "value": "", "changePct": "", "indiaRelevance": "" },
-      "wti": { "value": "", "changePct": "", "indiaRelevance": "" }
-    }
-  },
-  "indiaPulse": {
-    "marketType": "",
-    "breadth": "",
-    "topGainers": [
-      { "name": "", "changePct": "", "sector": "" }
-    ],
-    "topLosers": [
-      { "name": "", "changePct": "", "sector": "" }
-    ],
-    "fact": "",
-    "interpretation": "",
-    "view": ""
-  },
-  "regime": {
-    "label": "",
-    "riskScore": 0,
-    "fact": "",
-    "interpretation": "",
-    "view": "",
-    "whatWorks": [],
-    "whatFails": [],
-    "sizingNote": ""
-  },
-  "sectorRotation": {
-    "leaders": [],
-    "laggards": [],
-    "relativeStrengthSectors": [],
-    "avoidForSwing": [],
-    "gradualAccumulationCandidates": [],
-    "sectors": [
-      {
-        "sector": "",
-        "dayPerformance": "",
-        "weeklyTone": "",
-        "relativeStrengthVsNifty": "",
-        "fiiBias": "",
-        "stance": "",
-        "comment": ""
-      }
-    ],
-    "fact": "",
-    "interpretation": "",
-    "view": ""
-  },
-  "breadthInternalStrength": {
-    "advanceDecline": "",
-    "sectorBreadth": "",
-    "defensivesLeading": "",
-    "cyclicalsWeak": "",
-    "buyingType": "",
-    "summary": ""
-  },
-  "swingRadar": {
-    "setupQuality": "",
-    "fact": "",
-    "interpretation": "",
-    "view": "",
-    "setups": [
-      {
-        "stock": "",
-        "setupType": "",
-        "conviction": "",
-        "entryZone": "",
-        "stopLoss": "",
-        "targets": [],
-        "timeframe": "",
-        "riskReward": "",
-        "technicalReason": "",
-        "fundamentalTrigger": "",
-        "invalidation": "",
-        "positionSizeTone": "",
-        "comment": ""
-      }
-    ],
-    "avoidList": [
-      {
-        "name": "",
-        "reason": ""
-      }
-    ]
-  },
-  "directStockInvestorAngle": {
-    "buckets": [
-      {
-        "bucket": "",
-        "stance": "",
-        "comment": ""
-      }
-    ],
-    "fact": "",
-    "interpretation": "",
-    "view": ""
-  },
-  "mutualFundInvestorAngle": {
-    "sip": "",
-    "lumpsum": "",
-    "deploymentStyle": "",
-    "dryPowder": "",
-    "categories": [
-      {
-        "category": "",
-        "stance": "",
-        "comment": ""
-      }
-    ],
-    "fact": "",
-    "interpretation": "",
-    "view": ""
-  },
-  "dosAndDonts": {
-    "dos": [],
-    "donts": []
-  },
-  "keyLevelsAndTriggers": {
-    "niftySupport": "",
-    "niftyResistance": "",
-    "bankNiftySupport": "",
-    "bankNiftyResistance": "",
-    "vixKeyLevel": "",
-    "brentKeyLevel": "",
-    "usdInrKeyLevel": "",
-    "improvingTriggers": [],
-    "worseningTriggers": []
-  },
-  "finalBottomLine": {
-    "investorConclusion": "",
-    "swingTraderConclusion": "",
-    "mfConclusion": ""
-  },
-  "archiveMeta": {
-    "summary": "",
-    "tags": []
-  },
-  "footer": {
-    "sourceContext": [],
-    "disclaimer": ""
-  }
+  "metadata": {
+    "reportDate": "YYYY-MM-DD",
+    "dataAsOf": "YYYY-MM-DD",
+    "lastUpdated": "YYYY-MM-DD HH:MM IST",
+    "marketStatus": "",
+    "title": "",
+    "researchDateRequested": "YYYY-MM-DD",
+    "reportVersion": "v2",
+    "intendedUse": ["daily_read", "html_render", "archive_search"]
+  },
+  "hero": {
+    "moodPills": [],
+    "stance": "",
+    "regime": "",
+    "mainDriver": ""
+  },
+  "todayIn30Seconds": {
+    "regime": "",
+    "investorStance": "",
+    "topDrivers": [],
+    "topActions": [],
+    "bottomLine": ""
+  },
+  "changedSinceYesterday": {
+    "items": [
+      {
+        "label": "",
+        "oldValue": "",
+        "newValue": "",
+        "direction": "up",
+        "comment": ""
+      }
+    ]
+  },
+  "overviewMetrics": {
+    "nifty": { "value": "", "changePct": "", "comment": "" },
+    "sensex": { "value": "", "changePct": "", "comment": "" },
+    "bankNifty": { "value": "", "changePct": "", "comment": "" },
+    "midcap150": { "value": "", "changePct": "", "comment": "" },
+    "smallcap250": { "value": "", "changePct": "", "comment": "" },
+    "indiaVix": { "value": "", "zone": "", "comment": "" },
+    "usdInr": { "value": "", "comment": "" },
+    "fiiFlow": { "value": "", "comment": "" },
+    "diiFlow": { "value": "", "comment": "" }
+  },
+  "globalMacro": {
+    "us": {
+      "sp500": { "value": "", "changePct": "" },
+      "nasdaq": { "value": "", "changePct": "" },
+      "dow": { "value": "", "changePct": "" },
+      "driver": "",
+      "indiaRelevance": ""
+    },
+    "asia": {
+      "nikkei": { "value": "", "changePct": "" },
+      "hangSeng": { "value": "", "changePct": "" },
+      "shanghai": { "value": "", "changePct": "" },
+      "indiaRelevance": ""
+    },
+    "europe": {
+      "dax": { "value": "", "changePct": "" },
+      "ftse": { "value": "", "changePct": "" },
+      "indiaRelevance": ""
+    },
+    "macroVariables": {
+      "dxy": { "value": "", "changePct": "", "indiaRelevance": "" },
+      "us10y": { "value": "", "changePct": "", "indiaRelevance": "" },
+      "brent": { "value": "", "changePct": "", "indiaRelevance": "" },
+      "gold": { "value": "", "changePct": "", "indiaRelevance": "" },
+      "wti": { "value": "", "changePct": "", "indiaRelevance": "" }
+    }
+  },
+  "geoPoliticsAndWorldNews": {
+    "riskLevel": "",
+    "marketImpactHorizon": "",
+    "themes": [
+      {
+        "themeId": "",
+        "theme": "",
+        "region": "",
+        "status": "",
+        "marketImpact": "",
+        "affectedAssets": [],
+        "indiaImpact": "",
+        "signalStrength": "",
+        "trackingPriority": "",
+        "firstSeenDate": "",
+        "lastUpdatedDate": "",
+        "whatToTrackNext": ""
+      }
+    ],
+    "fact": "",
+    "interpretation": "",
+    "view": ""
+  },
+  "indiaPulse": {
+    "marketType": "",
+    "breadth": "",
+    "topGainers": [
+      { "name": "", "changePct": "", "sector": "" }
+    ],
+    "topLosers": [
+      { "name": "", "changePct": "", "sector": "" }
+    ],
+    "fact": "",
+    "interpretation": "",
+    "view": ""
+  },
+  "indiaStrategicNews": {
+    "importanceLevel": "",
+    "themes": [
+      {
+        "themeId": "",
+        "theme": "",
+        "category": "",
+        "status": "",
+        "marketImpact": "",
+        "affectedSectors": [],
+        "affectedStocks": [],
+        "timeHorizon": "",
+        "signalStrength": "",
+        "trackingPriority": "",
+        "firstSeenDate": "",
+        "lastUpdatedDate": "",
+        "whatToTrackNext": ""
+      }
+    ],
+    "fact": "",
+    "interpretation": "",
+    "view": ""
+  },
+  "regime": {
+    "label": "",
+    "riskScore": 0,
+    "fact": "",
+    "interpretation": "",
+    "view": "",
+    "whatWorks": [],
+    "whatFails": [],
+    "sizingNote": ""
+  },
+  "sectorRotation": {
+    "leaders": [],
+    "laggards": [],
+    "relativeStrengthSectors": [],
+    "avoidForSwing": [],
+    "gradualAccumulationCandidates": [],
+    "sectors": [
+      {
+        "sector": "",
+        "dayPerformance": "",
+        "weeklyTone": "",
+        "relativeStrengthVsNifty": "",
+        "fiiBias": "",
+        "stance": "",
+        "comment": ""
+      }
+    ],
+    "fact": "",
+    "interpretation": "",
+    "view": ""
+  },
+  "breadthInternalStrength": {
+    "advanceDecline": "",
+    "sectorBreadth": "",
+    "defensivesLeading": "",
+    "cyclicalsWeak": "",
+    "buyingType": "",
+    "summary": ""
+  },
+  "swingRadar": {
+    "setupQuality": "",
+    "fact": "",
+    "interpretation": "",
+    "view": "",
+    "setups": [
+      {
+        "stock": "",
+        "setupType": "",
+        "conviction": "",
+        "entryZone": "",
+        "stopLoss": "",
+        "targets": [],
+        "timeframe": "",
+        "riskReward": "",
+        "technicalReason": "",
+        "fundamentalTrigger": "",
+        "invalidation": "",
+        "positionSizeTone": "",
+        "comment": ""
+      }
+    ],
+    "avoidList": [
+      {
+        "name": "",
+        "reason": ""
+      }
+    ]
+  },
+  "directStockInvestorAngle": {
+    "buckets": [
+      {
+        "bucket": "",
+        "stance": "",
+        "comment": ""
+      }
+    ],
+    "fact": "",
+    "interpretation": "",
+    "view": ""
+  },
+  "mutualFundInvestorAngle": {
+    "sip": "",
+    "lumpsum": "",
+    "deploymentStyle": "",
+    "dryPowder": "",
+    "categories": [
+      {
+        "category": "",
+        "stance": "",
+        "comment": ""
+      }
+    ],
+    "fact": "",
+    "interpretation": "",
+    "view": ""
+  },
+  "emergingOpportunities": {
+    "overallTone": "",
+    "ideas": [
+      {
+        "companyId": "",
+        "company": "",
+        "theme": "",
+        "reasonForTracking": "",
+        "triggerType": "",
+        "earlySignals": [],
+        "businessQualityView": "",
+        "valuationNote": "",
+        "timeHorizon": "",
+        "conviction": "",
+        "trackingStatus": "",
+        "watchlistAction": "",
+        "firstSeenDate": "",
+        "lastUpdatedDate": "",
+        "whatToTrackNext": ""
+      }
+    ],
+    "fact": "",
+    "interpretation": "",
+    "view": ""
+  },
+  "riskAndDamageWatch": {
+    "overallTone": "",
+    "cases": [
+      {
+        "companyId": "",
+        "company": "",
+        "riskType": "",
+        "issue": "",
+        "severity": "",
+        "nearTermMarketRisk": "",
+        "monitoringSignals": [],
+        "possibleImpactAreas": [],
+        "stance": "",
+        "trackingStatus": "",
+        "watchlistAction": "",
+        "firstSeenDate": "",
+        "lastUpdatedDate": "",
+        "whatToTrackNext": ""
+      }
+    ],
+    "fact": "",
+    "interpretation": "",
+    "view": ""
+  },
+  "dosAndDonts": {
+    "dos": [],
+    "donts": []
+  },
+  "keyLevelsAndTriggers": {
+    "niftySupport": "",
+    "niftyResistance": "",
+    "bankNiftySupport": "",
+    "bankNiftyResistance": "",
+    "vixKeyLevel": "",
+    "brentKeyLevel": "",
+    "usdInrKeyLevel": "",
+    "improvingTriggers": [],
+    "worseningTriggers": []
+  },
+  "finalBottomLine": {
+    "investorConclusion": "",
+    "swingTraderConclusion": "",
+    "mfConclusion": ""
+  },
+  "archiveMeta": {
+    "summary": "",
+    "tags": []
+  },
+  "footer": {
+    "sourceContext": [],
+    "disclaimer": ""
+  }
 }
 
 CONTENT RULES
@@ -271,7 +375,16 @@ C. GLOBAL MACRO SNAPSHOT
 Fill:
 - globalMacro
 
-D. INDIAN MARKET PULSE
+D. GEOPOLITICS AND WORLD NEWS
+Fill:
+- geoPoliticsAndWorldNews
+
+Rules:
+- Cover only developments that can matter for Indian equities, commodities, inflation, currency, defence, shipping, trade, or global risk sentiment
+- Avoid generic diplomatic noise unless market relevant
+- Focus on developments that may matter over coming days, weeks, or months
+
+E. INDIAN MARKET PULSE
 Fill:
 - overviewMetrics
 - indiaPulse
@@ -281,7 +394,15 @@ Interpret India VIX using:
 - 15 to 20 = moderate caution
 - above 20 = elevated fear
 
-E. MARKET REGIME ENGINE
+F. INDIAN STRATEGIC NEWS
+Fill:
+- indiaStrategicNews
+
+Rules:
+- Cover political, regulatory, industrial, policy, technology, tax, capex, defence, energy, telecom, manufacturing, railways, digital economy, and other strategic Indian developments
+- Focus on future market relevance, not just headline value
+
+G. MARKET REGIME ENGINE
 Fill:
 - regime
 
@@ -295,7 +416,7 @@ Use one of these labels:
 - Trend reversal candidate
 - Range-bound uncertainty
 
-F. SECTOR ROTATION LENS
+H. SECTOR ROTATION LENS
 Fill:
 - sectorRotation
 
@@ -313,11 +434,11 @@ Cover sectors such as:
 - Telecom
 - Consumption
 
-G. BREADTH, FLOW, AND INTERNAL STRENGTH
+I. BREADTH, FLOW, AND INTERNAL STRENGTH
 Fill:
 - breadthInternalStrength
 
-H. SWING TRADE RADAR
+J. SWING TRADE RADAR
 Fill:
 - swingRadar
 
@@ -328,23 +449,43 @@ Rules:
 - stop loss must make logical sense for long trades
 - keep setups practical and risk-aware
 
-I. DIRECT STOCK INVESTOR ANGLE
+K. DIRECT STOCK INVESTOR ANGLE
 Fill:
 - directStockInvestorAngle
 
-J. MUTUAL FUND INVESTOR ANGLE
+L. MUTUAL FUND INVESTOR ANGLE
 Fill:
 - mutualFundInvestorAngle
 
-K. DO’S AND DON’TS
+M. EMERGING OPPORTUNITIES
+Fill:
+- emergingOpportunities
+
+Rules:
+- track 3 to 8 underfollowed or early-stage opportunities at most
+- prefer signals like order wins, capacity expansion, market share gains, government push, import substitution, margin improvement, balance-sheet repair, promoter buying, improving execution, or sector tailwinds
+- do not force inclusion if no credible names exist
+- prefer forward-looking relevance over popularity
+
+N. RISK AND DAMAGE WATCH
+Fill:
+- riskAndDamageWatch
+
+Rules:
+- track 3 to 8 risk cases at most
+- prefer signals like governance doubts, auditor issues, rising pledge, debt stress, execution failure, margin collapse, regulatory trouble, accidents, plant shutdowns, demand slowdown, repeated negative sentiment backed by facts, or weak cash flow quality
+- do not include rumor-only items
+- clearly separate weak signal from strong signal
+
+O. DO’S AND DON’TS
 Fill:
 - dosAndDonts
 
-L. KEY LEVELS AND TRIGGERS
+P. KEY LEVELS AND TRIGGERS
 Fill:
 - keyLevelsAndTriggers
 
-M. FINAL BOTTOM LINE
+Q. FINAL BOTTOM LINE
 Fill:
 - finalBottomLine
 
@@ -364,7 +505,16 @@ QUALITY RULES
 - But do not become bloated or repetitive
 - Be practical, disciplined, and risk-aware
 - If the market environment is poor, say that fewer trades should be taken
-- If no strong setups exist, reflect that honestly in `swingRadar`
+- If no strong setups exist, reflect that honestly in swingRadar
+- For geopolitics, India strategic news, emerging opportunities, and risk-watch sections, prioritize forward-looking relevance over headline quantity
+- When signal quality is weak, say so clearly
+- Avoid rumor, social media noise, and unverified narratives
+
+TRACKING CONTINUITY RULE
+For repeated themes or companies across days:
+- update firstSeenDate only when the item first appeared historically
+- update lastUpdatedDate whenever the item is reviewed
+- use trackingPriority, trackingStatus, and watchlistAction consistently so this can later support HTML pages and archive filtering
 
 DATE HANDLING
 Always set:
@@ -377,4 +527,4 @@ FINAL STRICT RULE
 Return ONLY the final JSON object.
 Nothing else.
 
-ResearchDate : 12March 2026
+ResearchDate: 12March 2026

@@ -242,6 +242,13 @@
       "Europe down also points to broad risk-off; if global funds are cutting risk, India FIIs tend to remain sellers."
     ]
   },
+  "globalNews": {
+    "riskLevel": "",
+    "marketImpactHorizon": "",
+    "themes": [],
+    "summary": "",
+    "view": ""
+  },
   "indianMarket": {
     "summary": "Broad risk-off sell-off with elevated volatility; downside momentum dominates and breadth is weak.",
     "indices": [
@@ -297,6 +304,12 @@
       "Loser: Hindalco Industries (-6.16%) — Metals",
       "Loser: Tata Steel (-5.15%) — Metals"
     ]
+  },
+  "indiaNews": {
+    "importanceLevel": "",
+    "themes": [],
+    "summary": "",
+    "view": ""
   },
   "marketRegime": {
     "current": "Risk-off correction",
@@ -464,7 +477,7 @@
       "target": "₹1,135, ₹1,180",
       "stopLoss": "₹1,045 (hard stop; below this, the defensive strength is failing)",
       "timeframe": "5–15 trading days",
-      "thesis": "Green on a red market day = relative strength; defensives often lead first in a stabilization phase. Staples/consumption cash flows tend to be steadier when macro uncertainty rises. Invalidation: Skip the trade if Nifty closes below ~23,000 or India VIX spikes above 25 (fear expansion). Sizing: Small (0.5–0.75x usual size) due high volatility",
+      "thesis": "Green on a red market day = relative strength; defensives often lead first in a stabilization phase. Staples/consumption cash flows tend to be steadier when macro uncertainty rises. This is a ‘quality defensive’ idea, not a guaranteed trade. Don’t average down if stop hits. R:R ~1:2 (if entries are disciplined) Invalidation: Skip the trade if Nifty closes below ~23,000 or India VIX spikes above 25 (fear expansion). Sizing: Small (0.5–0.75x usual size) due high volatility",
       "confidence": "medium"
     },
     {
@@ -474,7 +487,7 @@
       "target": "₹2,260, ₹2,330",
       "stopLoss": "₹2,100",
       "timeframe": "7–20 trading days",
-      "thesis": "Defensives were the only pocket of strength; FMCG index fell just -0.55% vs Nifty -2.06%. Defensive earnings profile helps during demand/inflation uncertainty. Invalidation: If FMCG underperforms Nifty for 2–3 sessions (rotation breaks), avoid. Sizing: Small",
+      "thesis": "Defensives were the only pocket of strength; FMCG index fell just -0.55% vs Nifty -2.06%. Defensive earnings profile helps during demand/inflation uncertainty. If you already own it as an investor, don’t turn it into a swing trade randomly; separate buckets. R:R ~1:1.8 Invalidation: If FMCG underperforms Nifty for 2–3 sessions (rotation breaks), avoid. Sizing: Small",
       "confidence": "low"
     },
     {
@@ -484,7 +497,7 @@
       "target": "₹1,920, ₹2,000",
       "stopLoss": "₹1,750",
       "timeframe": "10–25 trading days",
-      "thesis": "Held green on a sharp market sell-off; telecom behaving defensive. Stable cash flows and defensive positioning when risk appetite falls. Invalidation: If the stock turns into a high-vol down move (large red candles) along with market, exit quickly. Sizing: Small",
+      "thesis": "Held green on a sharp market sell-off; telecom behaving defensive. Stable cash flows and defensive positioning when risk appetite falls. Good name, but don’t ignore that the market can still drag everything down for a few more sessions. R:R ~1:2 Invalidation: If the stock turns into a high-vol down move (large red candles) along with market, exit quickly. Sizing: Small",
       "confidence": "low"
     }
   ],
@@ -510,6 +523,18 @@
       "reason": "When breadth is this weak, liquidity risk is high; avoid bottom fishing."
     }
   ],
+  "emergingOpportunities": {
+    "overallTone": "",
+    "ideas": [],
+    "summary": "",
+    "view": ""
+  },
+  "riskWatch": {
+    "overallTone": "",
+    "cases": [],
+    "summary": "",
+    "view": ""
+  },
   "keyLevels": {
     "nifty": {
       "instrument": "Nifty 50",

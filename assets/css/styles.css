@@ -1334,10 +1334,476 @@ h1, h2, h3, h4, h5, h6 {
   .tab-nav { justify-content: center; }
 }
 
+/* --- Sticky Tab Nav Wrapper --- */
+.tab-nav-wrapper {
+  position: sticky;
+  top: 57px; /* height of .site-header */
+  background: var(--bg-primary);
+  z-index: 90;
+  border-bottom: 1px solid var(--border);
+}
+
+.tab-nav-wrapper .tab-nav {
+  border-bottom: none;
+  padding-top: 0;
+}
+
+/* --- Scroll to Top Button --- */
+.scroll-top-btn {
+  position: fixed;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: var(--gold);
+  color: var(--bg-body);
+  border: none;
+  font-size: 1.3rem;
+  font-weight: 700;
+  cursor: pointer;
+  z-index: 200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.4);
+  transition: opacity var(--transition), transform var(--transition);
+  line-height: 1;
+}
+
+.scroll-top-btn:hover {
+  transform: translateY(-2px);
+  opacity: 0.9;
+}
+
+/* --- News Meta Row --- */
+.news-meta-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-bottom: 0.75rem;
+}
+
+.news-meta-badge {
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 0.2rem 0.6rem;
+  border-radius: var(--radius-pill);
+  letter-spacing: 0.03em;
+}
+
+.news-meta-badge.negative { background: var(--red-soft); color: var(--red); }
+.news-meta-badge.positive { background: var(--green-soft); color: var(--green); }
+.news-meta-badge.neutral  { background: var(--gold-soft); color: var(--gold); }
+
+/* --- Theme Cards (Global News / India News) --- */
+.theme-card {
+  background: var(--bg-elevated);
+  border: 1px solid var(--border-subtle);
+  border-left: 3px solid var(--text-muted);
+  border-radius: var(--radius-md);
+  padding: 1rem;
+  margin-bottom: 0.75rem;
+}
+
+.theme-card.negative { border-left-color: var(--red); }
+.theme-card.positive { border-left-color: var(--green); }
+.theme-card.neutral  { border-left-color: var(--amber); }
+
+.theme-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 0.75rem;
+  margin-bottom: 0.65rem;
+  flex-wrap: wrap;
+}
+
+.theme-name {
+  font-size: 0.92rem;
+  font-weight: 700;
+  color: var(--text-heading);
+}
+
+.theme-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+}
+
+.theme-badge {
+  font-size: 0.66rem;
+  font-weight: 600;
+  padding: 0.15rem 0.5rem;
+  border-radius: var(--radius-pill);
+  white-space: nowrap;
+}
+
+.theme-badge.region  { background: var(--blue-soft); color: var(--blue); }
+.theme-badge.status  { background: var(--gold-soft); color: var(--gold); }
+.theme-badge.neutral { background: var(--bg-card); color: var(--text-muted); border: 1px solid var(--border-subtle); }
+.theme-badge.signal.negative { background: var(--red-soft); color: var(--red); }
+.theme-badge.signal.positive { background: var(--green-soft); color: var(--green); }
+.theme-badge.signal.neutral  { background: var(--gold-soft); color: var(--gold); }
+
+.theme-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 0.75rem;
+  font-size: 0.82rem;
+  margin-bottom: 0.35rem;
+}
+
+.theme-label {
+  color: var(--text-muted);
+  font-weight: 500;
+  flex-shrink: 0;
+  min-width: 90px;
+}
+
+.theme-value {
+  color: var(--text-secondary);
+  flex: 1;
+}
+
+.theme-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+}
+
+.theme-tag {
+  font-size: 0.7rem;
+  padding: 0.15rem 0.45rem;
+  border-radius: var(--radius-pill);
+  background: var(--bg-card);
+  color: var(--text-muted);
+  border: 1px solid var(--border-subtle);
+}
+
+.theme-tag.stock {
+  background: var(--blue-soft);
+  color: var(--blue);
+  border-color: transparent;
+}
+
+.theme-track {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  margin-top: 0.5rem;
+  padding-top: 0.5rem;
+  border-top: 1px solid var(--border-subtle);
+  line-height: 1.5;
+}
+
+.section-view-box {
+  margin-top: 0.75rem;
+  padding: 0.85rem;
+  background: var(--bg-elevated);
+  border: 1px solid var(--border-accent);
+  border-radius: var(--radius-md);
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  line-height: 1.65;
+  font-style: italic;
+}
+
+/* --- Emerging Opportunities Cards --- */
+.opp-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.opp-card {
+  background: var(--bg-elevated);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  padding: 1rem;
+}
+
+.opp-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  gap: 0.5rem;
+}
+
+.opp-company {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--text-heading);
+}
+
+.opp-theme {
+  font-size: 0.82rem;
+  color: var(--gold);
+  font-weight: 500;
+  margin-bottom: 0.35rem;
+}
+
+.opp-reason {
+  font-size: 0.82rem;
+  color: var(--text-secondary);
+  line-height: 1.55;
+  margin-bottom: 0.5rem;
+}
+
+.opp-signals {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  margin-bottom: 0.5rem;
+}
+
+.opp-signal {
+  font-size: 0.7rem;
+  padding: 0.15rem 0.5rem;
+  border-radius: var(--radius-pill);
+  background: var(--blue-soft);
+  color: var(--blue);
+}
+
+.opp-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5rem;
+  padding-top: 0.5rem;
+  border-top: 1px solid var(--border-subtle);
+  flex-wrap: wrap;
+}
+
+.opp-horizon {
+  font-size: 0.76rem;
+  color: var(--text-muted);
+}
+
+.opp-action {
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 0.15rem 0.55rem;
+  border-radius: var(--radius-pill);
+}
+
+.opp-action.positive { background: var(--green-soft); color: var(--green); }
+.opp-action.negative { background: var(--red-soft); color: var(--red); }
+.opp-action.neutral  { background: var(--gold-soft); color: var(--gold); }
+
+/* --- Risk Watch Cards --- */
+.risk-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.risk-card {
+  background: var(--bg-elevated);
+  border: 1px solid var(--border-subtle);
+  border-left: 3px solid var(--text-muted);
+  border-radius: var(--radius-md);
+  padding: 1rem;
+}
+
+.risk-card.negative { border-left-color: var(--red); }
+.risk-card.neutral  { border-left-color: var(--amber); }
+
+.risk-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.risk-company {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--text-heading);
+}
+
+.risk-severity {
+  font-size: 0.68rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  padding: 0.15rem 0.5rem;
+  border-radius: var(--radius-pill);
+}
+
+.risk-severity.negative { background: var(--red-soft); color: var(--red); }
+.risk-severity.neutral  { background: var(--gold-soft); color: var(--gold); }
+
+.risk-issue {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  line-height: 1.55;
+  margin-bottom: 0.5rem;
+}
+
+/* --- Stock Cards (Dark Horse / Damage Watch) --- */
+.stock-card {
+  background: var(--bg-elevated);
+  border: 1px solid var(--border-subtle);
+  border-left: 4px solid var(--text-muted);
+  border-radius: var(--radius-md);
+  padding: 1.15rem;
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.stock-card.positive { border-left-color: var(--green); }
+.stock-card.neutral  { border-left-color: var(--amber); }
+.stock-card.negative { border-left-color: var(--red); }
+
+.stock-card.damage.negative { border-left-color: var(--red); background: rgba(239,68,68,0.04); }
+
+.stock-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 0.75rem;
+  margin-bottom: 0.6rem;
+  flex-wrap: wrap;
+}
+
+.stock-card-title-block {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.stock-card-company {
+  font-size: 1.05rem;
+  font-weight: 800;
+  color: var(--text-heading);
+  letter-spacing: -0.01em;
+}
+
+.stock-status-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--green);
+  box-shadow: 0 0 5px rgba(16,185,129,0.5);
+  flex-shrink: 0;
+}
+
+.stock-status-dot.damage {
+  background: var(--red);
+  box-shadow: 0 0 5px rgba(239,68,68,0.5);
+}
+
+.stock-tracking-status {
+  font-size: 0.68rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--text-muted);
+}
+
+.stock-card-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  align-items: center;
+}
+
+.stock-theme-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.stock-theme {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--gold);
+}
+
+.stock-trigger {
+  font-size: 0.72rem;
+  font-weight: 500;
+  color: var(--text-muted);
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  padding: 0.15rem 0.5rem;
+  border-radius: var(--radius-pill);
+}
+
+.stock-section-block {
+  margin-bottom: 0.65rem;
+}
+
+.stock-block-label {
+  font-size: 0.68rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-muted);
+  margin-bottom: 0.2rem;
+}
+
+.stock-block-body {
+  font-size: 0.83rem;
+  color: var(--text-secondary);
+  line-height: 1.65;
+}
+
+.stock-block-body.negative-text {
+  color: var(--red);
+  font-weight: 500;
+}
+
+.stock-signals-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.35rem;
+  margin-bottom: 0.6rem;
+}
+
+.risk-signal {
+  background: var(--red-soft) !important;
+  color: var(--red) !important;
+}
+
+.stock-card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5rem;
+  padding-top: 0.65rem;
+  border-top: 1px solid var(--border-subtle);
+  flex-wrap: wrap;
+  margin-top: 0.5rem;
+}
+
+.stock-horizon {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  font-weight: 500;
+}
+
+.stock-watchlist-action {
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 0.2rem 0.6rem;
+  border-radius: var(--radius-pill);
+}
+
+.stock-watchlist-action.positive { background: var(--green-soft); color: var(--green); }
+.stock-watchlist-action.negative { background: var(--red-soft); color: var(--red); }
+
 /* --- Print --- */
 @media print {
   body { background: #fff; color: #111; }
-  .site-header, .report-nav, .tab-nav, .site-footer { display: none; }
+  .site-header, .report-nav, .tab-nav-wrapper, .site-footer, .scroll-top-btn { display: none; }
   .tab-panel { display: block !important; padding: 0.5rem 0; }
   .tab-panel.hidden { display: block !important; }
   .section-card { border-color: #ddd; break-inside: avoid; }

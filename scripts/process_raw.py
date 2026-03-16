@@ -92,11 +92,15 @@ def convert(raw):
     chg  = raw.get('changedSinceYesterday', {})
     ovm  = raw.get('overviewMetrics', {})
     gm   = raw.get('globalMacro', {})
+    gpwn = raw.get('geoPoliticsAndWorldNews', {})
     ip   = raw.get('indiaPulse', {})
+    isn  = raw.get('indiaStrategicNews', {})
     reg  = raw.get('regime', {})
     sr   = raw.get('sectorRotation', {})
     bis  = raw.get('breadthInternalStrength', {})
     swr  = raw.get('swingRadar', {})
+    eo   = raw.get('emergingOpportunities', {})
+    rdw  = raw.get('riskAndDamageWatch', {})
     dsi  = raw.get('directStockInvestorAngle', {})
     mfi  = raw.get('mutualFundInvestorAngle', {})
     dd   = raw.get('dosAndDonts', {})
@@ -421,19 +425,24 @@ def convert(raw):
             confidence = 'medium'
 
         thesis_parts = [p for p in [
-            setup.get('technicalReason',''),
-            setup.get('fundamentalTrigger',''),
+            setup.get('technicalReason', ''),
+            setup.get('fundamentalTrigger', ''),
+            setup.get('comment', ''),
+            ('R:R ' + str(setup['riskReward'])) if setup.get('riskReward') else '',
             ('Invalidation: ' + setup['invalidation']) if setup.get('invalidation') else '',
             ('Sizing: ' + setup['positionSizeTone']) if setup.get('positionSizeTone') else '',
         ] if p]
 
+        # Support both old ('stock') and new ('name') field names
+        symbol = setup.get('stock', '') or setup.get('name', '')
+
         swing_setups.append({
-            'symbol': setup.get('stock',''),
+            'symbol': symbol,
             'direction': 'long',
-            'entry': setup.get('entryZone',''),
-            'target': target_str,
-            'stopLoss': setup.get('stopLoss',''),
-            'timeframe': setup.get('timeframe',''),
+            'entry': setup.get('entryZone', '') or setup.get('entry', ''),
+            'target': target_str or setup.get('target', ''),
+            'stopLoss': setup.get('stopLoss', '') or setup.get('sl', ''),
+            'timeframe': setup.get('timeframe', ''),
             'thesis': ' '.join(thesis_parts),
             'confidence': confidence,
         })
@@ -488,17 +497,21 @@ def convert(raw):
     # ── investorPlan ──
     inv_actions = []
     for b in dsi.get('buckets', []):
-        sl = b.get('stance','').lower()
-        if any(x in sl for x in ['avoid','underweight','reduce','trim']):
-            prio = 'high'
-        elif any(x in sl for x in ['accumulate','overweight','add']):
-            prio = 'low'
+        if isinstance(b, dict):
+            sl = b.get('stance', '').lower()
+            if any(x in sl for x in ['avoid', 'underweight', 'reduce', 'trim']):
+                prio = 'high'
+            elif any(x in sl for x in ['accumulate', 'overweight', 'add']):
+                prio = 'low'
+            else:
+                prio = 'medium'
+            inv_actions.append({
+                'action': f"{b.get('bucket','')}: {b.get('stance','')}. {b.get('comment','')}",
+                'priority': prio,
+            })
         else:
-            prio = 'medium'
-        inv_actions.append({
-            'action': f"{b.get('bucket','')}: {b.get('stance','')}. {b.get('comment','')}",
-            'priority': prio,
-        })
+            # Flat string bucket
+            inv_actions.append({'action': str(b), 'priority': 'medium'})
 
     inv_summary_parts = [p for p in [dsi.get('fact',''), dsi.get('interpretation',''), dsi.get('view','')] if p]
     investor_plan = {
@@ -510,19 +523,22 @@ def convert(raw):
     # ── mutualFundView ──
     mf_recs = []
     for cat in mfi.get('categories', []):
-        stance = cat.get('stance','')
-        sl = stance.lower()
-        if any(x in sl for x in ['avoid','cautious','no fresh']):
-            sent = 'negative'
-        elif any(x in sl for x in ['accumulate','hold','sip','add']):
-            sent = 'positive'
+        if isinstance(cat, dict):
+            stance = cat.get('stance', '')
+            sl = stance.lower()
+            if any(x in sl for x in ['avoid', 'cautious', 'no fresh']):
+                sent = 'negative'
+            elif any(x in sl for x in ['accumulate', 'hold', 'sip', 'add']):
+                sent = 'positive'
+            else:
+                sent = 'neutral'
+            mf_recs.append({
+                'category': cat.get('category', ''),
+                'action': f"{stance}. {cat.get('comment', '')}",
+                'sentiment': sent,
+            })
         else:
-            sent = 'neutral'
-        mf_recs.append({
-            'category': cat.get('category',''),
-            'action': f"{stance}. {cat.get('comment','')}",
-            'sentiment': sent,
-        })
+            mf_recs.append({'category': str(cat), 'action': '', 'sentiment': 'neutral'})
 
     mf_summary_parts = [p for p in [
         mfi.get('sip',''), mfi.get('lumpsum',''),
@@ -549,6 +565,115 @@ def convert(raw):
     if fbl.get('mfConclusion'):
         news.append({'title': 'MF Investor Bottom Line', 'summary': fbl['mfConclusion'], 'impact': 'neutral'})
 
+    # ── globalNews (geoPoliticsAndWorldNews) ──
+    global_news_themes = []
+    for t in gpwn.get('themes', []):
+        sl = t.get('signalStrength', 'medium').lower()
+        sent = 'negative' if sl == 'high' else ('neutral' if sl == 'medium' else 'positive')
+        global_news_themes.append({
+            'theme': t.get('theme', ''),
+            'region': t.get('region', ''),
+            'status': t.get('status', ''),
+            'marketImpact': t.get('marketImpact', ''),
+            'indiaImpact': t.get('indiaImpact', ''),
+            'affectedAssets': t.get('affectedAssets', []),
+            'signalStrength': t.get('signalStrength', 'medium'),
+            'whatToTrackNext': t.get('whatToTrackNext', ''),
+            'sentiment': sent,
+        })
+
+    global_news = {
+        'riskLevel': gpwn.get('riskLevel', ''),
+        'marketImpactHorizon': gpwn.get('marketImpactHorizon', ''),
+        'themes': global_news_themes,
+        'summary': ' '.join([p for p in [gpwn.get('fact', ''), gpwn.get('interpretation', '')] if p]),
+        'view': gpwn.get('view', ''),
+    }
+
+    # ── indiaNews (indiaStrategicNews) ──
+    india_news_themes = []
+    for t in isn.get('themes', []):
+        sl = t.get('signalStrength', 'medium').lower()
+        sent = 'positive' if sl == 'high' else 'neutral'
+        india_news_themes.append({
+            'theme': t.get('theme', ''),
+            'category': t.get('category', ''),
+            'status': t.get('status', ''),
+            'marketImpact': t.get('marketImpact', ''),
+            'affectedSectors': t.get('affectedSectors', []),
+            'affectedStocks': t.get('affectedStocks', []),
+            'timeHorizon': t.get('timeHorizon', ''),
+            'signalStrength': t.get('signalStrength', 'medium'),
+            'whatToTrackNext': t.get('whatToTrackNext', ''),
+            'sentiment': sent,
+        })
+
+    india_news = {
+        'importanceLevel': isn.get('importanceLevel', ''),
+        'themes': india_news_themes,
+        'summary': ' '.join([p for p in [isn.get('fact', ''), isn.get('interpretation', '')] if p]),
+        'view': isn.get('view', ''),
+    }
+
+    # ── emergingOpportunities ──
+    opp_ideas = []
+    for idea in eo.get('ideas', []):
+        conv = idea.get('conviction', 'medium').lower()
+        sent = 'positive' if 'high' in conv else ('neutral' if 'medium' in conv else 'negative')
+        opp_ideas.append({
+            'company': idea.get('company', ''),
+            'theme': idea.get('theme', ''),
+            'conviction': idea.get('conviction', 'medium'),    # preserve original casing
+            'convictionKey': conv,                              # lowercase for CSS
+            'timeHorizon': idea.get('timeHorizon', ''),
+            'triggerType': idea.get('triggerType', ''),
+            'earlySignals': idea.get('earlySignals', []),
+            'businessQualityView': idea.get('businessQualityView', ''),
+            'valuationNote': idea.get('valuationNote', ''),
+            'watchlistAction': idea.get('watchlistAction', ''),
+            'reasonForTracking': idea.get('reasonForTracking', ''),
+            'whatToTrackNext': idea.get('whatToTrackNext', ''),
+            'trackingStatus': idea.get('trackingStatus', ''),
+            'firstSeenDate': idea.get('firstSeenDate', ''),
+            'sentiment': sent,
+        })
+
+    emerging_opportunities = {
+        'overallTone': eo.get('overallTone', ''),
+        'ideas': opp_ideas,
+        'summary': ' '.join([p for p in [eo.get('fact', ''), eo.get('interpretation', ''), eo.get('view', '')] if p]),
+        'view': eo.get('view', ''),
+    }
+
+    # ── riskWatch (riskAndDamageWatch) ──
+    risk_cases = []
+    for case in rdw.get('cases', []):
+        sev = case.get('severity', 'medium').lower()
+        sent = 'negative' if any(x in sev for x in ('high', 'critical')) else ('neutral' if 'medium' in sev else 'positive')
+        risk_cases.append({
+            'company': case.get('company', ''),
+            'riskType': case.get('riskType', ''),
+            'issue': case.get('issue', ''),
+            'severity': case.get('severity', 'Medium'),        # preserve original
+            'severityKey': sev,                                # lowercase for CSS
+            'nearTermMarketRisk': case.get('nearTermMarketRisk', ''),
+            'possibleImpactAreas': case.get('possibleImpactAreas', []),
+            'stance': case.get('stance', ''),
+            'watchlistAction': case.get('watchlistAction', ''),
+            'monitoringSignals': case.get('monitoringSignals', []),
+            'whatToTrackNext': case.get('whatToTrackNext', ''),
+            'trackingStatus': case.get('trackingStatus', ''),
+            'firstSeenDate': case.get('firstSeenDate', ''),
+            'sentiment': sent,
+        })
+
+    risk_watch = {
+        'overallTone': rdw.get('overallTone', ''),
+        'cases': risk_cases,
+        'summary': ' '.join([p for p in [rdw.get('fact', ''), rdw.get('interpretation', ''), rdw.get('view', '')] if p]),
+        'view': rdw.get('view', ''),
+    }
+
     # ── sources ──
     sources = ft.get('sourceContext', [])
 
@@ -566,12 +691,16 @@ def convert(raw):
         'whatChanged': what_changed,
         'overview': overview,
         'globalMacro': global_macro,
+        'globalNews': global_news,
         'indianMarket': indian_market,
+        'indiaNews': india_news,
         'marketRegime': market_regime,
         'sectorRotation': sector_rotation,
         'breadth': breadth,
         'swingSetups': swing_setups,
         'avoidList': avoid_list,
+        'emergingOpportunities': emerging_opportunities,
+        'riskWatch': risk_watch,
         'keyLevels': key_levels,
         'investorPlan': investor_plan,
         'mutualFundView': mutual_fund_view,
