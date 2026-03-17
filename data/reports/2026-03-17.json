@@ -1,0 +1,492 @@
+{
+  "meta": {
+    "date": "2026-03-17",
+    "title": "Market Pulse Daily",
+    "subtitle": "Mean-reversion bounce",
+    "marketStatus": "closed",
+    "lastUpdated": "2026-03-17T20:25:00+05:30",
+    "author": "Market Pulse Research"
+  },
+  "mood": {
+    "label": "Mean-reversion bounce",
+    "sentiment": "negative",
+    "pills": []
+  },
+  "todayIn30Seconds": [
+    "Mean-reversion bounce within a broader volatile, high-risk regime.",
+    "Maintain core long-term allocations while drastically reducing leverage and position sizes for short-term swing trades.",
+    "The Indian market is displaying extraordinary structural resilience. Despite an acute geopolitical crisis, a 44% year-over-year surge in crude oil, and massive foreign capital flight, domestic liquidity engineered a 938-point Sensex recovery. We are in a highly bifurcated market where macro headwinds clash with undeniable domestic growth imperatives. Capital preservation is key, but panic selling is mathematically unjustified."
+  ],
+  "whatChanged": [],
+  "overview": {
+    "metrics": [
+      {
+        "label": "Nifty 50",
+        "value": "23408.80",
+        "change": "+1.11%",
+        "sentiment": "positive"
+      },
+      {
+        "label": "Sensex",
+        "value": "75502.85",
+        "change": "+1.26%",
+        "sentiment": "positive"
+      },
+      {
+        "label": "Bank Nifty",
+        "value": "54400.00",
+        "change": "+0.15%",
+        "sentiment": "positive"
+      },
+      {
+        "label": "Nifty Midcap 150",
+        "value": "N/A",
+        "change": "+1.66%",
+        "sentiment": "positive"
+      },
+      {
+        "label": "Nifty Smallcap 250",
+        "value": "N/A",
+        "change": "+0.75%",
+        "sentiment": "positive"
+      },
+      {
+        "label": "India VIX",
+        "value": "21.60",
+        "change": "elevated fear",
+        "sentiment": "negative"
+      },
+      {
+        "label": "USD/INR",
+        "value": "92.40",
+        "change": "",
+        "sentiment": "negative"
+      },
+      {
+        "label": "FII Net Flow",
+        "value": "-9365.52",
+        "change": "",
+        "sentiment": "negative"
+      },
+      {
+        "label": "DII Net Flow",
+        "value": "+12593.36",
+        "change": "",
+        "sentiment": "positive"
+      }
+    ]
+  },
+  "globalMacro": {
+    "summary": "Unprecedented domestic institutional liquidity absorbing fierce foreign capital flight amidst severe Middle East supply chain disruptions.",
+    "regions": [
+      {
+        "name": "US",
+        "index": "S&P 500",
+        "value": "6699.38",
+        "change": "+1.01%",
+        "sentiment": "positive",
+        "note": ""
+      },
+      {
+        "name": "US",
+        "index": "Nasdaq",
+        "value": "22374.18",
+        "change": "+1.22%",
+        "sentiment": "positive",
+        "note": ""
+      },
+      {
+        "name": "US",
+        "index": "Dow Jones",
+        "value": "46946.41",
+        "change": "+0.83%",
+        "sentiment": "positive",
+        "note": ""
+      },
+      {
+        "name": "Asia",
+        "index": "Nikkei 225",
+        "value": "53928.25",
+        "change": "+0.40%",
+        "sentiment": "positive",
+        "note": ""
+      },
+      {
+        "name": "Asia",
+        "index": "Hang Seng",
+        "value": "N/A",
+        "change": "+2.00%",
+        "sentiment": "positive",
+        "note": ""
+      },
+      {
+        "name": "Asia",
+        "index": "Shanghai Comp",
+        "value": "N/A",
+        "change": "N/A",
+        "sentiment": "neutral",
+        "note": ""
+      },
+      {
+        "name": "Europe",
+        "index": "DAX",
+        "value": "N/A",
+        "change": "N/A",
+        "sentiment": "neutral",
+        "note": ""
+      },
+      {
+        "name": "Europe",
+        "index": "FTSE 100",
+        "value": "N/A",
+        "change": "N/A",
+        "sentiment": "neutral",
+        "note": ""
+      },
+      {
+        "name": "Macro",
+        "index": "Dollar Index (DXY)",
+        "value": "99.827",
+        "change": "+0.36%",
+        "sentiment": "negative",
+        "note": "A strong dollar acts as a wrecking ball for emerging market currencies. At 99.82, it forces the RBI to utilize FX reserves to defend the Rupee, tightening domestic liquidity."
+      },
+      {
+        "name": "Macro",
+        "index": "US 10Y Yield",
+        "value": "4.21%",
+        "change": "-0.02%",
+        "sentiment": "positive",
+        "note": "A slight moderation in yields provides minor relief to equity valuations. If this spikes past 4.5% due to oil-driven inflation fears, FII selling in India will accelerate."
+      },
+      {
+        "name": "Macro",
+        "index": "Brent Crude",
+        "value": "104.75",
+        "change": "+4.53%",
+        "sentiment": "negative",
+        "note": "The single most destructive variable for the Indian macro story. At $104, India's current account deficit will widen severely, corporate margins will compress, and the RBI's rate-cut timeline is permanently delayed."
+      },
+      {
+        "name": "Macro",
+        "index": "Gold",
+        "value": "5015.03",
+        "change": "+0.18%",
+        "sentiment": "positive",
+        "note": "Sustained bid for monetary metals reflects deep institutional anxiety regarding fiat currency debasement and geopolitical escalation. Supportive of domestic gold-loan NBFCs."
+      },
+      {
+        "name": "Macro",
+        "index": "WTI Crude",
+        "value": "97.59",
+        "change": "+5.55%",
+        "sentiment": "negative",
+        "note": "Confirms the structural breakout in global energy markets. Not an anomaly; a coordinated repricing of supply risk."
+      }
+    ],
+    "keyDrivers": [
+      "The decoupling of US equities from the oil shock is keeping global risk sentiment afloat. If US markets were crashing alongside rising oil, the Nifty would be facing a systemic liquidation event. This provides breathing room.",
+      "Broad-based Asian strength provided the initial psychological catalyst for India's gap-up open. Capital rotating out of stretched US valuations into deeply discounted Asian equities is a trend to monitor.",
+      "European markets are the most vulnerable to the Middle East supply shock and maritime disruptions. A European recession would directly impact Indian IT sector revenue forecasts."
+    ]
+  },
+  "globalNews": {
+    "riskLevel": "Severe",
+    "marketImpactHorizon": "Medium to Long Term (3 to 6 months)",
+    "themes": [],
+    "summary": "Coordinated strikes on Iranian military and leadership infrastructure have transitioned the conflict from high to severe risk. Over 150 vessels have dropped anchor, suspending traffic through the Strait of Hormuz, which controls 20% of global oil flows. DP World Jebel Ali port operations are suspended due to drone strikes. Concurrently, the US has implemented a 10% universal import tariff. We are witnessing a profound rupture in global supply chain architecture. The blockage of the Strait of Hormuz is the quintessential supply shock, guaranteeing elevated energy prices that will unmoor disinflationary progress globally. The simultaneous introduction of US tariffs introduces a massive stagflationary headwind. Central banks, including the RBI, are now trapped between slowing growth and re-accelerating inflation.",
+    "view": "Do not assume a rapid diplomatic resolution. Equity portfolios must be aggressively stress-tested for an environment where Brent crude averages $100+ for the next two quarters. Avoid margin-sensitive consumers of petrochemical derivatives. Overweight companies with absolute pricing power, domestic infrastructure monopolies, and upstream energy producers. The 'goldilocks' macro scenario of 2025 is definitively dead."
+  },
+  "indianMarket": {
+    "summary": "Highly polarized institutional battleground",
+    "indices": [
+      {
+        "name": "Nifty 50",
+        "close": "23408.80",
+        "change": "+1.11%",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Sensex",
+        "close": "75502.85",
+        "change": "+1.26%",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Bank Nifty",
+        "close": "54400.00",
+        "change": "+0.15%",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Midcap 150",
+        "close": "N/A",
+        "change": "+1.66%",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Smallcap 250",
+        "close": "N/A",
+        "change": "+0.75%",
+        "sentiment": "positive"
+      }
+    ],
+    "flows": {
+      "fii": {
+        "value": "-9365.52",
+        "sentiment": "negative"
+      },
+      "dii": {
+        "value": "+12593.36",
+        "sentiment": "positive"
+      }
+    },
+    "highlights": [
+      "The benchmark indices engineered a massive 900+ point intraday recovery on the back of Rs 12,593 Cr of domestic institutional buying. Breadth turned positive, breaking a four-day deteriorating streak. Key gainers were concentrated in infrastructure proxies and metals, while IT and specific PSU Banks faced severe liquidation.",
+      "The market is establishing a durable structural floor via domestic liquidity. However, this is not a rising tide lifting all boats. Capital is rotating with extreme prejudice. Companies with clear capacity expansion plans (MOIL) or benefiting from gross refining margin expansions (Chennai Petro) are seeing vertical accumulation. Conversely, execution failures (IDBI divestment) are being punished with zero tolerance.",
+      "Deploy fresh cash surgically. The broad indices mask extreme individual stock volatility. Relying on index-level support is dangerous; focus strictly on underlying stock fundamentals. If a stock does not have a clear domestic growth catalyst or pricing power to offset oil costs, it should not be bought on dips."
+    ]
+  },
+  "indiaNews": {
+    "importanceLevel": "High",
+    "themes": [],
+    "summary": "Power Finance Corp approved a historic Rs 1.6 lakh crore fundraise for FY27 to bankroll India's 500GW renewable target. The India Semiconductor Mission (ISM) has 10 approved units, drawing $17.31 billion in commitments. The Karnataka IT Minister announced a pivot toward a 'sustainable data centre policy', citing the unsustainable water consumption of hyperscalers in Bengaluru (25 million liters per MW) and pushing for coastal, sub-sea connected facilities. The Indian state is undertaking a massive, coordinated industrial overhaul that is entirely decoupled from daily market noise. The scale of the PFC borrowing proves that the energy transition is not a narrative, but a heavily funded reality. The semiconductor and data center pivots demonstrate a maturation of policy, moving from sheer capacity addition to resource-efficient, vertically integrated ecosystem building.",
+    "view": "These are the themes that will mint the next generation of mega-caps. Investors must position themselves in the picks-and-shovels providers of these megatrends. Specialty chemical companies supplying fabs, coastal engineering firms building data centers, and the financiers of the energy grid represent the highest conviction structural longs in the Indian market today."
+  },
+  "marketRegime": {
+    "current": "Volatile bullish",
+    "description": "The benchmark indices closed near day highs after extreme intraday volatility, while the VIX remains persistently above 21. Market breadth improved, but 73% of Nifty 500 stocks remain over 10% below their all-time highs. We are experiencing a mean-reversion bounce within a localized, high-risk correction. The 'bullish' component is entirely underwritten by domestic institutional liquidity refusing to let the market collapse. The 'volatile' component is driven by exogenous geopolitical shocks and relentless FII selling. This is not a 'buy-the-dip-blindly' regime; it is a highly selective stock-picker's market where mistakes are severely punished. Adopt a posture of 'Cautious Accumulation'. The macro environment does not support aggressive, leveraged directional bets. Focus on accumulating high-quality businesses that are temporarily mispriced due to index-level algorithmic selling. Sizing: Reduce standard equity position sizes by 30% to 40%. The elevated VIX implies that normal daily ranges are drastically expanded; wider stop-losses are required to avoid premature whipsaws.",
+    "signals": [
+      {
+        "label": "Risk Score",
+        "value": "7/100",
+        "sentiment": "positive"
+      }
+    ]
+  },
+  "sectorRotation": {
+    "summary": "Capital rotated aggressively out of IT and FMCG into Autos, Metals, and Energy proxies. The Nifty Next 50 and Midcap 150 continue to demonstrate superior rolling returns compared to the headline Nifty 50. The market is systematically pricing out global growth dependency (IT) and margin vulnerability (FMCG), and pricing in tangible asset ownership (Metals, Real Estate) and domestic infrastructure resilience. This is a classic late-cycle, inflation-protection rotation.",
+    "sectors": []
+  },
+  "breadth": {
+    "summary": "Internal strength is attempting a structural repair. After a brutal four-day liquidation phase where small-caps were decimated, the return of positive breadth across 4,200+ listed stocks indicates that DII liquidity is permeating beyond just the top 10 index heavyweights. However, this breadth improvement must be sustained for at least three consecutive sessions to confirm a definitive trend reversal.",
+    "indicators": [
+      {
+        "label": "Advance/Decline",
+        "value": "1.25 (2,206 Advances vs 1,831 Declines)",
+        "sentiment": "negative"
+      },
+      {
+        "label": "Sector Breadth",
+        "value": "Improving; 12 out of 16 major sectoral indices closed in the green.",
+        "sentiment": "negative"
+      },
+      {
+        "label": "Defensives Leading?",
+        "value": "No",
+        "sentiment": "neutral"
+      },
+      {
+        "label": "Cyclicals Weak?",
+        "value": "No, Cyclicals are leading the recovery.",
+        "sentiment": "negative"
+      },
+      {
+        "label": "Buying Type",
+        "value": "Institutional value buying and short-covering.",
+        "sentiment": "neutral"
+      }
+    ]
+  },
+  "swingSetups": [
+    {
+      "symbol": "Power Finance Corp (PFC)",
+      "direction": "long",
+      "entry": "Above 384",
+      "target": "420, 450",
+      "stopLoss": "384",
+      "timeframe": "2 to 4 weeks",
+      "thesis": "Stock has established a massive structural base precisely at its 200-day Exponential Moving Average (391) and is breaking out of a descending weekly trendline. Board approval for a massive Rs 1.6 Trillion fundraise for FY27 and declaration of a highly attractive 4th interim dividend. A rare combination of Maharatna stability, high dividend yield, and explosive balance sheet growth. R:R 1:1.7 Invalidation: A daily close below 384 would violate the 200-DEMA and invalidate the accumulation thesis. Sizing: Normal to slightly reduced.",
+      "confidence": "high"
+    },
+    {
+      "symbol": "MOIL Ltd",
+      "direction": "long",
+      "entry": "275 - 285 (Wait for pullback)",
+      "target": "330, 340",
+      "stopLoss": "255",
+      "timeframe": "2 to 6 weeks",
+      "thesis": "Violent 20% upside shock on immense volume. Momentum algorithms will defend the first structural pullback. Market radically repricing the company's strategic roadmap to scale manganese output to 3.5 million tonnes by 2030, critical for the National Steel Policy. Do not chase the upper circuit. Place limit orders in the pullback zone to capture the secondary markup phase. R:R 1:2.2 Invalidation: Loss of the 255 level would indicate the 20% move was an algorithmic anomaly rather than sustained institutional accumulation. Sizing: Half size.",
+      "confidence": "medium"
+    }
+  ],
+  "avoidList": [],
+  "emergingOpportunities": {
+    "overallTone": "Deeply contrarian, value-driven, and focused on strategic policy beneficiaries.",
+    "ideas": [
+      {
+        "company": "Specialty Chemical Ancillaries for Semiconductor Fabs",
+        "theme": "",
+        "conviction": "High",
+        "convictionKey": "high",
+        "timeHorizon": "2 to 4 years",
+        "triggerType": "",
+        "earlySignals": [],
+        "businessQualityView": "High barriers to entry due to stringent purity and quality control requirements mandated by semiconductor fabricators.",
+        "valuationNote": "Currently suppressed due to broader chemical sector weakness and Chinese dumping, creating an asymmetric entry point before the semiconductor revenue cycle begins.",
+        "watchlistAction": "Gradual Accumulation on dips",
+        "reasonForTracking": "",
+        "whatToTrackNext": "Monitor specific vendor qualification announcements from the newly approved fab operators.",
+        "trackingStatus": "Active monitoring for contract wins",
+        "firstSeenDate": "2026-03-17",
+        "sentiment": "positive"
+      },
+      {
+        "company": "Deep Value Small-Caps with Promoter Buying (e.g., GMR Power, Maithan Alloys)",
+        "theme": "Valuation Mean Reversion & Insider Confidence",
+        "conviction": "Moderate to High",
+        "convictionKey": "moderate to high",
+        "timeHorizon": "12 to 18 months",
+        "triggerType": "Insider Buying / Valuation Floor",
+        "earlySignals": [],
+        "businessQualityView": "Varied, but insider conviction implies hidden balance sheet strength or unannounced order book visibility.",
+        "valuationNote": "Extreme undervaluation. Trading far below intrinsic replacement cost.",
+        "watchlistAction": "Buy",
+        "reasonForTracking": "In a decimated small-cap market, entities trading at single-digit P/Es (e.g., Maithan Alloys at 5x) combined with sustained open-market promoter purchasing signal severe fundamental mispricing.",
+        "whatToTrackNext": "Track bulk deal data and quarterly shareholding patterns to verify sustained promoter involvement.",
+        "trackingStatus": "Active Accumulation",
+        "firstSeenDate": "2026-03-17",
+        "sentiment": "positive"
+      }
+    ],
+    "summary": "The Indian chemicals industry is projected to expand from $155Bn to $255Bn by 2030, driven by semiconductors and EVs. Concurrently, a basket of highly profitable small-caps is trading at P/E multiples of 5x to 7x while experiencing aggressive insider buying. The market is inefficiently pricing long-term strategic growth themes due to short-term liquidity crunches and panic. The delta between the grim current sentiment and the massive industrial expansion happening on the ground creates vast alpha-generation opportunities for patient capital. Look beneath the index. The true wealth over the next decade will be minted in the ancillaries of the semiconductor and green energy transitions, and in forgotten value stocks that survive the current liquidity purge.",
+    "view": "Look beneath the index. The true wealth over the next decade will be minted in the ancillaries of the semiconductor and green energy transitions, and in forgotten value stocks that survive the current liquidity purge."
+  },
+  "riskWatch": {
+    "overallTone": "Zero tolerance for governance opacity or execution failures.",
+    "cases": [
+      {
+        "company": "Gabion Tech (example)",
+        "riskType": "Auditor Resignation",
+        "issue": "",
+        "severity": "Medium",
+        "severityKey": "medium",
+        "nearTermMarketRisk": "",
+        "possibleImpactAreas": [],
+        "stance": "Strict Avoid / Liquidate",
+        "watchlistAction": "Remove from all investment lists",
+        "monitoringSignals": [],
+        "whatToTrackNext": "Observe the appointment of the new auditor and any subsequent restatement of the FY25 financials.",
+        "trackingStatus": "Quarantined",
+        "firstSeenDate": "2026-03-17",
+        "sentiment": "neutral"
+      },
+      {
+        "company": "IDBI Bank",
+        "riskType": "Execution Failure / Catalyst Removal",
+        "issue": "The government is widely reported to be scrapping the sale of its 60.7% stake due to poor bidder interest and low reserve pricing, destroying the core privatization thesis.",
+        "severity": "High",
+        "severityKey": "high",
+        "nearTermMarketRisk": "Continued systemic liquidation; already down 29% in a week.",
+        "possibleImpactAreas": [],
+        "stance": "Avoid",
+        "watchlistAction": "Do not catch the falling knife",
+        "monitoringSignals": [
+          "Official withdrawal of the divestment memorandum"
+        ],
+        "whatToTrackNext": "Wait for official Ministry of Finance clarification regarding future divestment timelines.",
+        "trackingStatus": "Monitoring for terminal floor",
+        "firstSeenDate": "2026-03-17",
+        "sentiment": "negative"
+      },
+      {
+        "company": "Wardwizard Healthcare / Anmol India / Ganesh",
+        "riskType": "Governance / KMP Exodus",
+        "issue": "A cluster of sudden resignations across multiple small-cap entities involving Chief Financial Officers and Independent Directors.",
+        "severity": "Moderate to High",
+        "severityKey": "moderate to high",
+        "nearTermMarketRisk": "Erosion of trust premium and increased volatility.",
+        "possibleImpactAreas": [],
+        "stance": "Under Review / Negative Bias",
+        "watchlistAction": "Halt fresh accumulation",
+        "monitoringSignals": [],
+        "whatToTrackNext": "Monitor the Q4 earnings calls for management commentary regarding these sudden departures.",
+        "trackingStatus": "Active monitoring",
+        "firstSeenDate": "2026-03-17",
+        "sentiment": "negative"
+      }
+    ],
+    "summary": "We are observing a spike in auditor resignations (Gabion Tech), key managerial personnel departures (Wardwizard, Anmol India), and catastrophic policy reversals (IDBI Bank privatization). When liquidity tightens and macroeconomic stress increases, internal corporate fractures become visible. Auditor resignations over 'fees' are frequently euphemisms for fundamental disagreements over accounting veracity. Institutional capital assigns a zero-trust policy to such events. Do not attempt to be a hero in broken narratives. If an auditor resigns, sell first and ask questions later. Capital preservation demands that you quarantine any entity exhibiting these classic red flags.",
+    "view": "Do not attempt to be a hero in broken narratives. If an auditor resigns, sell first and ask questions later. Capital preservation demands that you quarantine any entity exhibiting these classic red flags."
+  },
+  "keyLevels": {
+    "nifty": {
+      "instrument": "Nifty 50",
+      "support": [
+        "23,250 - 23,300 (Immediate demand zone and recent double-bottom floor)"
+      ],
+      "resistance": [
+        "23,550 - 23,600 (Heavy supply zone; requires high volume to breach)"
+      ]
+    },
+    "bankNifty": {
+      "instrument": "Bank Nifty",
+      "support": [
+        "53,400 - 53,500 (Structural cushion; violation targets 52,000)"
+      ],
+      "resistance": [
+        "55,000 (Massive call-writing ceiling)"
+      ]
+    },
+    "vix": {
+      "instrument": "India VIX",
+      "pivot": "20.00 (Must sustain below this level to signal a return to a normalized trading regime)",
+      "support": [],
+      "resistance": []
+    },
+    "brent": {
+      "instrument": "Brent Crude",
+      "pivot": "105.00 (A weekly close above $105 validates a severe, sustained inflationary shock)",
+      "support": [],
+      "resistance": []
+    },
+    "usdInr": {
+      "instrument": "USD/INR",
+      "pivot": "92.50 (Further depreciation forces acute RBI intervention and tighter domestic liquidity)",
+      "support": [],
+      "resistance": []
+    }
+  },
+  "investorPlan": {
+    "stance": "Cautious Accumulation",
+    "summary": "Small-caps are experiencing severe valuation compression. While the Nifty 50 trades near its 10-year average P/E, small-caps had stretched to nearly 29.5x before the current crash. 40% of small-caps missed recent earnings estimates. The 'everything rally' in small-caps is over. We have entered a regime of forensic accounting and valuation discipline. The broader market strain is hidden by index heavyweights, but beneath the surface, a severe bear market has cleansed speculative froth. This is a stock-picker's paradise if you have the discipline to ignore momentum and focus on balance sheets. Screen for companies where the stock price has halved, but earnings have remained stable or grown. Promoter open-market buying is the ultimate litmus test for value in this specific environment.",
+    "actions": []
+  },
+  "mutualFundView": {
+    "summary": "Continue aggressively. Do not pause. Deploy in staggered tranches (30% now, 30% on further 5% dip, 40% reserve). Dry powder: Utilize 30% of available dry powder for immediate deployment into broad market funds.",
+    "recommendations": []
+  },
+  "dosAndDonts": {
+    "dos": [],
+    "donts": []
+  },
+  "news": [
+    {
+      "title": "Investor Bottom Line",
+      "summary": "The macroeconomic architecture is hostile, dominated by severe geopolitical escalation and a crude oil supply shock. However, the Indian market is exhibiting extraordinary structural resilience underwritten by phenomenal domestic liquidity and tangible industrial progress (Semiconductors, Energy Transition). Investors must embrace the volatility, reject companies with opaque governance, and aggressively accumulate deeply discounted, high-quality businesses and mandate-agnostic mutual funds. The wealth of 2030 is being priced today.",
+      "impact": "neutral"
+    },
+    {
+      "title": "Swing Trader Bottom Line",
+      "summary": "The VIX is elevated, and algorithmic whipsaws are the norm. Standard technical patterns are highly unreliable when subjected to overnight geopolitical gaps. Drastically reduce position sizes, widen invalidation levels to account for volatility, and exclusively trade setups backed by overwhelming fundamental catalysts (e.g., massive order wins or capital raises). If a high-conviction setup is unavailable, holding cash is a superior mathematical position.",
+      "impact": "neutral"
+    },
+    {
+      "title": "MF Investor Bottom Line",
+      "summary": "Do not let a 10% index correction derail a 10-year financial plan. The current environment is precisely why automated SIPs are mathematically superior to emotional market timing. Continue SIPs unhindered. For surplus capital, utilize the ongoing correction to execute staggered, systematic transfers into high-pedigree Flexi-Cap and Multi-Asset funds, relying on professional managers to navigate the sectoral rotation.",
+      "impact": "neutral"
+    }
+  ],
+  "sources": [],
+  "disclaimer": "This report is generated for informational and analytical purposes only, based on aggregated market data and intelligence available as of March 17, 2026. It does not constitute binding financial advice. Equities and derivatives trading carry substantial risk, exacerbated by current geopolitical volatility. Investors must consult SEBI-registered financial advisors before executing any capital allocation."
+}

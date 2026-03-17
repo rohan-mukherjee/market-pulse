@@ -6,6 +6,19 @@
   },
   "reports": [
     {
+      "date": "2026-03-17",
+      "file": "2026-03-17.json",
+      "title": "Market Pulse Daily",
+      "subtitle": "Mean-reversion bounce",
+      "mood": "Mean-reversion bounce",
+      "marketStatus": "closed",
+      "regime": "Mean-reversion bounce",
+      "stance": "Cautious Accumulation",
+      "mainDriver": "Unprecedented domestic institutional liquidity absorbing fierce foreign capital flight amidst severe Middle East supply chain disruptions.",
+      "summary": "Comprehensive analysis of the Indian equity market amidst severe Middle East geopolitical escalation, Brent crude surging past $104, and extreme institutional polarization. Covers strategic Indian policy shifts (Semiconductors, PFC capital raise), severe small-cap valuation compression, governance red flags, and actionable swing trade/mutual fund deployment strategies.",
+      "tags": []
+    },
+    {
       "date": "2026-03-16",
       "file": "2026-03-16.json",
       "title": "Market Pulse Daily",
@@ -115,5 +128,5 @@
       ]
     }
   ],
-  "latestReport": "2026-03-16"
+  "latestReport": "2026-03-17"
 }
