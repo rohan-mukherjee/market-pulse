@@ -1,0 +1,515 @@
+{
+  "meta": {
+    "date": "2026-03-19",
+    "title": "Market Pulse Daily",
+    "subtitle": "Weekend Edition (data as of 2026-03-18)",
+    "marketStatus": "open",
+    "lastUpdated": "2026-03-19T10:29:00+05:30",
+    "author": "Market Pulse Research"
+  },
+  "mood": {
+    "label": "Panic sell-off",
+    "sentiment": "negative",
+    "pills": []
+  },
+  "todayIn30Seconds": [
+    "Panic sell-off",
+    "Highly defensive. Immediate transition to cash equivalents, sovereign gold bonds, or deep defensive sectors (Information Technology, Pharma, Coal India). Strict avoidance of crude-sensitive cyclicals, downstream energy, and high-beta private financials.",
+    "The market regime has violently shifted overnight. Yesterday's positive close was a deceptive technical bounce that has been completely invalidated by overnight macro and micro events. The convergence of a global energy shock, a hawkish US central bank, and a domestic banking heavyweight governance crisis demands immediate risk reduction. Investors must recognize that 'buying the dip' is historically dangerous during exogenous supply-side oil shocks. The objective for the next 48 hours is pure survival, strict adherence to stop-losses, and the preservation of dry powder for a true macroeconomic bottom."
+  ],
+  "whatChanged": [],
+  "overview": {
+    "metrics": [
+      {
+        "label": "Nifty 50",
+        "value": "23,777.80",
+        "change": "+0.83%",
+        "sentiment": "positive"
+      },
+      {
+        "label": "Sensex",
+        "value": "76,704.13",
+        "change": "+0.83%",
+        "sentiment": "positive"
+      },
+      {
+        "label": "Bank Nifty",
+        "value": "55,326.05",
+        "change": "+0.00%",
+        "sentiment": "positive"
+      },
+      {
+        "label": "Nifty Midcap 150",
+        "value": "20,158.45",
+        "change": "-0.37%",
+        "sentiment": "negative"
+      },
+      {
+        "label": "Nifty Smallcap 250",
+        "value": "14,804.70",
+        "change": "-0.36%",
+        "sentiment": "negative"
+      },
+      {
+        "label": "India VIX",
+        "value": "18.72",
+        "change": "15 to 20 = moderate caution",
+        "sentiment": "neutral"
+      },
+      {
+        "label": "USD/INR",
+        "value": "92.63",
+        "change": "",
+        "sentiment": "negative"
+      },
+      {
+        "label": "FII Net Flow",
+        "value": "-2,714.35 Cr",
+        "change": "",
+        "sentiment": "negative"
+      },
+      {
+        "label": "DII Net Flow",
+        "value": "+3,253.03 Cr",
+        "change": "",
+        "sentiment": "positive"
+      }
+    ]
+  },
+  "globalMacro": {
+    "summary": "The Indian equity market is facing an unprecedented tri-factor shock this morning. First, Brent crude oil has violently surged past $112 per barrel following Iranian military strikes on the South Pars gas field and retaliatory missile launches toward Qatar and Saudi Arabia, threatening the critical Strait of Hormuz chokepoint. Second, the US Federal Reserve held interest rates at 3.50%-3.75% while adjusting its 'dot plot' to project only a single rate cut in 2026, officially embedding a 'higher for longer' cost of capital regime driven by sticky 2.7% PCE inflation. Third, and most damaging for domestic indices, HDFC Bank's part-time Chairman Atanu Chakraborty has abruptly resigned citing 'ethical concerns' and practices not in congruence with his personal values. This toxic combination of an exogenous energy shock, tight global liquidity, and a severe governance crisis at India's highest-weighted stock will trigger indiscriminate algorithmic and institutional liquidation at the opening bell.",
+    "regions": [
+      {
+        "name": "US",
+        "index": "S&P 500",
+        "value": "Lower",
+        "change": "-1.36%",
+        "sentiment": "negative",
+        "note": ""
+      },
+      {
+        "name": "US",
+        "index": "Nasdaq",
+        "value": "Lower",
+        "change": "-1.46%",
+        "sentiment": "negative",
+        "note": ""
+      },
+      {
+        "name": "US",
+        "index": "Dow Jones",
+        "value": "Lower",
+        "change": "-1.63%",
+        "sentiment": "negative",
+        "note": ""
+      },
+      {
+        "name": "Asia",
+        "index": "Nikkei 225",
+        "value": "Lower",
+        "change": "-2.65%",
+        "sentiment": "negative",
+        "note": ""
+      },
+      {
+        "name": "Asia",
+        "index": "Hang Seng",
+        "value": "Lower",
+        "change": "-1.50%",
+        "sentiment": "negative",
+        "note": ""
+      },
+      {
+        "name": "Asia",
+        "index": "Shanghai Comp",
+        "value": "Lower",
+        "change": "-0.65%",
+        "sentiment": "negative",
+        "note": ""
+      },
+      {
+        "name": "Europe",
+        "index": "DAX",
+        "value": "Mixed",
+        "change": "0.70%",
+        "sentiment": "neutral",
+        "note": ""
+      },
+      {
+        "name": "Europe",
+        "index": "FTSE 100",
+        "value": "Mixed",
+        "change": "0.80%",
+        "sentiment": "neutral",
+        "note": ""
+      },
+      {
+        "name": "Macro",
+        "index": "Dollar Index (DXY)",
+        "value": "99.38",
+        "change": "+0.06%",
+        "sentiment": "negative",
+        "note": "The US Dollar Index remains stubbornly high, fueled by the Fed's hawkish pause and safe-haven flows. A strong DXY directly suppresses emerging market equity valuations, increases the servicing cost of dollar-denominated corporate debt for Indian companies, and forces the RBI to continuously burn through its foreign exchange reserves to defend the psychological 93.00 level for the Rupee."
+      },
+      {
+        "name": "Macro",
+        "index": "US 10Y Yield",
+        "value": "4.178%",
+        "change": "-0.55%",
+        "sentiment": "positive",
+        "note": "While US 10-year bond yields cooled slightly as a direct result of a 'flight to safety' panic bid into government bonds, the absolute level remains far too high for emerging market equity comfort. An elevated risk-free rate in the US fundamentally lowers the terminal value models for high-growth Indian equities, particularly in the mid-cap and platform tech spaces."
+      },
+      {
+        "name": "Macro",
+        "index": "Brent Crude",
+        "value": "$111.59",
+        "change": "+4.10%",
+        "sentiment": "negative",
+        "note": "This is the single biggest macroeconomic threat to the Indian economy. At $112 per barrel, domestic inflation models break down. Every $10 sustained increase in crude oil widens India's current account deficit by approximately $15 billion and shaves off 0.2-0.3% from GDP growth. Corporate margins for FMCG, Paints, Tyres, and Aviation will face immediate, severe compression."
+      },
+      {
+        "name": "Macro",
+        "index": "Gold",
+        "value": "$2,100+",
+        "change": "-0.39%",
+        "sentiment": "negative",
+        "note": "Gold is consolidating at historic highs, acting as the ultimate geopolitical hedge against fiat currency debasement and war. In India, this continues to drive immense value into physical gold and Sovereign Gold Bonds, pulling retail savings away from domestic equities. However, gold faces short-term headwinds from the stubbornly strong US Dollar."
+      },
+      {
+        "name": "Macro",
+        "index": "WTI Crude",
+        "value": "$99.31",
+        "change": "+3.10%",
+        "sentiment": "negative",
+        "note": "WTI's sharp climb confirms a structural, global breakout in energy markets, not just a regional Brent anomaly. As US crude approaches $100, refined product spreads will tighten aggressively worldwide, ensuring that India will pay premium prices for diesel and aviation turbine fuel imports regardless of the source."
+      }
+    ],
+    "keyDrivers": [
+      "The direct consequence of a 'higher for longer' US interest rate regime is the maintenance of a strong yield differential in favor of the US Dollar. For Indian markets, this is devastating. It guarantees persistent capital flight as Foreign Portfolio Investors (FPIs) repatriate funds to the safety of high-yielding US Treasuries. Furthermore, it handcuffs the Reserve Bank of India (RBI); they cannot cut domestic interest rates to spur growth without risking further collapse of the Rupee, effectively keeping the cost of capital punitively high for Indian corporates.",
+      "Pan-Asian indices are bleeding heavily in response to the overnight Wall Street rout and the surging Brent crude prices. Asia is a massive net importer of energy, and the region's manufacturing base is highly sensitive to input cost shocks. This regional sea of red dictates a heavy risk-off FII flow that India cannot escape. The sharp drop in the Nikkei specifically signals that the Yen carry trade dynamics are shifting, pulling speculative liquidity out of Asian equities.",
+      "European markets displayed a mild, deceptive resilience during yesterday's session, primarily supported by defense, utilities, and energy stocks that benefit from conflict. However, European futures are deeply red this morning following the massive escalation in Iran. Europe's vulnerability to energy supply chain disruptions mirrors India's, making it a leading indicator for stagflationary pricing models that will eventually hit Dalal Street."
+    ]
+  },
+  "globalNews": {
+    "riskLevel": "Extreme",
+    "marketImpactHorizon": "Months to Quarters",
+    "themes": [],
+    "summary": "Brent crude spiked to an intraday high of $112.85 following Iranian strikes on Gulf energy facilities. The US Federal Reserve held rates at 3.50%-3.75% and reduced 2026 rate cut projections from two to just one. Moody's Analytics indicates a 49% probability of a US recession driven by a weakening labor market and energy shocks. The worst-case macroeconomic scenario for emerging markets is currently playing out: an exogenous, unmanageable supply-side inflation shock (oil) combined with an inflexible, hawkish global central bank (the Fed). This forces the global economy into a classic stagflationary environment, characterized by slowing growth but rising prices. Central banks are paralyzed; they cannot cut rates to stimulate the economy because doing so would hyper-accelerate inflation. India's macro stability, heavily praised over the last three years, is severely compromised when oil sustains above $90, let alone $112. The market had complacently priced in localized Middle East skirmishes and a dovish Fed; it must now violently re-price actual physical energy infrastructure damage and a higher terminal rate.",
+    "view": "This is emphatically not a 'buy the dip' macroeconomic setup. It is a fundamental regime shift. Investors must expect violent repricing across Indian equities that rely on cheap crude oil imports and cheap domestic credit. Capital preservation is the only rational strategy. The traditional inverse correlation between equities and oil has reasserted itself with a vengeance."
+  },
+  "indianMarket": {
+    "summary": "Gap-down crash / Liquidity Vacuum",
+    "indices": [
+      {
+        "name": "Nifty 50",
+        "close": "23,777.80",
+        "change": "+0.83%",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Sensex",
+        "close": "76,704.13",
+        "change": "+0.83%",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Bank Nifty",
+        "close": "55,326.05",
+        "change": "+0.00%",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Midcap 150",
+        "close": "20,158.45",
+        "change": "-0.37%",
+        "sentiment": "negative"
+      },
+      {
+        "name": "Smallcap 250",
+        "close": "14,804.70",
+        "change": "-0.36%",
+        "sentiment": "negative"
+      }
+    ],
+    "flows": {
+      "fii": {
+        "value": "-2,714.35 Cr",
+        "sentiment": "negative"
+      },
+      "dii": {
+        "value": "+3,253.03 Cr",
+        "sentiment": "positive"
+      }
+    },
+    "highlights": [
+      "The GIFT Nifty is plunging by over 534 points. The Indian Rupee sits at a record low of 92.63. A drop of over 1,500 points is expected on the Sensex at the opening bell.",
+      "The combination of a domestic banking governance failure and external geopolitical crude shocks creates a perfect storm for Indian equities. The market will open in a state of sheer liquidity vacuum, where bid prices will disappear for smaller stocks.",
+      "Do not attempt to 'buy the dip' in the morning session. The velocity of the fall will be extreme. Let the European market open dictate the secondary trend for the day. Preserving cash is your primary, overriding objective today."
+    ]
+  },
+  "indiaNews": {
+    "importanceLevel": "Critical",
+    "themes": [],
+    "summary": "HDFC Bank's Chairman resigned over ethical concerns. Manappuram Finance received RBI approval for a massive Bain Capital stake acquisition. Nazara Technologies is executing a ₹918 crore acquisition of European gaming assets. While mid-tier corporate actions (like Manappuram and Nazara) show that underlying business dynamism and M&A activity in India remain robust, they will be entirely overshadowed today by the HDFC Bank disaster. When the heaviest constituent of the benchmark index faces an ethical leadership crisis precisely during a global macro meltdown, the entire market ecosystem suffers guilt by association.",
+    "view": "Avoid HDFC Bank strictly until the dust settles. Keep Manappuram and Nazara on a specialized watchlist for accumulation once the broader market panic subsides, as their specific, idiosyncratic news is structurally positive for long-term growth."
+  },
+  "marketRegime": {
+    "current": "Panic sell-off",
+    "description": "Multiple severe, systemic shocks are converging simultaneously: Brent crude exploding past $110, the US Fed cementing a hawkish stance, the INR crashing to a record low of 92.63, and India's largest private bank facing a governance shock. This is emphatically not a routine 1% or 2% technical correction. A 500-point Nifty gap down breaks the psychological 23,500 support level, violently violates the 5-DEMA recovery forged yesterday, and triggers cascading algorithmic sell orders across institutional desks. The market psychology will shift instantly from 'buy the dip' to 'sell the rally'. Capital protection is paramount. Stop losses must be respected mechanically, without emotion. Do not deploy fresh capital into cyclicals or financials today.",
+    "signals": [
+      {
+        "label": "Risk Score",
+        "value": "9/100",
+        "sentiment": "positive"
+      }
+    ]
+  },
+  "sectorRotation": {
+    "summary": "The IT index rebounded sharply over the last three days while the broader market corrected. OMCs, Aviation, and Paints face input costs now modeled on $112 crude. HDFC Bank is facing an unprecedented C-suite governance crisis. We are witnessing a violent, classic stagflationary capital rotation. Institutional money is fleeing from domestic cyclicals, interest-rate sensitive financial stocks, and crude-consuming businesses. That capital is seeking immediate shelter in export-oriented defensives (IT, Pharma) and upstream commodity producers that benefit from the chaos.",
+    "sectors": []
+  },
+  "breadth": {
+    "summary": "Yesterday's breadth—where 3,202 shares advanced against 1,088 declines on the BSE—was a false dawn. The structural internal strength of the market is highly compromised by the overnight geopolitical and macro developments. The massive 500-point expected gap-down will cause severe technical damage across the midcap and small-cap indices as 20-day and 50-day moving averages are violently violated right at the opening bell. Liquidity will dry up in the broader market.",
+    "indicators": [
+      {
+        "label": "Advance/Decline",
+        "value": "Expected to be deeply negative today (potentially 1:5 or worse), completely reversing yesterday's deceptive positive 2.91 reading.",
+        "sentiment": "negative"
+      },
+      {
+        "label": "Sector Breadth",
+        "value": "Narrowing exclusively to deep defensives and IT.",
+        "sentiment": "negative"
+      },
+      {
+        "label": "Defensives Leading?",
+        "value": "Yes, IT and Pharma are the sole pillars of structural strength.",
+        "sentiment": "positive"
+      },
+      {
+        "label": "Cyclicals Weak?",
+        "value": "Yes, deeply weak due to crippling crude costs and high interest rates.",
+        "sentiment": "negative"
+      },
+      {
+        "label": "Buying Type",
+        "value": "Algorithmic short covering in IT; aggressive, panicked FII distribution in Banks.",
+        "sentiment": "neutral"
+      }
+    ]
+  },
+  "swingSetups": [
+    {
+      "symbol": "Coal India",
+      "direction": "long",
+      "entry": "Intraday dips during gap-down",
+      "target": "10-15% from current levels",
+      "stopLoss": "5-7% below entry",
+      "timeframe": "2-4 Weeks",
+      "thesis": "The stock recently hit a 52-week high while the broader Nifty corrected. It is displaying massive relative strength, acting inversely to the broader market panic and showing robust institutional accumulation. Surging summer demand for coal, robust and reliable dividend payouts, and complete structural immunity to the imported crude oil inflation shock. Furthermore, its CMPDIL arm successfully mobilized ₹470 crore from massive anchor investors like LIC and Nippon India MF, showing deep institutional trust. Only deploy capital if the stock shows definitive resilience in the first 30 minutes of the massive gap-down. Treat this as a shelter stock to park cash, not a high-growth momentum play. R:R 1:2 Invalidation: A broad-based, indiscriminate liquidity crunch that forcibly sells all PSU assets, or sudden government intervention capping coal pricing. Sizing: Half Size",
+      "confidence": "high"
+    },
+    {
+      "symbol": "Infosys (INFY)",
+      "direction": "long",
+      "entry": "Current Market Price on Intraday Dips",
+      "target": "5% to 8% upside from base",
+      "stopLoss": "Recent swing low minus 2%",
+      "timeframe": "1-3 Weeks",
+      "thesis": "The IT sector is experiencing deep rotational buying. The stock bounced decisively off deeply oversold conditions last week following the irrational 14% sector-wide AI-fear crash. The INR crashing to a record 92.63 provides a direct, unhedged tailwind to operating margins. Quantitative models show heavy, sustained rotation into IT large caps because they offer the only earnings certainty in a chaotic macro environment. Treat this trade strictly as a portfolio hedge against Nifty downside and Rupee depreciation, rather than a high-conviction technical breakout trade. R:R 1:1.5 Invalidation: If US recession fears mutate from a statistical probability into actual, massive IT budget cuts announced by Fortune 500 clients. Sizing: Half Size",
+      "confidence": "medium"
+    }
+  ],
+  "avoidList": [],
+  "emergingOpportunities": {
+    "overallTone": "Extremely Selective and Defensive",
+    "ideas": [
+      {
+        "company": "Coal India",
+        "theme": "",
+        "conviction": "High",
+        "convictionKey": "high",
+        "timeHorizon": "3-6 Months",
+        "triggerType": "",
+        "earlySignals": [],
+        "businessQualityView": "An absolute monopoly producer with massive free cash generation, completely insulated from global supply chain shocks and currency depreciation.",
+        "valuationNote": "The highly attractive dividend yield acts as a hard floor for the stock price, limiting downside risk.",
+        "watchlistAction": "Accumulate aggressively on intraday dips",
+        "reasonForTracking": "",
+        "whatToTrackNext": "Monthly production output data and national summer temperature forecasts.",
+        "trackingStatus": "Active",
+        "firstSeenDate": "2026-03-14",
+        "sentiment": "positive"
+      },
+      {
+        "company": "Hexaware Technologies",
+        "theme": "IT Sector AI Evolution",
+        "conviction": "Moderate",
+        "convictionKey": "moderate",
+        "timeHorizon": "6-12 Months",
+        "triggerType": "Strategic Product Launch",
+        "earlySignals": [],
+        "businessQualityView": "The company is demonstrating extreme agility in adapting to the Generative AI threat, actively moving up the value chain rather than relying purely on labor arbitrage.",
+        "valuationNote": "Needs to be modeled carefully against larger peers, but the forward growth trajectory is improving significantly.",
+        "watchlistAction": "Monitor closely for accumulation",
+        "reasonForTracking": "The company recently launched 'Agentverse', an enterprise AI platform. This is critical because it shifts the market narrative from 'AI will destroy Indian IT' to 'Indian IT will monetize AI'.",
+        "whatToTrackNext": "Official client win announcements that specifically utilize the Agentverse platform to drive revenue.",
+        "trackingStatus": "Active",
+        "firstSeenDate": "2026-03-18",
+        "sentiment": "negative"
+      },
+      {
+        "company": "Urban Company",
+        "theme": "Deep Institutional Confidence",
+        "conviction": "Moderate",
+        "convictionKey": "moderate",
+        "timeHorizon": "12 Months+",
+        "triggerType": "Promoter / Institutional Buying",
+        "earlySignals": [],
+        "businessQualityView": "The dominant platform in the Indian gig-economy services sector, showing rapidly improving unit economics and monopolistic local network effects.",
+        "valuationNote": "Platform tech valuations are notoriously tricky in high-rate environments, but elite DII backing provides a strong valuation floor.",
+        "watchlistAction": "Wait for the current market panic to subside before entering",
+        "reasonForTracking": "SBI Mutual Fund, one of the most conservative institutional players, aggressively doubled its stake in the company.",
+        "whatToTrackNext": "Path to profitability metrics and cash burn rates in the upcoming quarterly results.",
+        "trackingStatus": "Initiated",
+        "firstSeenDate": "2026-03-19",
+        "sentiment": "negative"
+      }
+    ],
+    "summary": "Viable investment opportunities exist today strictly in deep defense, AI adaptation, and stock-specific instances of massive institutional backing. Capital is not disappearing; it is hiding in plain sight. It is migrating rapidly to areas where earnings visibility is 100% immune to the Middle East conflict and immune to the RBI's inability to cut interest rates. Focus your research heavily on domestic monopolies, companies with pricing power, or direct beneficiaries of INR-depreciation.",
+    "view": "Focus your research heavily on domestic monopolies, companies with pricing power, or direct beneficiaries of INR-depreciation."
+  },
+  "riskWatch": {
+    "overallTone": "Severe Red Alerts across Multiple Sectors",
+    "cases": [
+      {
+        "company": "HDFC Bank",
+        "riskType": "Governance / Leadership Crisis",
+        "issue": "Part-time Chairman Atanu Chakraborty resigned citing ethical concerns and practices not aligned with personal values.",
+        "severity": "Extreme",
+        "severityKey": "extreme",
+        "nearTermMarketRisk": "Systemic contagion to private banking sector; heaviest index weight amplifies Nifty/Sensex damage.",
+        "possibleImpactAreas": [],
+        "stance": "Strict Avoid",
+        "watchlistAction": "Remove from all long portfolios temporarily",
+        "monitoringSignals": [],
+        "whatToTrackNext": "Interim Chairman Keki Mistry's emergency communications, potential RBI forensic investigations, and statements from statutory auditors.",
+        "trackingStatus": "Active",
+        "firstSeenDate": "2026-03-19",
+        "sentiment": "positive"
+      },
+      {
+        "company": "Asian Paints",
+        "riskType": "Macroeconomic / Margin Crush",
+        "issue": "Crude oil derivatives form the vast bulk of the company's raw materials. Brent sustaining at $112 is catastrophic for their gross margin models.",
+        "severity": "High",
+        "severityKey": "high",
+        "nearTermMarketRisk": "Continuous, sequential earnings downgrades by sell-side analysts.",
+        "possibleImpactAreas": [],
+        "stance": "Avoid",
+        "watchlistAction": "Excellent short candidate on any minor relief rallies",
+        "monitoringSignals": [],
+        "whatToTrackNext": "Management commentary on raw material inventory buffers and pricing strategies.",
+        "trackingStatus": "Active",
+        "firstSeenDate": "2026-03-01",
+        "sentiment": "negative"
+      },
+      {
+        "company": "Interglobe Aviation (IndiGo)",
+        "riskType": "Input Cost Shock",
+        "issue": "Aviation Turbine Fuel (ATF) costs will skyrocket following the global oil surge, destroying the airline's operating leverage.",
+        "severity": "High",
+        "severityKey": "high",
+        "nearTermMarketRisk": "Immediate stock de-rating as profitability models break down entirely.",
+        "possibleImpactAreas": [],
+        "stance": "Avoid",
+        "watchlistAction": "Liquidate all positions",
+        "monitoringSignals": [],
+        "whatToTrackNext": "ATF price revisions by OMCs at the start of the upcoming month.",
+        "trackingStatus": "Active",
+        "firstSeenDate": "2026-03-01",
+        "sentiment": "negative"
+      }
+    ],
+    "summary": "We are simultaneously witnessing a major governance failure at India's largest private bank and an energy shock destroying the margins of downstream consumer titans. The devastating combination of these risks means that both the 'Value' (Banks) and 'Growth' (Consumption) components of the Indian indices are under brutal attack simultaneously. There is nowhere for index funds to hide. Do not attempt to average down on these damaged assets today. The structural story for these companies has paused, and trying to catch the bottom will result in severe capital destruction.",
+    "view": "Do not attempt to average down on these damaged assets today. The structural story for these companies has paused, and trying to catch the bottom will result in severe capital destruction."
+  },
+  "keyLevels": {
+    "nifty": {
+      "instrument": "Nifty 50",
+      "support": [
+        "23,000 (Major Psychological Level), 22,700 (Critical long-term trendline and historical gap area)"
+      ],
+      "resistance": [
+        "23,500 (Previous strong support, now turns into massive overhead resistance)"
+      ]
+    },
+    "bankNifty": {
+      "instrument": "Bank Nifty",
+      "support": [
+        "53,500"
+      ],
+      "resistance": [
+        "55,000"
+      ]
+    },
+    "vix": {
+      "instrument": "India VIX",
+      "pivot": "Watch for a sustained breach above 22.0. If the India VIX crosses 22, the sell-off transitions from a correction to a structural crash.",
+      "support": [],
+      "resistance": []
+    },
+    "brent": {
+      "instrument": "Brent Crude",
+      "pivot": "$115.00 (The universally acknowledged catastrophic level for emerging market current account deficits)",
+      "support": [],
+      "resistance": []
+    },
+    "usdInr": {
+      "instrument": "USD/INR",
+      "pivot": "93.00 (The next major psychological barrier that will force aggressive RBI intervention)",
+      "support": [],
+      "resistance": []
+    },
+    "triggers": {
+      "instrument": "Market Triggers",
+      "support": [
+        "Explicit de-escalation statements from Iran or Israel regarding the cessation of infrastructure targeting.",
+        "Coordinated, massive IEA emergency stockpile releases flooding the physical oil market and crushing speculative premium."
+      ],
+      "resistance": []
+    }
+  },
+  "investorPlan": {
+    "stance": "Aggressive Capital Preservation and Defensive Posturing",
+    "summary": "The Nifty has been effectively stagnant for 18 months, experiencing a severe time correction. Oil at $112 is actively destroying the balance sheets of import-heavy sectors. The long-term Indian demographic and growth story remains intact, but the next 3 to 6 months will be characterized by severe stagflationary pressures. Only companies with massive pricing power, monopolistic moats, or total immunity to oil (IT, Pharma) will protect your capital. Tilt your portfolio drastically toward defensive quality. Yield and cash flow matter immensely again. Growth at an unreasonable price will be punished mercilessly.",
+    "actions": []
+  },
+  "mutualFundView": {
+    "summary": "Continue aggressively; do not pause. Deploy only 20% today, hold 80% in liquid funds. Dry powder: Maintain High Levels",
+    "recommendations": []
+  },
+  "dosAndDonts": {
+    "dos": [],
+    "donts": []
+  },
+  "news": [
+    {
+      "title": "Investor Bottom Line",
+      "summary": "The Indian market is facing a vicious, historic convergence of negative global macroeconomics (Fed hawkishness, US recession probabilities), violent geopolitics (oil at $112 breaking inflation models), and severe domestic fragility (HDFC Bank governance crisis, INR crashing to 92.63). Prepare mentally and financially for a severe 500+ point gap down. Your primary objective today is survival, not alpha generation. Tilt your portfolios defensively toward IT and cash-rich monopolies, and hold cash.",
+      "impact": "neutral"
+    },
+    {
+      "title": "Swing Trader Bottom Line",
+      "summary": "Every single bullish setup established yesterday is completely invalidated by the overnight gap-down. Do not trade the first 60 minutes of the session. If you must trade, look strictly for short setups in high-beta financials or crude-sensitive names upon any minor, dead-cat intraday bounce. Long trades are restricted solely to deep defensives like Coal India.",
+      "impact": "neutral"
+    },
+    {
+      "title": "MF Investor Bottom Line",
+      "summary": "Do not stop your systematic investment plans (SIPs). The severe 'time correction' over the last 18 months means valuations will become highly attractive soon for long-term accumulators. However, absolutely refrain from deploying your lump-sum dry powder today. Stagger your buys slowly over the next 4 to 6 weeks as the geopolitical and governance situations clarify.",
+      "impact": "neutral"
+    }
+  ],
+  "sources": [],
+  "disclaimer": "This is a professional market analysis output based on available institutional data, geopolitical tracking, and technical signals. It is not blind financial advice. Markets are currently subject to extreme, exogenous volatility. Trade with strict risk management and predefined stop-losses."
+}

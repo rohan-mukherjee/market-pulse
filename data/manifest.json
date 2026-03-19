@@ -6,6 +6,19 @@
   },
   "reports": [
     {
+      "date": "2026-03-18",
+      "file": "2026-03-18.json",
+      "title": "Market Pulse Daily",
+      "subtitle": "Weekend Edition (data as of 2026-03-18)",
+      "mood": "Panic sell-off",
+      "marketStatus": "open",
+      "regime": "Panic sell-off",
+      "stance": "Aggressive Capital Preservation and Defensive Posturing",
+      "mainDriver": "The Indian equity market is facing an unprecedented tri-factor shock this morning. First, Brent crude oil has violently surged past $112 per barrel following Iranian military strikes on the South Pars gas field and retaliatory missile launches toward Qatar and Saudi Arabia, threatening the critical Strait of Hormuz chokepoint. Second, the US Federal Reserve held interest rates at 3.50%-3.75% while adjusting its 'dot plot' to project only a single rate cut in 2026, officially embedding a 'higher for longer' cost of capital regime driven by sticky 2.7% PCE inflation. Third, and most damaging for domestic indices, HDFC Bank's part-time Chairman Atanu Chakraborty has abruptly resigned citing 'ethical concerns' and practices not in congruence with his personal values. This toxic combination of an exogenous energy shock, tight global liquidity, and a severe governance crisis at India's highest-weighted stock will trigger indiscriminate algorithmic and institutional liquidation at the opening bell.",
+      "summary": "March 19, 2026: A massive regime shift. GIFT Nifty indicates a 500+ point crash driven by Brent crude spiking to $112 after Middle East infrastructure attacks, a hawkish US Fed holding rates and projecting only one cut, and a severe governance shock at HDFC Bank. The report advises extreme defensive posturing, avoiding cyclicals, and hiding in IT and Coal India.",
+      "tags": []
+    },
+    {
       "date": "2026-03-17",
       "file": "2026-03-17.json",
       "title": "Market Pulse Daily",
@@ -128,5 +141,5 @@
       ]
     }
   ],
-  "latestReport": "2026-03-17"
+  "latestReport": "2026-03-18"
 }
