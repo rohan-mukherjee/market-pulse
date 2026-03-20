@@ -6,6 +6,28 @@
   },
   "reports": [
     {
+      "date": "2026-03-19",
+      "file": "2026-03-19.json",
+      "title": "Market Pulse Daily",
+      "subtitle": "Risk-off correction",
+      "mood": "Risk-off correction",
+      "marketStatus": "closed",
+      "regime": "Risk-off correction",
+      "stance": "Capital-protective; avoid forcing trades. Treat this as a risk-off day until oil calms and financials stabilise.",
+      "mainDriver": "Middle-East energy escalation pushing crude sharply higher + India financials hit by HDFC Bank chairman resignation + heavy foreign selling.",
+      "summary": "Risk-off day: Nifty -3.26%, VIX ~22.8 as Middle-East energy escalation spiked oil and hit Indian financials; FII selling heavy, DIIs partially absorbed.",
+      "tags": [
+        "risk_off",
+        "oil_shock",
+        "geopolitics",
+        "financials_selloff",
+        "india_vix_elevated",
+        "fii_outflows",
+        "sector_rotation",
+        "swing_radar"
+      ]
+    },
+    {
       "date": "2026-03-18",
       "file": "2026-03-18.json",
       "title": "Market Pulse Daily",
@@ -141,5 +163,5 @@
       ]
     }
   ],
-  "latestReport": "2026-03-18"
+  "latestReport": "2026-03-19"
 }

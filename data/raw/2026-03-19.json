@@ -1,0 +1,842 @@
+{
+  "metadata": {
+    "reportDate": "2026-03-19",
+    "dataAsOf": "2026-03-19",
+    "lastUpdated": "2026-03-19 23:08 IST",
+    "marketStatus": "Closed",
+    "title": "India Equity Daily Market Research — Oil Shock + Financials Shock (19 Mar 2026)",
+    "researchDateRequested": "2026-03-19",
+    "reportVersion": "v2",
+    "intendedUse": ["daily_read", "html_render", "archive_search"]
+  },
+  "hero": {
+    "moodPills": [
+      "Oil shock is dominating everything (good for producers, bad for India macro).",
+      "Financials are the weak link: governance headline + FPI selling.",
+      "Volatility (India VIX > 20) means position sizes must shrink."
+    ],
+    "stance": "Capital-protective; avoid forcing trades. Treat this as a risk-off day until oil calms and financials stabilise.",
+    "regime": "Risk-off correction",
+    "mainDriver": "Middle-East energy escalation pushing crude sharply higher + India financials hit by HDFC Bank chairman resignation + heavy foreign selling."
+  },
+  "todayIn30Seconds": {
+    "regime": "Risk-off correction (broad sell-off; volatility elevated).",
+    "investorStance": "Stay disciplined: protect downside first, then selectively add only to high-quality ideas in tranches.",
+    "topDrivers": [
+      "Crude oil spiked after attacks on Middle-East energy infrastructure; inflation and CAD (current account deficit) risk for India rises. citeturn45news38turn19news32",
+      "Financials dragged the index: HDFC Bank shock + FPIs continue to cut financial exposure. citeturn27news40turn19news34",
+      "Volatility jumped (India VIX ~22.8). When VIX is >20, swings get violent and stop-losses are more likely to get hit. citeturn45search0turn45search4"
+    ],
+    "topActions": [
+      "Do not deploy fresh cash in one shot; deploy in 2–4 tranches over 1–3 weeks if your long-term thesis is intact.",
+      "For swing trades, keep only 1–2 positions at a time, smaller size, and demand both a catalyst + price confirmation.",
+      "Reduce exposure to high-beta rate-sensitive sectors (banks, NBFCs, autos, realty) until oil trend and rupee stabilize.",
+      "If you must hedge, consider using index hedges (puts / futures) rather than panic-selling long-term holdings (only if you understand derivatives)."
+    ],
+    "bottomLine": "Today was a genuine risk-off event, not just mid-day noise. Treat the next few sessions as 'headline driven' until crude and geopolitics cool down. citeturn45news38turn19news32"
+  },
+  "changedSinceYesterday": {
+    "items": [
+      {
+        "label": "NIFTY 50 close",
+        "oldValue": "23,777.80 (18 Mar close, implied from move)",
+        "newValue": "23,002.15",
+        "direction": "down",
+        "comment": "Sharp -3.26% fall; worst day in ~21 months as per market commentary. citeturn19news32turn20search11"
+      },
+      {
+        "label": "SENSEX close",
+        "oldValue": "76,704.13 (18 Mar close, implied from move)",
+        "newValue": "74,207.24",
+        "direction": "down",
+        "comment": "Broad-based selling; banks + autos + realty led the damage. citeturn19news32turn19search2"
+      },
+      {
+        "label": "India VIX (fear gauge)",
+        "oldValue": "18.72",
+        "newValue": "22.83",
+        "direction": "up",
+        "comment": "Moved from 'moderate caution' to 'elevated fear' (>20). citeturn45search4turn45search0"
+      },
+      {
+        "label": "Brent crude",
+        "oldValue": "≈$107.4 (prior session level cited in US market coverage)",
+        "newValue": "$112.21",
+        "direction": "up",
+        "comment": "Oil jumped on Middle-East energy attacks; direct negative for India inflation/rupee, but positive for upstream producers. citeturn35news31turn45news38"
+      },
+      {
+        "label": "FII/DII cash flow (provisional)",
+        "oldValue": "FII: -2,714 Cr; DII: +3,253 Cr (18 Mar)",
+        "newValue": "FII: -7,558 Cr; DII: +3,864 Cr (19 Mar)",
+        "direction": "down",
+        "comment": "Selling pressure intensified; domestic institutions absorbed some but not enough to prevent the drawdown. citeturn40search4turn3search1"
+      },
+      {
+        "label": "Key stock-event shock",
+        "oldValue": "No new governance red flag in index-heavy financials",
+        "newValue": "HDFC Bank chairman resignation + RBI said no material concerns found",
+        "direction": "down",
+        "comment": "Even with RBI reassurance, the headline hit confidence and made financials the center of risk. citeturn27news40turn13view0"
+      },
+      {
+        "label": "USD/INR",
+        "oldValue": "93.129",
+        "newValue": "93.143",
+        "direction": "up",
+        "comment": "Rupee remains under pressure; NDF signaled even weaker levels in absence of onshore trading. citeturn39view0turn38news32"
+      }
+    ]
+  },
+  "overviewMetrics": {
+    "nifty": {
+      "value": "23,002.15",
+      "changePct": "-3.26%",
+      "comment": "Steepest fall since June 2024; ₹13T market cap wiped on NSE in a day per Reuters. citeturn19news32"
+    },
+    "sensex": {
+      "value": "74,207.24",
+      "changePct": "-3.26%",
+      "comment": "All-round selloff; financials and rate-sensitive sectors were hit. citeturn19news32"
+    },
+    "bankNifty": {
+      "value": "53,474.55",
+      "changePct": "-3.39%",
+      "comment": "Banking basket punished; single-stock shock amplified due to HDFC Bank weight. citeturn9search0turn19search3"
+    },
+    "midcap150": {
+      "value": "20,108.95",
+      "changePct": "-3.07%",
+      "comment": "Risk-off spilled into broader market; not just large caps. citeturn8search1turn19news32"
+    },
+    "smallcap250": {
+      "value": "14,753.25",
+      "changePct": "-2.64%",
+      "comment": "Small caps fell too; quality/defensive pockets held better. citeturn8search2turn19news32"
+    },
+    "indiaVix": {
+      "value": "22.83",
+      "zone": "elevated fear",
+      "comment": "Above 20 means traders are paying up for protection; expect gaps and whipsaws. citeturn45search0turn45search4"
+    },
+    "usdInr": {
+      "value": "93.143",
+      "comment": "Rupee weak; oil shock is a direct pressure point. NDF signaled 93+ risk. citeturn39view0turn38news32"
+    },
+    "fiiFlow": {
+      "value": "-7,558 Cr (cash, provisional)",
+      "comment": "Foreign selling is the dominant flow; financials are the main exit door. citeturn19news34turn3search1"
+    },
+    "diiFlow": {
+      "value": "+3,864 Cr (cash, provisional)",
+      "comment": "DIIs are cushioning but can't fully offset big FII risk-off days. citeturn3search1"
+    }
+  },
+  "globalMacro": {
+    "us": {
+      "sp500": { "value": "6,624.70", "changePct": "-1.36%" },
+      "nasdaq": { "value": "22,152.42", "changePct": "-1.46%" },
+      "dow": { "value": "46,225.15", "changePct": "-1.63%" },
+      "driver": "Fed held rates but tone turned more cautious about inflation from energy shock; equities sold off. citeturn35search1turn35news32",
+      "indiaRelevance": "US risk-off + higher yields typically hit FPI appetite for India; also pressures tech sentiment via global growth fears."
+    },
+    "asia": {
+      "nikkei": { "value": "53,372.53", "changePct": "-3.38%" },
+      "hangSeng": { "value": "25,463.67", "changePct": "-2.16%" },
+      "shanghai": { "value": "4,007.03", "changePct": "-1.39%" },
+      "indiaRelevance": "Asia risk-off confirms 'global de-risking'. If Asia stays weak, India bounces tend to fail quickly. citeturn36search6turn8search7turn7search2"
+    },
+    "europe": {
+      "dax": { "value": "22,851.50", "changePct": "-2.77%" },
+      "ftse": { "value": "10,063.50", "changePct": "-2.35%" },
+      "indiaRelevance": "Europe is a direct read on oil-driven inflation fear; sustained Euro risk-off can spill into India via risk sentiment. citeturn46search1turn16search0turn45news38"
+    },
+    "macroVariables": {
+      "dxy": {
+        "value": "99.62",
+        "changePct": "-0.47%",
+        "indiaRelevance": "A softer dollar helps EMs, but oil shock overwhelms that benefit for India right now. citeturn4news55"
+      },
+      "us10y": {
+        "value": "4.28%",
+        "changePct": "≈+0.5% (about +2 bps)",
+        "indiaRelevance": "Higher US yields = higher global discount rates; FPIs tend to reduce EM risk when yields rise. citeturn35news31turn6search0"
+      },
+      "brent": {
+        "value": "$112.21",
+        "changePct": "+4.50%",
+        "indiaRelevance": "Direct negative: higher import bill, inflation, weaker INR; sector winners: upstream oil, some shipping. citeturn45news38"
+      },
+      "gold": {
+        "value": "$4,573.49/oz",
+        "changePct": "-5.11%",
+        "indiaRelevance": "Gold falling along with equities signals forced deleveraging/liq events, not normal 'risk-off' hedging. citeturn45search3turn45news38"
+      },
+      "wti": {
+        "value": "$98.07",
+        "changePct": "+1.82%",
+        "indiaRelevance": "Still near $100 = pain for India macro and OMC margins if retail prices are managed. citeturn45news38"
+      }
+    }
+  },
+  "geoPoliticsAndWorldNews": {
+    "riskLevel": "High",
+    "marketImpactHorizon": "Immediate (days) to medium-term (1–3 months)",
+    "themes": [
+      {
+        "themeId": "GEO-IRAN-ENERGY-2026-02",
+        "theme": "Escalation around Iran: attacks on energy facilities + disruption risk via Strait of Hormuz",
+        "region": "Middle East / Gulf",
+        "status": "Escalating",
+        "marketImpact": "Oil spikes; global inflation risk rises; equities derisk; India faces CAD + inflation + downstream margin stress.",
+        "affectedAssets": [
+          "Brent crude",
+          "WTI crude",
+          "USD/INR",
+          "Indian equities (banks, autos, travel)",
+          "Global equities"
+        ],
+        "indiaImpact": "India imports >90% of its oil; sustained high crude can hurt growth and earnings; biggest immediate losers are rate-sensitive and fuel-sensitive sectors. citeturn33view0turn19news32",
+        "signalStrength": "Strong",
+        "trackingPriority": "Highest",
+        "firstSeenDate": "2026-02-28",
+        "lastUpdatedDate": "2026-03-19",
+        "whatToTrackNext": "Any sign of de-escalation / ceasefire, Strait of Hormuz shipping normalization, and whether Brent stays >$100 for multiple weeks."
+      },
+      {
+        "themeId": "GEO-CB-INFLATION-2026-03",
+        "theme": "Central banks holding rates while inflation risk re-accelerates",
+        "region": "US / Europe / Developed markets",
+        "status": "Tight-for-longer bias",
+        "marketImpact": "Higher discount rates keep pressure on global equities; reduces the room for EM multiples to rerate.",
+        "affectedAssets": ["S&P 500", "US 10Y", "DXY", "Global risk sentiment"],
+        "indiaImpact": "Higher global rates + risk-off usually means FPIs sell India, especially financials (most foreign-owned). citeturn19news34turn35search1",
+        "signalStrength": "Medium-Strong",
+        "trackingPriority": "High",
+        "firstSeenDate": "2026-02-28",
+        "lastUpdatedDate": "2026-03-19",
+        "whatToTrackNext": "Next Fed/ECB communication, inflation prints, and whether oil feeds into 'second-round' inflation (wages, services)."
+      }
+    ],
+    "fact": "Oil surged after reported attacks and retaliations involving energy infrastructure; global equities fell and central banks largely held rates. citeturn45news38turn45news39",
+    "interpretation": "This is not a one-day headline: energy infrastructure damage and shipping disruption can keep the oil risk premium elevated even if fighting cools. citeturn19news32turn45news39",
+    "view": "Treat geopolitics as a real portfolio risk (not noise) until crude breaks below a key level and stays there for 1–2 weeks."
+  },
+  "indiaPulse": {
+    "marketType": "Risk-off, headline-driven liquidation (broad-based)",
+    "breadth": "Very weak: NIFTY 50 had 1 advance vs 49 declines; NIFTY BANK had 0 advances vs 14 declines; NIFTY 500 had 21 advances vs 477 declines. citeturn20search3turn20search12",
+    "topGainers": [
+      {
+        "name": "ONGC",
+        "changePct": "+1.55%",
+        "sector": "Oil & Gas (upstream)"
+      }
+    ],
+    "topLosers": [
+      {
+        "name": "Shriram Finance",
+        "changePct": "≈-6% to -7%",
+        "sector": "NBFC"
+      },
+      {
+        "name": "Eternal",
+        "changePct": "≈-5% to -6%",
+        "sector": "Consumer/Other"
+      },
+      { "name": "HDFC Bank", "changePct": "-5.11%", "sector": "Private Bank" }
+    ],
+    "fact": "Nifty ended down 3.26%; only ONGC closed green in Nifty50; HDFC Bank fell after chairman resignation disclosure. citeturn19news32turn13view0turn27search5",
+    "interpretation": "This is a classic 'risk-off + financial shock' day: flows don't respect valuation; they chase liquidity and exit what they own most (financials). citeturn19news34",
+    "view": "Respect the tape. If you bought the last 3-day rally, tighten risk or reduce. If you're long-term, switch to staggered buying, not panic selling."
+  },
+  "indiaStrategicNews": {
+    "importanceLevel": "High",
+    "themes": [
+      {
+        "themeId": "IN-ENERGY-SECURITY-EXPORTS-2026-03",
+        "theme": "India may review fuel exports; PPAC data reporting mandated to manage supply",
+        "category": "Energy policy / supply security",
+        "status": "Active policy monitoring",
+        "marketImpact": "Could reduce refining-export profitability (e.g., large refining exporters) but support domestic fuel availability; highlights energy security risk premium.",
+        "affectedSectors": [
+          "Energy / Oil & Gas",
+          "Refining",
+          "OMCs",
+          "Chemicals",
+          "Logistics"
+        ],
+        "affectedStocks": ["Reliance Industries (watch)", "OMCs (watch)"],
+        "timeHorizon": "Days to months",
+        "signalStrength": "Strong",
+        "trackingPriority": "Highest",
+        "firstSeenDate": "2026-03-18",
+        "lastUpdatedDate": "2026-03-19",
+        "whatToTrackNext": "Any formal export restrictions, changes in domestic pricing, and PPAC inventory data trends. citeturn33view0"
+      },
+      {
+        "themeId": "IN-AUTO-GAS-SUPPLY-2026-03",
+        "theme": "Gas supply disruption risks auto and parts production; suppliers already reporting cuts",
+        "category": "Industrial / supply chain",
+        "status": "Developing",
+        "marketImpact": "If gas shortage persists, supplier disruptions can hit auto volumes, margins, and delivery cycles.",
+        "affectedSectors": [
+          "Auto",
+          "Auto ancillaries",
+          "Metals",
+          "Industrial gases / energy"
+        ],
+        "affectedStocks": [
+          "Maruti Suzuki (watch)",
+          "Tata Motors (watch)",
+          "Mahindra & Mahindra (watch)",
+          "Hindalco (watch)",
+          "Kirloskar Ferrous (watch)"
+        ],
+        "timeHorizon": "1–12 weeks",
+        "signalStrength": "Medium-Strong",
+        "trackingPriority": "High",
+        "firstSeenDate": "2026-03-19",
+        "lastUpdatedDate": "2026-03-19",
+        "whatToTrackNext": "Company statements on production plans, gas allocation updates, and any widening force-majeure notices. citeturn32view0"
+      },
+      {
+        "themeId": "IN-DEFENCE-DAP2026-2026-02",
+        "theme": "Draft Defence Acquisition Procedure (DAP) 2026: stronger push for indigenous IP, innovation, faster procurement",
+        "category": "Defence / procurement reform",
+        "status": "Draft open for comments; replacement of DAP 2020 planned",
+        "marketImpact": "Medium-term positive for Indian defence ecosystem (procurement visibility, indigenisation), but stock prices may already reflect optimism—needs selectivity.",
+        "affectedSectors": [
+          "Defence",
+          "Electronics",
+          "Aerospace",
+          "Capital Goods"
+        ],
+        "affectedStocks": [
+          "Defence PSUs & private OEMs (watchlist, not blanket buy)"
+        ],
+        "timeHorizon": "3–18 months",
+        "signalStrength": "Medium",
+        "trackingPriority": "Medium-High",
+        "firstSeenDate": "2026-02-10",
+        "lastUpdatedDate": "2026-03-19",
+        "whatToTrackNext": "Final DAP release timeline, category preferences (Buy Indian-IDDM etc.), and early tender pipeline that benefits listed suppliers. citeturn31view0"
+      },
+      {
+        "themeId": "IN-CRITICAL-MINERALS-REPM-2025-11",
+        "theme": "Rare earth permanent magnet manufacturing push (₹7,280 cr scheme; bids invited)",
+        "category": "Industrial policy / import substitution",
+        "status": "Implementation phase",
+        "marketImpact": "Strategic: reduces China dependence in EV/defence/aerospace supply chain; beneficiaries depend on who wins bids and who controls upstream processing.",
+        "affectedSectors": [
+          "Auto (EV)",
+          "Defence",
+          "Aerospace",
+          "Capital goods",
+          "Mining & processing"
+        ],
+        "affectedStocks": [
+          "To be identified after bid winners; track ecosystem players"
+        ],
+        "timeHorizon": "6–24 months",
+        "signalStrength": "Medium",
+        "trackingPriority": "Medium-High",
+        "firstSeenDate": "2025-11-26",
+        "lastUpdatedDate": "2026-03-19",
+        "whatToTrackNext": "Bid outcomes and which listed groups set up REPM capacity and critical-mineral processing. citeturn18news43turn18search4turn18search8"
+      }
+    ],
+    "fact": "Govt is actively managing energy supply risk and is pursuing self-reliance policies (defence procurement reforms and critical minerals/magnets). citeturn33view0turn31view0turn18news43",
+    "interpretation": "Near-term, energy security will trump most domestic policy positives. Medium-term, defence and import-substitution themes can create durable winners—if execution follows. citeturn45news38turn31view0",
+    "view": "Do not chase broad themes. Build watchlists around clear beneficiaries (order wins, capacity commissioning, tender wins) and buy only when market volatility cools."
+  },
+  "regime": {
+    "label": "Risk-off correction",
+    "riskScore": 78,
+    "fact": "Index fell >3% with VIX >20 and extremely weak breadth (almost everything red). citeturn19news32turn45search0turn20search3",
+    "interpretation": "This is a 'macro shock' regime: oil + geopolitics + flows dominate fundamentals in the short run. Mean reversion bounces happen, but reversal reliability is low.",
+    "view": "Default position = smaller. Wait for 2–3 sessions of stabilization before adding aggressively.",
+    "whatWorks": [
+      "Defensives with stable cash flows (some healthcare/utilities) when bought on dips with a plan",
+      "Beneficiaries of high crude (upstream oil) but with policy risk awareness",
+      "High-quality exporters with INR tailwind, but only after global risk sentiment improves"
+    ],
+    "whatFails": [
+      "Leverage and high-beta buys in banks/NBFCs in a headline-driven tape",
+      "Tight stop-losses in high VIX conditions (gets whipsawed)",
+      "Overtrading intraday noise"
+    ],
+    "sizingNote": "If your normal position is 10%, cut to 4–6% until VIX cools below 18 and oil stops trending up."
+  },
+  "sectorRotation": {
+    "leaders": ["Oil & Gas (upstream) as relative winner because crude spiked"],
+    "laggards": ["Financials / Banks", "Auto", "Realty", "Travel & Tourism"],
+    "relativeStrengthSectors": ["Oil & Gas (upstream)", "Select utilities"],
+    "avoidForSwing": [
+      "Private Banks",
+      "NBFCs",
+      "Auto (until gas/oil visibility)",
+      "Realty (rate-sensitive)"
+    ],
+    "gradualAccumulationCandidates": [
+      "Defence (on policy/order confirmation)",
+      "Healthcare (quality operators)",
+      "Infra EPC with strong orderbooks (only after market stabilises)"
+    ],
+    "sectors": [
+      {
+        "sector": "Financials / Banks",
+        "dayPerformance": "Very weak (Bank Nifty -3.39%)",
+        "weeklyTone": "Weakening (FPIs selling financials heavily)",
+        "relativeStrengthVsNifty": "Underperforming",
+        "fiiBias": "Selling",
+        "stance": "Underweight / avoid fresh swing longs",
+        "comment": "Foreign selling concentrated in financials; HDFC Bank headline added fuel. citeturn19news34turn27news40"
+      },
+      {
+        "sector": "Auto",
+        "dayPerformance": "Worst-in-class (Nifty Auto ~-4% range)",
+        "weeklyTone": "Deteriorating",
+        "relativeStrengthVsNifty": "Underperforming",
+        "fiiBias": "Selling / risk reduction",
+        "stance": "Avoid for swing; only invest selectively on deep value + clarity on inputs",
+        "comment": "Hit by higher fuel risk + supply chain / gas disruption concerns. citeturn19search2turn32view0"
+      },
+      {
+        "sector": "Realty",
+        "dayPerformance": "Severely weak (~-3.4% range)",
+        "weeklyTone": "Weak",
+        "relativeStrengthVsNifty": "Similar/under",
+        "fiiBias": "Risk-off selling",
+        "stance": "Avoid for swing until rates/oil stabilize",
+        "comment": "Rate-sensitive sector sold off; one of the worst performers. citeturn19search2turn19search7"
+      },
+      {
+        "sector": "Energy / Oil & Gas / Power",
+        "dayPerformance": "Relative hold; upstream green (ONGC up)",
+        "weeklyTone": "Improving for upstream; mixed for downstream",
+        "relativeStrengthVsNifty": "Outperforming",
+        "fiiBias": "Mixed",
+        "stance": "Upstream: tactical long bias; Downstream: cautious",
+        "comment": "Upstream benefits from crude spike; policy risk exists (export limits, price controls). citeturn27search5turn33view0"
+      },
+      {
+        "sector": "Capital Goods / Infra",
+        "dayPerformance": "Down with market (selective resilience)",
+        "weeklyTone": "Neutral-to-positive if order flow stays strong",
+        "relativeStrengthVsNifty": "Slightly better in select names",
+        "fiiBias": "Mixed",
+        "stance": "Buy only on confirmation + staggered buying",
+        "comment": "Order wins provide support in select EPC names (KPIL/KEC). citeturn30view0turn29view0"
+      },
+      {
+        "sector": "Pharma",
+        "dayPerformance": "Down (risk-off) but typically defensive",
+        "weeklyTone": "Neutral",
+        "relativeStrengthVsNifty": "Potentially better on further volatility",
+        "fiiBias": "Mixed",
+        "stance": "Hold/accumulate quality, avoid weak balance sheets",
+        "comment": "Defensive character matters more when volatility stays high."
+      },
+      {
+        "sector": "Telecom",
+        "dayPerformance": "Down with market; selective strength in equipment names earlier",
+        "weeklyTone": "Selective positive (capex/order-driven)",
+        "relativeStrengthVsNifty": "Mixed",
+        "fiiBias": "Mixed",
+        "stance": "Watchlist for order-driven names, don't chase",
+        "comment": "Tejas Networks got fresh international 4G RAN order recently (fundamental catalyst). citeturn23news42"
+      },
+      {
+        "sector": "FMCG",
+        "dayPerformance": "Down (risk-off) but defensives may stabilise faster",
+        "weeklyTone": "Neutral",
+        "relativeStrengthVsNifty": "Potentially improving if risk-off persists",
+        "fiiBias": "Less negative than cyclicals",
+        "stance": "Hold; add only if market stays choppy",
+        "comment": "In oil shock, defensives usually regain leadership once panic phase ends."
+      }
+    ],
+    "fact": "All sectors were red; rate-sensitive segments (auto/realty/financials) suffered the most; upstream oil was the exception. citeturn19news32turn19search2turn27search5",
+    "interpretation": "Rotation is currently 'risk-off' not 'growth vs value'. Sector picks matter less than risk control while VIX is elevated.",
+    "view": "Wait for rotation to become constructive (leaders holding green on flat index days) before increasing exposure."
+  },
+  "breadthInternalStrength": {
+    "advanceDecline": "NIFTY 50: 1 advance / 49 declines; NIFTY 500: 21 advances / 477 declines. citeturn20search3turn20search12",
+    "sectorBreadth": "All sectoral indices ended lower; autos/realty/private bank among worst. citeturn19search7turn19news32",
+    "defensivesLeading": "Not yet clearly; this was more of a broad unwind day than a clean defensive rotation.",
+    "cyclicalsWeak": "Yes (banks, auto, realty, travel). citeturn19news32turn19search2",
+    "buyingType": "Mostly forced selling / de-risking (liquidity-driven), with DIIs absorbing selectively.",
+    "summary": "Breadth was extremely weak, suggesting this wasn't just index-level derating; it was market-wide selling."
+  },
+  "swingRadar": {
+    "setupQuality": "Medium-Low (high volatility; only take trades with catalyst + discipline)",
+    "fact": "VIX jumped above 20 and breadth collapsed; stop-loss risk is high. citeturn45search4turn20search3",
+    "interpretation": "Even good setups can fail in a headline-driven environment. Focus on relative strength names with a clear fundamental tailwind.",
+    "view": "If you trade, do it smaller and be ready to exit fast on invalidation. No revenge trading.",
+    "setups": [
+      {
+        "stock": "ONGC",
+        "setupType": "Tactical long on crude spike (event-driven swing)",
+        "conviction": "Medium",
+        "entryZone": "₹265–₹272 (only if it holds above ₹262 on closing basis)",
+        "stopLoss": "₹259 (below recent swing low; if crude cools sharply, exit)",
+        "targets": ["₹285", "₹300"],
+        "timeframe": "5–15 trading days",
+        "riskReward": "≈1:2 (if entry near ₹268, SL ₹259, target ₹285+)",
+        "technicalReason": "Relative strength: closed green while Nifty was deeply red; indicates buyers are present even in panic. citeturn27search5turn19news32",
+        "fundamentalTrigger": "Brent crude jumped sharply due to Middle-East energy attacks; upstream earnings are positively linked to higher crude in near term (policy risk still exists). citeturn45news38turn45news39",
+        "invalidation": "If Brent falls below ~$105 and stays there for 2 sessions OR ONGC breaks ₹259 on close.",
+        "positionSizeTone": "Small (because policy risk and macro headline risk are high)",
+        "comment": "This is not a 'forever' buy. It's a trade aligned to the current macro shock."
+      },
+      {
+        "stock": "Kalpataru Projects International (KPIL)",
+        "setupType": "Accumulation-to-breakout watch (orderbook support swing)",
+        "conviction": "Medium",
+        "entryZone": "₹1,055–₹1,075 (add only if market stabilises for 2 sessions)",
+        "stopLoss": "₹1,035 (below bad-news low; cuts risk if market resumes slide)",
+        "targets": ["₹1,120", "₹1,160"],
+        "timeframe": "10–25 trading days",
+        "riskReward": "≈1:2",
+        "technicalReason": "Held nearly flat on a crash day, showing relative resilience. citeturn25search3turn19news32",
+        "fundamentalTrigger": "Company announced new orders ~₹2,471 crore and FY26 order intake ~₹22,000 crore, improving revenue visibility. citeturn30view0",
+        "invalidation": "Close below ₹1,035 or if order execution risks show up (cost overruns / project delays).",
+        "positionSizeTone": "Small-to-medium only after index stabilises",
+        "comment": "Not a chase. It's a 'buy when the market stops panicking' candidate."
+      },
+      {
+        "stock": "Great Eastern Shipping (GESHIP)",
+        "setupType": "Event-driven long (freight rates spike + asset play)",
+        "conviction": "Medium",
+        "entryZone": "₹1,415–₹1,450 (prefer dips; avoid breakout chasing in high VIX)",
+        "stopLoss": "₹1,365 (below recent swing low)",
+        "targets": ["₹1,500", "₹1,560"],
+        "timeframe": "7–20 trading days",
+        "riskReward": "≈1:2",
+        "technicalReason": "Held flat on a market crash day (relative strength) and has been trending up recently. citeturn26search3",
+        "fundamentalTrigger": "War-driven disruption is pushing up shipping rates and vessel demand/availability; commentary shows sharp freight rate spikes. citeturn21news40turn21search3",
+        "invalidation": "If de-escalation quickly normalises routes and rates OR stock closes below ₹1,365.",
+        "positionSizeTone": "Small (highly cyclical; headline risk)",
+        "comment": "Good for a tactical trade, not as a leveraged proxy bet."
+      }
+    ],
+    "avoidList": [
+      {
+        "name": "HDFC Bank",
+        "reason": "Headline + sentiment risk: chairman resignation created uncertainty; wait for clarity and price stabilization. citeturn27news40turn13view0"
+      },
+      {
+        "name": "High crude-sensitive downstream oil marketing companies",
+        "reason": "If retail prices are managed, margins can get squeezed when crude jumps; avoid until policy clarity improves. citeturn33view0turn45news38"
+      },
+      {
+        "name": "Rate-sensitive high-beta realty names",
+        "reason": "High VIX + risk-off selling means breakdowns can continue; poor swing risk-reward now. citeturn19search7"
+      }
+    ]
+  },
+  "directStockInvestorAngle": {
+    "buckets": [
+      {
+        "bucket": "Core long-term compounders (quality businesses)",
+        "stance": "Hold; add only in tranches",
+        "comment": "Do not panic sell quality because of one-day macro shock. But do not average down blindly—use staged buying."
+      },
+      {
+        "bucket": "Financials-heavy exposure",
+        "stance": "Trim / rebalance if overweight",
+        "comment": "Financials are the epicenter of FPI selling and governance headlines. Maintain exposure only to top-quality, and avoid adding until the dust settles. citeturn19news34turn27news40"
+      },
+      {
+        "bucket": "Oil shock beneficiaries (upstream, select shipping)",
+        "stance": "Tactical overweight allowed",
+        "comment": "Keep this tactical and time-bound; policy actions can change the payoff."
+      },
+      {
+        "bucket": "High beta smallcaps",
+        "stance": "Underweight",
+        "comment": "In VIX>20 regimes, smallcaps can look okay one day and gap down the next. Prefer capital preservation."
+      }
+    ],
+    "fact": "FPIs have been heavy sellers in March, especially in financials. citeturn19news34",
+    "interpretation": "When foreigners sell, even good stocks go down. Your edge is not predicting each day, but executing your plan (staged buying, risk limits).",
+    "view": "Increase quality bias and reduce leverage risk. Keep cash ready for better prices, but deploy systematically."
+  },
+  "mutualFundInvestorAngle": {
+    "sip": "Continue SIPs as-is. Do not stop SIPs on fear days; that's how long-term returns get damaged.",
+    "lumpsum": "If you have fresh cash, deploy 25–35% now and keep the rest for 2–3 further tranches over the next 2–4 weeks.",
+    "deploymentStyle": "Staggered (time + level based).",
+    "dryPowder": "Maintain 15–25% deployable cash if you expect volatility to persist.",
+    "categories": [
+      {
+        "category": "Large-cap / Index funds",
+        "stance": "Accumulate in tranches",
+        "comment": "Good for disciplined averaging when headlines are driving volatility."
+      },
+      {
+        "category": "Flexi-cap",
+        "stance": "Hold / add slowly",
+        "comment": "Managers can shift between large and mid; best suited for uncertain regimes."
+      },
+      {
+        "category": "Midcap",
+        "stance": "Cautious add",
+        "comment": "Midcaps fell sharply; add only via staggered approach, avoid lumpsum. citeturn8search1turn19news32"
+      },
+      {
+        "category": "Smallcap",
+        "stance": "Pause lumpsum; SIP only",
+        "comment": "High volatility regime; SIP is okay but avoid big lumpsum now."
+      },
+      {
+        "category": "Sector/thematic funds (banks/consumption)",
+        "stance": "Avoid adding today",
+        "comment": "Sector cycles can underperform for long when macro turns."
+      }
+    ],
+    "fact": "Broad market sold off; volatility is elevated. citeturn19news32turn45search4",
+    "interpretation": "SIP works best when fear is high; lumpsum needs tranche discipline.",
+    "view": "MF plan should be 'process-driven', not news-driven."
+  },
+  "emergingOpportunities": {
+    "overallTone": "Selective watchlist building (opportunities exist, but patience required)",
+    "ideas": [
+      {
+        "companyId": "OPP-TEJASNET-2026-03",
+        "company": "Tejas Networks",
+        "theme": "Telecom equipment indigenisation + export/order traction",
+        "reasonForTracking": "Securing international purchase orders suggests product-market fit beyond India; can re-rate if execution sustains.",
+        "triggerType": "Order win / execution",
+        "earlySignals": [
+          "Purchase order for 4G RAN solutions for a South Asia mobile operator",
+          "Recent strong price response suggests market is noticing"
+        ],
+        "businessQualityView": "Execution-heavy tech manufacturing; track delivery, margins, and working-capital discipline.",
+        "valuationNote": "Do not chase extended rallies; prefer pullbacks with confirmation.",
+        "timeHorizon": "3–12 months",
+        "conviction": "Medium",
+        "trackingStatus": "Active",
+        "watchlistAction": "Add to watchlist; buy only after market volatility cools and company gives execution updates.",
+        "firstSeenDate": "2026-03-16",
+        "lastUpdatedDate": "2026-03-19",
+        "whatToTrackNext": "Further order details, revenue recognition timing, and margin/working cap impact. citeturn23news42turn23news40"
+      },
+      {
+        "companyId": "OPP-ASTERDM-2026-03",
+        "company": "Aster DM Healthcare",
+        "theme": "Hospital platform scaling + merger synergy",
+        "reasonForTracking": "Healthcare can act defensive in risk-off, plus merger-led profit growth runway.",
+        "triggerType": "Broker view + corporate action / merger",
+        "earlySignals": [
+          "Kotak Institutional 'add' with target ₹725; expects robust FY26–FY28 on synergy and mix improvement",
+          "Planned bed expansion (4,342 beds by FY30) and India-focused capex intent"
+        ],
+        "businessQualityView": "Healthcare services with multi-year demand; execution and integration matter.",
+        "valuationNote": "Avoid overpaying; buy only on deep volatility-driven dips.",
+        "timeHorizon": "6–24 months",
+        "conviction": "Medium-High",
+        "trackingStatus": "Active",
+        "watchlistAction": "Accumulate in tranches on dips; do not chase green days.",
+        "firstSeenDate": "2026-02-24",
+        "lastUpdatedDate": "2026-03-19",
+        "whatToTrackNext": "Merger timeline/approvals, margin trajectory, and capex funding plan. citeturn24news26turn24news41"
+      },
+      {
+        "companyId": "OPP-KEC-2026-03",
+        "company": "KEC International",
+        "theme": "Overseas T&D capex + orderbook compounding",
+        "reasonForTracking": "Order wins across geographies; large composite order in Saudi indicates continued Middle-East capex even amid geopolitics.",
+        "triggerType": "Order wins",
+        "earlySignals": [
+          "New T&D orders worth ₹1,476 crore; includes 380kV lines/substations/EHV cabling in Saudi",
+          "Management commentary: YTD order intake ~₹22,800 crore (as of 11 Mar)"
+        ],
+        "businessQualityView": "EPC cyclicality; watch execution, working capital, and margin sustainability.",
+        "valuationNote": "Prefer entries when market is calmer; avoid buying just because of a press release day.",
+        "timeHorizon": "3–18 months",
+        "conviction": "Medium",
+        "trackingStatus": "Active",
+        "watchlistAction": "Keep on watchlist; buy on pullbacks with confirmation of execution and stable commodity inputs.",
+        "firstSeenDate": "2026-03-11",
+        "lastUpdatedDate": "2026-03-19",
+        "whatToTrackNext": "Quarterly order intake, margin guidance, and receivables cycle. citeturn29view0"
+      },
+      {
+        "companyId": "OPP-GRCL-2026-03",
+        "company": "Gayatri Rubbers and Chemicals (GRCL)",
+        "theme": "Niche industrial components for railways + defence supply chain entry",
+        "reasonForTracking": "Small company, but wins vendor code with BEML; potential to access higher-value govt-linked orders over time.",
+        "triggerType": "Order win / new customer credential",
+        "earlySignals": [
+          "₹1.2 crore maiden order from BEML for rubber gaskets for Indian Railways; execution within 90 days",
+          "Management says vendor code opens railway and defence opportunities via BEML ecosystem"
+        ],
+        "businessQualityView": "Early-stage listed company (incorporated 2022); higher risk—quality depends on execution and governance.",
+        "valuationNote": "Do not treat as a 'sure thing'; position sizing should be tiny if at all.",
+        "timeHorizon": "6–36 months",
+        "conviction": "Low-to-Medium (high uncertainty)",
+        "trackingStatus": "Starter tracking",
+        "watchlistAction": "Watch only; wait for repeat orders and cash-flow proof before buying.",
+        "firstSeenDate": "2026-03-10",
+        "lastUpdatedDate": "2026-03-19",
+        "whatToTrackNext": "Repeat orders, capacity utilisation, and receivables quality. citeturn28view0"
+      }
+    ],
+    "fact": "Order-driven names and defensive healthcare have identifiable catalysts even in a weak tape. citeturn23news42turn24news26turn29view0turn28view0",
+    "interpretation": "In risk-off regimes, the market rewards either (a) direct beneficiaries of the shock or (b) companies with undeniable execution proof (orders, margins).",
+    "view": "Keep this as a watchlist, not an aggressive buy list. You earn the right to size up only after volatility falls."
+  },
+  "riskAndDamageWatch": {
+    "overallTone": "High-alert on governance + macro-sensitive cash flows",
+    "cases": [
+      {
+        "companyId": "RISK-HDFCBANK-2026-03",
+        "company": "HDFC Bank",
+        "riskType": "Governance / sentiment shock",
+        "issue": "Chairman resignation citing values/ethics differences; triggered sharp stock and sector reaction (even if RBI says no material concerns).",
+        "severity": "High",
+        "nearTermMarketRisk": "High (headline + positioning + FPI ownership)",
+        "monitoringSignals": [
+          "Further disclosures/clarifications from bank",
+          "RBI follow-up communication",
+          "Price/volume stabilization after 52-week low reaction"
+        ],
+        "possibleImpactAreas": [
+          "Private bank valuations",
+          "Index movement (heavy weight)",
+          "Confidence spillover to financials"
+        ],
+        "stance": "Do not bottom-fish. Wait for clarity + base formation.",
+        "trackingStatus": "Active",
+        "watchlistAction": "Hold off new buys; if overweight, consider risk trimming on rebounds.",
+        "firstSeenDate": "2026-03-18",
+        "lastUpdatedDate": "2026-03-19",
+        "whatToTrackNext": "Management communication + independent board actions. citeturn27news40turn13view0"
+      },
+      {
+        "companyId": "RISK-AUTO-SUPPLY-2026-03",
+        "company": "Auto OEMs and key suppliers (sector risk case)",
+        "riskType": "Input/energy shock + supply chain disruption",
+        "issue": "Gas shortages risk production disruptions; suppliers like Kirloskar Ferrous stopped some production; Hindalco declared force majeure to some customers.",
+        "severity": "Medium-High",
+        "nearTermMarketRisk": "Medium-High (could show up as delayed deliveries/margins)",
+        "monitoringSignals": [
+          "Supplier production updates",
+          "OEM production guidance changes",
+          "Fuel/gas allocation decisions"
+        ],
+        "possibleImpactAreas": ["Volumes", "Margins", "Working capital"],
+        "stance": "Avoid fresh swing longs in autos until there is clarity on gas/oil duration.",
+        "trackingStatus": "Active",
+        "watchlistAction": "Keep sector on watch; prefer only highest quality names later.",
+        "firstSeenDate": "2026-03-19",
+        "lastUpdatedDate": "2026-03-19",
+        "whatToTrackNext": "Duration of gas disruption and any official production schedule cuts. citeturn32view0"
+      },
+      {
+        "companyId": "RISK-OMC-MARGINS-2026-03",
+        "company": "Downstream oil marketing companies (sector risk case)",
+        "riskType": "Margin squeeze / policy risk",
+        "issue": "Crude jump + domestic supply security measures create risk of margin compression if price hikes are delayed or exports restricted.",
+        "severity": "Medium",
+        "nearTermMarketRisk": "Medium",
+        "monitoringSignals": [
+          "Govt statements on exports/pricing",
+          "Inventory levels, gross refining margins, marketing margin commentary"
+        ],
+        "possibleImpactAreas": ["Earnings volatility", "Working capital needs"],
+        "stance": "Avoid aggressive longs; wait for policy clarity.",
+        "trackingStatus": "Active",
+        "watchlistAction": "Watch only; no fresh buys in high VIX conditions.",
+        "firstSeenDate": "2026-03-18",
+        "lastUpdatedDate": "2026-03-19",
+        "whatToTrackNext": "Any formal export restriction or pricing action. citeturn33view0turn45news38"
+      },
+      {
+        "companyId": "RISK-TRAVEL-AVIATION-2026-03",
+        "company": "Aviation and tourism-linked names (sector risk case)",
+        "riskType": "Fuel cost shock",
+        "issue": "Higher crude typically raises ATF (aviation turbine fuel) costs, hurting airline margins and travel demand sentiment.",
+        "severity": "Medium",
+        "nearTermMarketRisk": "Medium",
+        "monitoringSignals": [
+          "ATF price updates",
+          "Airline commentary on fuel hedging / fare hikes"
+        ],
+        "possibleImpactAreas": ["Margins", "Load factors"],
+        "stance": "Cautious/avoid until oil stabilises.",
+        "trackingStatus": "Active",
+        "watchlistAction": "Avoid new positions.",
+        "firstSeenDate": "2026-03-19",
+        "lastUpdatedDate": "2026-03-19",
+        "whatToTrackNext": "If Brent stays >$100 for weeks, expect downgrades. citeturn19news32turn45news38"
+      }
+    ],
+    "fact": "Financial governance headlines and energy-driven supply shocks are the key near-term damage vectors. citeturn27news40turn32view0turn33view0",
+    "interpretation": "Markets punish uncertainty more than bad numbers. In risk-off regimes, 'unknowns' trade at a discount.",
+    "view": "Protect capital by avoiding fresh exposure to the most uncertain pockets until volatility compresses."
+  },
+  "dosAndDonts": {
+    "dos": [
+      "Do keep a written risk plan: entries, stops, position size, and max daily loss.",
+      "Do focus on liquidity (large/mid caps) when volatility is elevated.",
+      "Do stagger long-term buying and keep cash for follow-through dips.",
+      "Do track crude + INR daily; they are the macro dashboard for Indian equities this week."
+    ],
+    "donts": [
+      "Don’t average down banks/NBFCs just because they look cheaper—wait for stabilization and clarity.",
+      "Don’t chase the first green candle after a crash; bounces can fail.",
+      "Don’t trade without stops in a VIX>20 regime.",
+      "Don’t confuse 'news excitement' with investable signal—stick to verified sources."
+    ]
+  },
+  "keyLevelsAndTriggers": {
+    "niftySupport": "22,900–23,000 (near today’s low/close zone); below that, watch 22,500 psychological",
+    "niftyResistance": "23,400–23,800 (gap zone back toward prior close area)",
+    "bankNiftySupport": "53,000–53,250",
+    "bankNiftyResistance": "54,200–55,000",
+    "vixKeyLevel": "20 (below = calmer; above = elevated fear)",
+    "brentKeyLevel": "$100 (above for weeks = sustained macro pain for India)",
+    "usdInrKeyLevel": "93.30–93.70 (spot/NDF stress zone; RBI action risk)",
+    "improvingTriggers": [
+      "Brent falls below $100 and holds 5+ sessions",
+      "India VIX drops back below 18",
+      "Financials stop making new lows for 3 sessions while Nifty holds support",
+      "Clear de-escalation headlines (shipping routes normalize)"
+    ],
+    "worseningTriggers": [
+      "Brent sustains >$110 and spikes again",
+      "USD/INR moves higher fast (93.5+ in spot or persistent NDF stress)",
+      "Fresh governance/credit stress headlines in large financials",
+      "Auto/industrial companies guide to production cuts due to gas shortages"
+    ]
+  },
+  "finalBottomLine": {
+    "investorConclusion": "Stay calm, stay systematic. Today was a real shock day. Hold quality, reduce weak/levered exposure, and deploy fresh cash only in tranches.",
+    "swingTraderConclusion": "Setup quality is not great. If you trade, pick only catalyst-backed relative strength names, size down, and enforce stops.",
+    "mfConclusion": "Keep SIPs running. Do staggered lumpsum if you have cash; avoid panic switches."
+  },
+  "archiveMeta": {
+    "summary": "Risk-off day: Nifty -3.26%, VIX ~22.8 as Middle-East energy escalation spiked oil and hit Indian financials; FII selling heavy, DIIs partially absorbed.",
+    "tags": [
+      "risk_off",
+      "oil_shock",
+      "geopolitics",
+      "financials_selloff",
+      "india_vix_elevated",
+      "fii_outflows",
+      "sector_rotation",
+      "swing_radar"
+    ]
+  },
+  "footer": {
+    "sourceContext": [
+      "NSE/Investing/Market breadth and index closes (Nifty, Sensex, mid/small, VIX) citeturn0news61turn8search1turn8search2turn45search0turn20search3",
+      "Reuters: India market fall drivers, FPI financial selloff, oil and geopolitics, India energy policy response citeturn19news32turn19news34turn33view0turn45news38",
+      "Reuters: HDFC Bank governance update (RBI response) citeturn27news40",
+      "Company filings: KPIL/KEC order wins; GRCL order from BEML citeturn30view0turn29view0turn28view0",
+      "Investing/Reuters: global indices and macro variables (US indices, DAX, USD/INR, oil, gold) citeturn35search1turn34view0turn46search1turn39view0turn45news38turn45search3"
+    ],
+    "disclaimer": "This report is informational and educational, not investment advice. Markets are volatile and geopolitical news can change fast. Validate data with your broker/exchange sources before trading; use strict risk management."
+  }
+}
