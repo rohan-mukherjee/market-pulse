@@ -6,6 +6,46 @@
   },
   "reports": [
     {
+      "date": "2026-03-21",
+      "file": "2026-03-21.json",
+      "title": "Market Pulse Daily",
+      "subtitle": "Weekend Edition (data as of 2026-03-20)",
+      "mood": "Volatile",
+      "marketStatus": "closed",
+      "regime": "Volatile",
+      "stance": "Defensive",
+      "mainDriver": "Oil & Middle East tensions",
+      "summary": "Volatile markets saw a relief rally on Friday, but oil-driven inflation and geopolitical risks keep us cautious.",
+      "tags": [
+        "market-daily",
+        "India",
+        "equities",
+        "macro",
+        "geopolitics",
+        "oil",
+        "risk"
+      ]
+    },
+    {
+      "date": "2026-03-20",
+      "file": "2026-03-20.json",
+      "title": "Market Pulse Daily",
+      "subtitle": "Weekend Edition (data as of 2026-03-20)",
+      "mood": "Selective Bullish",
+      "marketStatus": "closed",
+      "regime": "Selective Bullish",
+      "stance": "Cautiously Optimistic",
+      "mainDriver": "Domestic SIP flows neutralizing FII volatility and strong Q4 advance tax numbers.",
+      "summary": "Nifty consolidates at 26,450; IT sector shows signs of leadership; Global macro remains supportive with falling crude oil prices.",
+      "tags": [
+        "NiftyIT",
+        "BrentCrude",
+        "PLI_ACC",
+        "SelectiveBullish",
+        "DefenseExports"
+      ]
+    },
+    {
       "date": "2026-03-19",
       "file": "2026-03-19.json",
       "title": "Market Pulse Daily",
@@ -163,5 +203,5 @@
       ]
     }
   ],
-  "latestReport": "2026-03-19"
+  "latestReport": "2026-03-21"
 }

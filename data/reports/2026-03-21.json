@@ -1,0 +1,797 @@
+{
+  "meta": {
+    "date": "2026-03-21",
+    "title": "Market Pulse Daily",
+    "subtitle": "Weekend Edition (data as of 2026-03-20)",
+    "marketStatus": "closed",
+    "lastUpdated": "2026-03-21T09:00:00+05:30",
+    "author": "Market Pulse Research"
+  },
+  "mood": {
+    "label": "Volatile",
+    "sentiment": "negative",
+    "pills": [
+      "Volatile",
+      "Cautious",
+      "Defensive"
+    ]
+  },
+  "todayIn30Seconds": [
+    "Volatile bullish",
+    "Cautious, selective",
+    "Middle East conflict & oil supply risk【27†L211-L219】",
+    "Hawkish Fed on inflation【39†L218-L221】",
+    "Weak rupee & FII outflows【32†L204-L212】",
+    "Hold core stocks; avoid chasing highs",
+    "Hedge with commodities (gold, oil) against inflation",
+    "Accumulate quality tech/pharma on dips",
+    "Markets ended slightly higher, but with high volatility as oil-driven inflation and geopolitics dominate sentiment【41†L208-L214】【45†L250-L258】."
+  ],
+  "whatChanged": [
+    {
+      "title": "Nifty 50",
+      "description": "23002.00 → 23114.50. Nifty closed higher on Friday【41†L139-L142】",
+      "sentiment": "positive"
+    },
+    {
+      "title": "BSE Sensex",
+      "description": "74207.00 → 74532.96. Sensex added 0.44%【41†L137-L142】",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Bank Nifty",
+      "description": "53451.00 → 53427.05. Bank Nifty slipped modestly",
+      "sentiment": "negative"
+    },
+    {
+      "title": "USD/INR",
+      "description": "93.24 → 93.71. Rupee fell to a record low【32†L204-L212】",
+      "sentiment": "negative"
+    }
+  ],
+  "overview": {
+    "metrics": [
+      {
+        "label": "Nifty 50",
+        "value": "23114.50",
+        "change": "+0.49%",
+        "sentiment": "positive"
+      },
+      {
+        "label": "Sensex",
+        "value": "74532.96",
+        "change": "+0.44%",
+        "sentiment": "positive"
+      },
+      {
+        "label": "Bank Nifty",
+        "value": "53427.05",
+        "change": "-0.22%",
+        "sentiment": "negative"
+      },
+      {
+        "label": "Nifty Midcap 150",
+        "value": "10,xxx",
+        "change": "+0.97%",
+        "sentiment": "positive"
+      },
+      {
+        "label": "Nifty Smallcap 250",
+        "value": "9,xxx",
+        "change": "-0.32%",
+        "sentiment": "negative"
+      },
+      {
+        "label": "India VIX",
+        "value": "22.8",
+        "change": "elevated fear",
+        "sentiment": "negative"
+      },
+      {
+        "label": "USD/INR",
+        "value": "93.71",
+        "change": "",
+        "sentiment": "negative"
+      },
+      {
+        "label": "FII Net Flow",
+        "value": "-₹5518.39 Cr",
+        "change": "",
+        "sentiment": "negative"
+      },
+      {
+        "label": "DII Net Flow",
+        "value": "+₹5706.23 Cr",
+        "change": "",
+        "sentiment": "positive"
+      }
+    ]
+  },
+  "globalMacro": {
+    "summary": "Oil & Middle East tensions",
+    "regions": [
+      {
+        "name": "US",
+        "index": "S&P 500",
+        "value": "6606.49",
+        "change": "-0.28%",
+        "sentiment": "negative",
+        "note": ""
+      },
+      {
+        "name": "US",
+        "index": "Nasdaq",
+        "value": "22090.69",
+        "change": "-0.28%",
+        "sentiment": "negative",
+        "note": ""
+      },
+      {
+        "name": "US",
+        "index": "Dow Jones",
+        "value": "46021.43",
+        "change": "-0.44%",
+        "sentiment": "negative",
+        "note": ""
+      },
+      {
+        "name": "Asia",
+        "index": "Nikkei 225",
+        "value": "53372.53",
+        "change": "-3.38%",
+        "sentiment": "negative",
+        "note": ""
+      },
+      {
+        "name": "Asia",
+        "index": "Hang Seng",
+        "value": "25277.32",
+        "change": "-0.88%",
+        "sentiment": "negative",
+        "note": ""
+      },
+      {
+        "name": "Asia",
+        "index": "Shanghai Comp",
+        "value": "3957.05",
+        "change": "-1.24%",
+        "sentiment": "negative",
+        "note": ""
+      },
+      {
+        "name": "Europe",
+        "index": "DAX",
+        "value": "22380.19",
+        "change": "-2.01%",
+        "sentiment": "negative",
+        "note": ""
+      },
+      {
+        "name": "Europe",
+        "index": "FTSE 100",
+        "value": "9918.33",
+        "change": "-1.44%",
+        "sentiment": "negative",
+        "note": ""
+      },
+      {
+        "name": "Macro",
+        "index": "Dollar Index (DXY)",
+        "value": "99.65",
+        "change": "+0.42%",
+        "sentiment": "negative",
+        "note": "Stronger dollar adds pressure on rupee"
+      },
+      {
+        "name": "Macro",
+        "index": "US 10Y Yield",
+        "value": "4.25%",
+        "change": "+0.1%",
+        "sentiment": "negative",
+        "note": "Higher US yields tighten flows to EM"
+      },
+      {
+        "name": "Macro",
+        "index": "Brent Crude",
+        "value": "110.7",
+        "change": "+1.88%",
+        "sentiment": "negative",
+        "note": "Oil up – adds to inflation/inflation concerns【41†L212-L214】"
+      },
+      {
+        "name": "Macro",
+        "index": "Gold",
+        "value": "4550",
+        "change": "-6.4%",
+        "sentiment": "negative",
+        "note": "Safe-haven; up long term on geopolitics"
+      },
+      {
+        "name": "Macro",
+        "index": "WTI Crude",
+        "value": "108",
+        "change": "+2.5%",
+        "sentiment": "negative",
+        "note": "Energy costs rising; inflationary"
+      }
+    ],
+    "keyDrivers": [
+      "Weak US leads to FII outflows; bond yields firm",
+      "Sharp Asia falls heighten global risk-off sentiment",
+      "European markets down on growth worries"
+    ]
+  },
+  "globalNews": {
+    "riskLevel": "High",
+    "marketImpactHorizon": "1-3 months",
+    "themes": [
+      {
+        "theme": "Middle East conflict escalates",
+        "region": "Global/Middle East",
+        "status": "Escalated",
+        "marketImpact": "Spike in oil prices; volatility",
+        "indiaImpact": "Higher fuel import costs, inflation, market volatility",
+        "affectedAssets": [
+          "Oil",
+          "Energy stocks",
+          "Global equities"
+        ],
+        "signalStrength": "High",
+        "whatToTrackNext": "Further Iran actions, international response, oil supply disruptions",
+        "sentiment": "negative"
+      }
+    ],
+    "summary": "Iran launched attacks on Gulf energy infrastructure (Qatar LNG, etc.)【27†L211-L219】. Middle East tensions are driving oil supply fears and market volatility【39†L218-L221】【41†L212-L214】.",
+    "view": "Expect high uncertainty; focus on defensive sectors and inflation hedges."
+  },
+  "indianMarket": {
+    "summary": "Mixed recovery",
+    "indices": [
+      {
+        "name": "Nifty 50",
+        "close": "23114.50",
+        "change": "+0.49%",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Sensex",
+        "close": "74532.96",
+        "change": "+0.44%",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Bank Nifty",
+        "close": "53427.05",
+        "change": "-0.22%",
+        "sentiment": "negative"
+      },
+      {
+        "name": "Midcap 150",
+        "close": "10,xxx",
+        "change": "+0.97%",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Smallcap 250",
+        "close": "9,xxx",
+        "change": "-0.32%",
+        "sentiment": "negative"
+      }
+    ],
+    "flows": {
+      "fii": {
+        "value": "-₹5518.39 Cr",
+        "sentiment": "negative"
+      },
+      "dii": {
+        "value": "+₹5706.23 Cr",
+        "sentiment": "positive"
+      }
+    },
+    "highlights": [
+      "Indices ended modestly higher on Friday, led by IT and metals, as oil-driven caution persisted【41†L208-L214】.",
+      "The rally was led by short-covering in select sectors; overall participation was limited.",
+      "Maintain defense; accumulate quality stocks gradually while avoiding general market exuberance.",
+      "Gainer: Tech Mahindra (+3.30%) — IT",
+      "Gainer: Tata Steel (+3.29%) — Metals",
+      "Gainer: Infosys (+2.88%) — IT",
+      "Loser: Hindalco (-2.55%) — Metals",
+      "Loser: HDFC Bank (-2.23%) — Banks",
+      "Loser: Shriram Finance (-1.18%) — NBFC"
+    ]
+  },
+  "indiaNews": {
+    "importanceLevel": "High",
+    "themes": [
+      {
+        "theme": "Surging global oil prices",
+        "category": "Macroeconomic",
+        "status": "Ongoing",
+        "marketImpact": "Rising cost inflation",
+        "affectedSectors": [
+          "Energy",
+          "Consumer",
+          "Utilities"
+        ],
+        "affectedStocks": [
+          "IOC",
+          "BPCL",
+          "IOCL",
+          "HPCL",
+          "ONGC"
+        ],
+        "timeHorizon": "1-6 months",
+        "signalStrength": "High",
+        "whatToTrackNext": "Crude price trend, OPEC decisions, RBI stance",
+        "sentiment": "positive"
+      },
+      {
+        "theme": "HDFC Bank governance scare",
+        "category": "Corporate",
+        "status": "Recent",
+        "marketImpact": "Negative on financials",
+        "affectedSectors": [
+          "Banks"
+        ],
+        "affectedStocks": [
+          "HDFC Bank"
+        ],
+        "timeHorizon": "1-3 months",
+        "signalStrength": "High",
+        "whatToTrackNext": "Regulatory action, management changes",
+        "sentiment": "positive"
+      },
+      {
+        "theme": "Regulatory control on cooking gas prices",
+        "category": "Energy/Policy",
+        "status": "Implemented",
+        "marketImpact": "Capping inflation but pressuring refiners",
+        "affectedSectors": [
+          "Oil & Gas",
+          "Fertilizers"
+        ],
+        "affectedStocks": [
+          "IOC",
+          "GSFC",
+          "GNFC"
+        ],
+        "timeHorizon": "0-3 months",
+        "signalStrength": "Medium",
+        "whatToTrackNext": "Extent of export bans, subsidy impact",
+        "sentiment": "neutral"
+      }
+    ],
+    "summary": "India’s inflation rose 3.21% in Feb (within RBI band) but oil risks loom【45†L196-L204】. Low CPI gives RBI room, but oil price surge from Iran war is a serious upside risk.",
+    "view": "Monitor energy costs; sectors sensitive to fuel (transport, plastics) likely to face margin pressure."
+  },
+  "marketRegime": {
+    "current": "Volatile bullish",
+    "description": "After a 3% drop on Thursday, indices recovered some losses on Friday amid high volatility【80†L155-L163】【41†L208-L214】. Market is in a corrective rally phase. Trend unclear as geopolitical and inflation concerns persist. Maintain cautious exposure; favor high-quality stocks and trim leveraged bets. Sizing: Keep positions small and use wider stops; ensure cash buffer for risk management.",
+    "signals": [
+      {
+        "label": "Risk Score",
+        "value": "7/100",
+        "sentiment": "positive"
+      },
+      {
+        "label": "What Works",
+        "value": "Defensive large-caps (IT, Pharma)",
+        "sentiment": "positive"
+      },
+      {
+        "label": "What Works",
+        "value": "Quality growth stocks",
+        "sentiment": "positive"
+      },
+      {
+        "label": "What Works",
+        "value": "Hedge through commodities",
+        "sentiment": "positive"
+      },
+      {
+        "label": "What Fails",
+        "value": "Speculative small-caps",
+        "sentiment": "negative"
+      },
+      {
+        "label": "What Fails",
+        "value": "High-debt cyclicals",
+        "sentiment": "negative"
+      }
+    ]
+  },
+  "sectorRotation": {
+    "summary": "Sector rally narrow: tech, metals lead on Friday; banks/realty lag.【41†L212-L220】 Rotation into defensive tech and undervalued PSU banks; avoid overheated segments.",
+    "sectors": [
+      {
+        "name": "FMCG",
+        "note": "Down | Limited upside; mixed consumer demand.",
+        "status": "Underweight",
+        "sentiment": "negative"
+      },
+      {
+        "name": "Pharma",
+        "note": "Up ~1.9% | Defensive sector with steady margins.",
+        "status": "Overweight",
+        "sentiment": "positive"
+      },
+      {
+        "name": "IT",
+        "note": "Up ~2% | Benefiting from weak rupee, stable exports.",
+        "status": "Overweight",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Auto",
+        "note": "Up ~1-2% | Some recovery signs, but sensitive to fuel costs.",
+        "status": "Neutral",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Metals",
+        "note": "Up ~3% | Cyclical rebound on commodity strength.",
+        "status": "Overweight",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Financials",
+        "note": "Mixed | Governance issues in HDFC Bank; credit fears.",
+        "status": "Underweight",
+        "sentiment": "negative"
+      },
+      {
+        "name": "PSU Banks",
+        "note": "Up | Undervalued; state support, big underperformance prior.",
+        "status": "Overweight",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Capital Goods/Infra",
+        "note": "Flat | Long-term play on capex; short-term subdued.",
+        "status": "Neutral",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Energy/Oil & Gas",
+        "note": "Mixed (reliance up, ONGC down) | Oil price rally favors refiners; fuel price curbs are a headwind.",
+        "status": "Neutral",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Defence",
+        "note": "Down | Geopolitical premium offset by flat budgets.",
+        "status": "Neutral",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Telecom",
+        "note": "Down | Regulatory overhang, price war concerns.",
+        "status": "Avoid",
+        "sentiment": "negative"
+      },
+      {
+        "name": "Consumption",
+        "note": "Up | Staples stable, discretionary supported by festival season.",
+        "status": "Overweight",
+        "sentiment": "positive"
+      }
+    ]
+  },
+  "breadth": {
+    "summary": "Market breadth is weak; rally driven by short-covering in a few sectors while majority of stocks remain weak.",
+    "indicators": [
+      {
+        "label": "Advance/Decline",
+        "value": "Mixed-weak",
+        "sentiment": "negative"
+      },
+      {
+        "label": "Sector Breadth",
+        "value": "Narrow",
+        "sentiment": "negative"
+      },
+      {
+        "label": "Defensives Leading?",
+        "value": "IT, Pharma, Consumer Staples",
+        "sentiment": "neutral"
+      },
+      {
+        "label": "Cyclicals Weak?",
+        "value": "Banks (private), Real Estate, Media",
+        "sentiment": "negative"
+      },
+      {
+        "label": "Buying Type",
+        "value": "Short-covering, selective",
+        "sentiment": "neutral"
+      }
+    ]
+  },
+  "swingSetups": [
+    {
+      "symbol": "VA Tech Wabag",
+      "direction": "long",
+      "entry": "₹250",
+      "target": "₹260, ₹270",
+      "stopLoss": "₹240",
+      "timeframe": "2-4 weeks",
+      "thesis": "Break above multi-week base Major overseas order Order wins support water infra growth. R:R 3:1 Invalidation: Close below ₹240 Sizing: Small",
+      "confidence": "medium"
+    },
+    {
+      "symbol": "Kirloskar Oil Engines",
+      "direction": "long",
+      "entry": "₹1480",
+      "target": "₹1570",
+      "stopLoss": "₹1420",
+      "timeframe": "2-4 weeks",
+      "thesis": "Bullish chart after consolidation Rising demand in oil sector Good volume; oil capex recovery potential. R:R 2:1 Invalidation: Close below ₹1420 Sizing: Small",
+      "confidence": "medium"
+    }
+  ],
+  "avoidList": [
+    {
+      "symbol": "HDFC Bank",
+      "reason": "Governance concerns, avoid new longs"
+    },
+    {
+      "symbol": "Petronet LNG",
+      "reason": "High geopolitical risk, volatile outlook"
+    }
+  ],
+  "emergingOpportunities": {
+    "overallTone": "Neutral",
+    "ideas": [
+      {
+        "company": "Suzlon Energy Ltd",
+        "theme": "Renewable Energy",
+        "conviction": "Medium",
+        "convictionKey": "medium",
+        "timeHorizon": "12 months",
+        "triggerType": "Order wins",
+        "earlySignals": [
+          "Growing order pipeline",
+          "Government incentives for renewables"
+        ],
+        "businessQualityView": "Historically troubled but turning; needs execution",
+        "valuationNote": "Low valuation vs. peers; high risk",
+        "watchlistAction": "Monitor for breakout",
+        "reasonForTracking": "Cycle recovery in wind projects",
+        "whatToTrackNext": "Project contract announcements",
+        "trackingStatus": "watch",
+        "firstSeenDate": "2026-03-21",
+        "sentiment": "neutral"
+      },
+      {
+        "company": "KEC International Ltd",
+        "theme": "Infrastructure & Power",
+        "conviction": "High",
+        "convictionKey": "high",
+        "timeHorizon": "6-12 months",
+        "triggerType": "Order inflows",
+        "earlySignals": [
+          "New project awards",
+          "Government capex push"
+        ],
+        "businessQualityView": "Diversified global EPC; solid execution history",
+        "valuationNote": "Cyclical; still reasonable earnings multiples",
+        "watchlistAction": "Accumulate on dips",
+        "reasonForTracking": "Strong order backlog in transmission/EPC",
+        "whatToTrackNext": "Order book growth, policy support",
+        "trackingStatus": "track",
+        "firstSeenDate": "2026-03-21",
+        "sentiment": "positive"
+      },
+      {
+        "company": "Rajputana Biofuel Ltd",
+        "theme": "Renewable Fuels",
+        "conviction": "Low",
+        "convictionKey": "low",
+        "timeHorizon": "3-6 months",
+        "triggerType": "Government orders",
+        "earlySignals": [
+          "PSU fuel contracts",
+          "Biofuel policy support"
+        ],
+        "businessQualityView": "Small, growth-phase; execution risk",
+        "valuationNote": "Highly speculative; watch order fulfillment",
+        "watchlistAction": "Watch for order updates",
+        "reasonForTracking": "LOIs from oil PSUs for biodiesel",
+        "whatToTrackNext": "Contract execution, policy changes",
+        "trackingStatus": "monitor",
+        "firstSeenDate": "2026-03-21",
+        "sentiment": "negative"
+      }
+    ],
+    "summary": "Identify niche opportunities from government orders and sector growth. Track companies with early signs of demand pickup. Keep a watchlist; be selective in pursuing small-cap ideas.",
+    "view": "Keep a watchlist; be selective in pursuing small-cap ideas."
+  },
+  "riskWatch": {
+    "overallTone": "Caution",
+    "cases": [
+      {
+        "company": "HDFC Bank",
+        "riskType": "Governance",
+        "issue": "Chairman resigned over ethics concerns【25†L166-L174】",
+        "severity": "High",
+        "severityKey": "high",
+        "nearTermMarketRisk": "Investor confidence shaken; stock underperforming",
+        "possibleImpactAreas": [
+          "Banking sector sentiment",
+          "HDFC Bank valuations"
+        ],
+        "stance": "Bearish",
+        "watchlistAction": "Reduce exposure",
+        "monitoringSignals": [
+          "Regulator statements, board changes"
+        ],
+        "whatToTrackNext": "RBI action, investigation news",
+        "trackingStatus": "track",
+        "firstSeenDate": "2026-03-18",
+        "sentiment": "negative"
+      },
+      {
+        "company": "Shriram Finance",
+        "riskType": "Regulatory",
+        "issue": "Proposed NBFC leadership rules may force management change【58†L29-L37】",
+        "severity": "Medium",
+        "severityKey": "medium",
+        "nearTermMarketRisk": "Stock volatility; growth plans uncertain",
+        "possibleImpactAreas": [
+          "Credit growth, valuation"
+        ],
+        "stance": "Cautious",
+        "watchlistAction": "Observe regulatory outcome",
+        "monitoringSignals": [
+          "RBI NBFC policy updates, stock price movement"
+        ],
+        "whatToTrackNext": "NBFC circulars and leadership announcements",
+        "trackingStatus": "track",
+        "firstSeenDate": "2026-03-19",
+        "sentiment": "neutral"
+      }
+    ],
+    "summary": "Select stocks face emerging risks in governance and regulation【25†L166-L174】【58†L29-L37】. Avoid concentrated bets in these cases; risk of rerating. Monitor these names closely; reduce positions if risks crystallize.",
+    "view": "Monitor these names closely; reduce positions if risks crystallize."
+  },
+  "keyLevels": {
+    "nifty": {
+      "instrument": "Nifty 50",
+      "support": [
+        "23200"
+      ],
+      "resistance": [
+        "23600"
+      ]
+    },
+    "bankNifty": {
+      "instrument": "Bank Nifty",
+      "support": [
+        "53000"
+      ],
+      "resistance": [
+        "54500"
+      ]
+    },
+    "vix": {
+      "instrument": "India VIX",
+      "pivot": "20 (volatility)",
+      "support": [],
+      "resistance": []
+    },
+    "brent": {
+      "instrument": "Brent Crude",
+      "pivot": "100",
+      "support": [],
+      "resistance": []
+    },
+    "usdInr": {
+      "instrument": "USD/INR",
+      "pivot": "93.00",
+      "support": [],
+      "resistance": []
+    },
+    "triggers": {
+      "instrument": "Market Triggers",
+      "support": [
+        "Brent below $100",
+        "Rupee stabilizes below 93",
+        "Global risk off returns"
+      ],
+      "resistance": [
+        "Brent above $120",
+        "Rupee above 94",
+        "Intensification of Iran attacks"
+      ]
+    }
+  },
+  "investorPlan": {
+    "stance": "Defensive",
+    "summary": "Markets favor large-caps as safe havens; midcaps under pressure. Shift to quality amid uncertainty; tighten risk exposure. Stick with core portfolio; avoid portfolio churn in choppy market.",
+    "actions": [
+      {
+        "action": "Quality Large Caps: Hold/Accumulate. Focus on strong-earnings names; avoid late-cycle leverage.",
+        "priority": "low"
+      },
+      {
+        "action": "Mid/Small Caps: Underweight. High volatility; postpone new bets.",
+        "priority": "high"
+      },
+      {
+        "action": "Private Banks: Reduce. Governance/valuation concerns; trim positions.",
+        "priority": "high"
+      },
+      {
+        "action": "PSU Banks: Accumulate. Better value now; benefit from government support.",
+        "priority": "low"
+      }
+    ]
+  },
+  "mutualFundView": {
+    "summary": "Continue regular SIPs; volatility could lower entry levels over time. Delay fresh lumpsum deployments; accumulate cash. Dry powder: High",
+    "recommendations": [
+      {
+        "category": "Equity – Large Cap",
+        "action": "Neutral. Fundamentals intact; valuations stretched",
+        "sentiment": "neutral"
+      },
+      {
+        "category": "Equity – Mid/Small Cap",
+        "action": "Underweight. Risky in volatile phase",
+        "sentiment": "neutral"
+      },
+      {
+        "category": "Debt Instruments",
+        "action": "Overweight. Attractive as yields remain high",
+        "sentiment": "neutral"
+      },
+      {
+        "category": "Gold/Commodities",
+        "action": "Overweight. Safe haven against oil/inflation risk",
+        "sentiment": "neutral"
+      }
+    ]
+  },
+  "dosAndDonts": {
+    "dos": [
+      "Keep quality bias: focus on strong balance sheets and earnings",
+      "Maintain cash buffer for opportunities or risk-off scenarios",
+      "Hedge portfolio with commodities or debt in inflationary regimes",
+      "Use technical stop-losses given high volatility"
+    ],
+    "donts": [
+      "Don’t chase overheated sectors or stocks near all-time highs",
+      "Avoid high leverage and margin in uncertain markets",
+      "Don’t dismiss global cues (oil, US Fed) even for domestic strategies",
+      "Avoid concentration in single sectors or low-quality names"
+    ]
+  },
+  "news": [
+    {
+      "title": "Investor Bottom Line",
+      "summary": "Stay defensive; focus on fundamentals and risk management in portfolio allocation.",
+      "impact": "neutral"
+    },
+    {
+      "title": "Swing Trader Bottom Line",
+      "summary": "Be selective and risk-aware; few high-probability setups, use tight stops.",
+      "impact": "neutral"
+    },
+    {
+      "title": "MF Investor Bottom Line",
+      "summary": "Maintain SIP discipline; hold dry powder for lower entry points; prefer large-cap equity and debt funds.",
+      "impact": "neutral"
+    }
+  ],
+  "sources": [
+    "Reuters",
+    "Bloomberg",
+    "Times of India",
+    "Hindustan Times",
+    "Economic Times",
+    "Livemint",
+    "Liquide",
+    "Trendlyne"
+  ],
+  "disclaimer": "Content is for informational purposes only and not financial advice."
+}

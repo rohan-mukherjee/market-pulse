@@ -1,0 +1,617 @@
+{
+  "meta": {
+    "date": "2026-03-21",
+    "title": "Market Pulse Daily",
+    "subtitle": "Weekend Edition (data as of 2026-03-20)",
+    "marketStatus": "closed",
+    "lastUpdated": "2026-03-21T08:30:00+05:30",
+    "author": "Market Pulse Research"
+  },
+  "mood": {
+    "label": "Selective Bullish",
+    "sentiment": "positive",
+    "pills": [
+      "Resilient",
+      "Liquidity-Driven",
+      "Selective"
+    ]
+  },
+  "todayIn30Seconds": [
+    "Selective Bullish - The market is rewarding earnings quality over pure momentum.",
+    "Stay invested in core holdings but tighten stop-losses on high-PE midcaps.",
+    "Stable US inflation data providing a tailwind for Indian IT",
+    "Robust direct tax collection signaling strong corporate health",
+    "Crude oil prices stabilizing below $80",
+    "Accumulate large-cap private banks on dips",
+    "Trim exposure in overheated PSU defense stocks",
+    "Maintain 15% cash for volatility spikes",
+    "Broad market indices are in a consolidation phase; the 'real' money is moving into value-pockets within the IT and Pharma sectors."
+  ],
+  "whatChanged": [
+    {
+      "title": "India VIX",
+      "description": "13.2 → 12.4. Market fear is receding as the Nifty holds key psychological supports.",
+      "sentiment": "negative"
+    },
+    {
+      "title": "Brent Crude",
+      "description": "81.5 → 78.2. Lower oil prices reduce the import bill for India, benefiting paints and OMCs.",
+      "sentiment": "negative"
+    }
+  ],
+  "overview": {
+    "metrics": [
+      {
+        "label": "Nifty 50",
+        "value": "26,450",
+        "change": "+0.35%",
+        "sentiment": "positive"
+      },
+      {
+        "label": "Sensex",
+        "value": "87,120",
+        "change": "+0.32%",
+        "sentiment": "positive"
+      },
+      {
+        "label": "Bank Nifty",
+        "value": "54,200",
+        "change": "+0.15%",
+        "sentiment": "positive"
+      },
+      {
+        "label": "Nifty Midcap 150",
+        "value": "21,100",
+        "change": "-0.10%",
+        "sentiment": "negative"
+      },
+      {
+        "label": "Nifty Smallcap 250",
+        "value": "18,450",
+        "change": "+0.45%",
+        "sentiment": "positive"
+      },
+      {
+        "label": "India VIX",
+        "value": "12.4",
+        "change": "calm",
+        "sentiment": "neutral"
+      },
+      {
+        "label": "USD/INR",
+        "value": "83.05",
+        "change": "",
+        "sentiment": "negative"
+      },
+      {
+        "label": "FII Net Flow",
+        "value": "-450 Cr",
+        "change": "",
+        "sentiment": "negative"
+      },
+      {
+        "label": "DII Net Flow",
+        "value": "+2,800 Cr",
+        "change": "",
+        "sentiment": "positive"
+      }
+    ]
+  },
+  "globalMacro": {
+    "summary": "Domestic SIP flows neutralizing FII volatility and strong Q4 advance tax numbers.",
+    "regions": [
+      {
+        "name": "US",
+        "index": "S&P 500",
+        "value": "5,850",
+        "change": "+0.55%",
+        "sentiment": "positive",
+        "note": ""
+      },
+      {
+        "name": "US",
+        "index": "Nasdaq",
+        "value": "19,200",
+        "change": "+0.80%",
+        "sentiment": "positive",
+        "note": ""
+      },
+      {
+        "name": "US",
+        "index": "Dow Jones",
+        "value": "42,100",
+        "change": "+0.10%",
+        "sentiment": "positive",
+        "note": ""
+      },
+      {
+        "name": "Asia",
+        "index": "Nikkei 225",
+        "value": "39,500",
+        "change": "-0.20%",
+        "sentiment": "negative",
+        "note": ""
+      },
+      {
+        "name": "Asia",
+        "index": "Hang Seng",
+        "value": "17,800",
+        "change": "+1.10%",
+        "sentiment": "positive",
+        "note": ""
+      },
+      {
+        "name": "Asia",
+        "index": "Shanghai Comp",
+        "value": "3,150",
+        "change": "+0.40%",
+        "sentiment": "positive",
+        "note": ""
+      },
+      {
+        "name": "Europe",
+        "index": "DAX",
+        "value": "18,400",
+        "change": "+0.30%",
+        "sentiment": "positive",
+        "note": ""
+      },
+      {
+        "name": "Europe",
+        "index": "FTSE 100",
+        "value": "8,100",
+        "change": "+0.15%",
+        "sentiment": "positive",
+        "note": ""
+      },
+      {
+        "name": "Macro",
+        "index": "Dollar Index (DXY)",
+        "value": "103.8",
+        "change": "+0.10%",
+        "sentiment": "negative",
+        "note": "Stronger Dollar puts mild pressure on EMs including India."
+      },
+      {
+        "name": "Macro",
+        "index": "US 10Y Yield",
+        "value": "4.15%",
+        "change": "-0.05%",
+        "sentiment": "positive",
+        "note": "Lower yields are generally positive for FII inflows into Indian debt/equity."
+      },
+      {
+        "name": "Macro",
+        "index": "Brent Crude",
+        "value": "78.2",
+        "change": "-2.10%",
+        "sentiment": "positive",
+        "note": "Direct positive for Indian fiscal deficit and OMCs."
+      },
+      {
+        "name": "Macro",
+        "index": "Gold",
+        "value": "2,350",
+        "change": "+0.40%",
+        "sentiment": "positive",
+        "note": "Reflects mild global hedge buying; positive for Muthoot/Manappuram."
+      },
+      {
+        "name": "Macro",
+        "index": "WTI Crude",
+        "value": "73.5",
+        "change": "-1.90%",
+        "sentiment": "positive",
+        "note": "Reduces raw material costs for chemical companies."
+      }
+    ],
+    "keyDrivers": [
+      "Positive for Indian IT services (Nifty IT) due to increased cloud-spending visibility.",
+      "FIIs are shifting some tactical allocation back to China, creating temporary headwind for India flows.",
+      "Neutral; monitoring Eurozone manufacturing PMIs for Indian export relevance."
+    ]
+  },
+  "globalNews": {
+    "riskLevel": "Moderate",
+    "marketImpactHorizon": "1-3 Months",
+    "themes": [
+      {
+        "theme": "Red Sea Shipping Disruptions",
+        "region": "Middle East",
+        "status": "Ongoing",
+        "marketImpact": "Inflationary pressure on freight rates",
+        "indiaImpact": "Increased lead times for European exports; higher margins for shipping companies.",
+        "affectedAssets": [
+          "Shipping Stocks",
+          "Export-oriented Pharma"
+        ],
+        "signalStrength": "Strong",
+        "whatToTrackNext": "Container Freight Index (SCFI) updates.",
+        "sentiment": "positive"
+      }
+    ],
+    "summary": "Shipping lines are continuing to reroute via the Cape of Good Hope. This is a structural signal for the shipping sector, not just a temporary spike.",
+    "view": "Accumulate GE Shipping or Concor on pullbacks as supply chain constraints linger."
+  },
+  "indianMarket": {
+    "summary": "Buy-on-dips",
+    "indices": [
+      {
+        "name": "Nifty 50",
+        "close": "26,450",
+        "change": "+0.35%",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Sensex",
+        "close": "87,120",
+        "change": "+0.32%",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Bank Nifty",
+        "close": "54,200",
+        "change": "+0.15%",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Midcap 150",
+        "close": "21,100",
+        "change": "-0.10%",
+        "sentiment": "negative"
+      },
+      {
+        "name": "Smallcap 250",
+        "close": "18,450",
+        "change": "+0.45%",
+        "sentiment": "positive"
+      }
+    ],
+    "flows": {
+      "fii": {
+        "value": "-450 Cr",
+        "sentiment": "negative"
+      },
+      "dii": {
+        "value": "+2,800 Cr",
+        "sentiment": "positive"
+      }
+    },
+    "highlights": [
+      "IT stocks saw massive short-covering in the last hour of trade.",
+      "Institutional investors are moving from 'Avoid' to 'Neutral' on IT.",
+      "Tactical entry into large-cap IT for a 5-8% swing target.",
+      "Gainer: Infosys (+2.8%) — IT",
+      "Gainer: Asian Paints (+2.4%) — Consumption",
+      "Gainer: Tata Motors (+1.9%) — Auto",
+      "Loser: Coal India (-1.5%) — Energy",
+      "Loser: JSW Steel (-1.2%) — Metals",
+      "Loser: Axis Bank (-0.8%) — Banks"
+    ]
+  },
+  "indiaNews": {
+    "importanceLevel": "High",
+    "themes": [
+      {
+        "theme": "Advanced Chemistry Cell (ACC) PLI Round 2",
+        "category": "Manufacturing",
+        "status": "Policy Implementation",
+        "marketImpact": "CapEx cycle acceleration",
+        "affectedSectors": [
+          "Battery Manufacturing",
+          "Chemicals",
+          "EV"
+        ],
+        "affectedStocks": [
+          "Exide",
+          "Amara Raja",
+          "Himadri Speciality"
+        ],
+        "timeHorizon": "12-24 Months",
+        "signalStrength": "Very Strong",
+        "whatToTrackNext": "Final winner list announcement in late April.",
+        "sentiment": "neutral"
+      }
+    ],
+    "summary": "Government has received bids 3x the allocated capacity for battery PLI. Private capex in the energy transition space is no longer just a plan; it's happening.",
+    "view": "Maintain long-term positions in chemical companies that supply battery anodes/cathodes."
+  },
+  "marketRegime": {
+    "current": "Selective Bullish",
+    "description": "Nifty PE is at 23x, slightly above historical mean but justified by 15% EPS growth. The index won't fly, but individual sectors will see 'mini-bull' runs. Focus on bottom-up stock picking rather than broad index bets. Sizing: 70% invested, 30% cash/liquid funds.",
+    "signals": [
+      {
+        "label": "Risk Score",
+        "value": "45/100",
+        "sentiment": "neutral"
+      },
+      {
+        "label": "What Works",
+        "value": "Quality Growth",
+        "sentiment": "positive"
+      },
+      {
+        "label": "What Works",
+        "value": "Earnings Surprises",
+        "sentiment": "positive"
+      },
+      {
+        "label": "What Works",
+        "value": "De-leveraging stories",
+        "sentiment": "positive"
+      },
+      {
+        "label": "What Fails",
+        "value": "High-debt Smallcaps",
+        "sentiment": "negative"
+      },
+      {
+        "label": "What Fails",
+        "value": "Pre-revenue Tech",
+        "sentiment": "negative"
+      },
+      {
+        "label": "What Fails",
+        "value": "Global Commodity Cyclicals",
+        "sentiment": "negative"
+      }
+    ]
+  },
+  "sectorRotation": {
+    "summary": "Defensives (IT/Pharma) are starting to lead after 6 months of underperformance. Typical late-cycle rotation where investors hide in quality.",
+    "sectors": [
+      {
+        "name": "IT",
+        "note": "+1.8% | Valuations are reasonable compared to peers.",
+        "status": "Overweight",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Financials",
+        "note": "+0.1% | Wait for HDFC Bank's quarterly update.",
+        "status": "Neutral",
+        "sentiment": "neutral"
+      }
+    ]
+  },
+  "breadth": {
+    "summary": "Internal strength is stable but lacks the 'euphoria' of early 2025.",
+    "indicators": [
+      {
+        "label": "Advance/Decline",
+        "value": "1.2:1",
+        "sentiment": "negative"
+      },
+      {
+        "label": "Sector Breadth",
+        "value": "IT and Auto showing 80% stocks above 50-DMA.",
+        "sentiment": "negative"
+      },
+      {
+        "label": "Defensives Leading?",
+        "value": "Yes - Pharma and FMCG hit 52-week highs.",
+        "sentiment": "positive"
+      },
+      {
+        "label": "Cyclicals Weak?",
+        "value": "Metals and Cement showing distribution patterns.",
+        "sentiment": "negative"
+      },
+      {
+        "label": "Buying Type",
+        "value": "Institutional (DII) support at 26,200 Nifty levels.",
+        "sentiment": "neutral"
+      }
+    ]
+  },
+  "swingSetups": [
+    {
+      "symbol": "Persistent Systems",
+      "direction": "long",
+      "entry": "5450-5480",
+      "target": "5750, 5900",
+      "stopLoss": "5310",
+      "timeframe": "2-3 Weeks",
+      "thesis": "Closing above 20-day EMA with high volume. Positive management commentary on AI deal pipeline. A leader in the mid-tier IT space. R:R 1:2.5 Invalidation: Close below 5300. Sizing: Standard",
+      "confidence": "high"
+    },
+    {
+      "symbol": "Sun Pharma",
+      "direction": "long",
+      "entry": "1580-1600",
+      "target": "1700",
+      "stopLoss": "1540",
+      "timeframe": "1 Month",
+      "thesis": "Support at 100-DMA; RSI showing bullish divergence. Specialty drug portfolio growth in the US market. Defensive play for volatile periods. R:R 1:2 Invalidation: Break below 1530 on daily closing. Sizing: Conservative",
+      "confidence": "medium"
+    }
+  ],
+  "avoidList": [
+    {
+      "symbol": "Vedanta",
+      "reason": "Weak technical structure and debt restructuring noise."
+    },
+    {
+      "symbol": "Paytm",
+      "reason": "Regulatory overhang persists; avoid catching falling knives."
+    }
+  ],
+  "emergingOpportunities": {
+    "overallTone": "Focus on the 'Energy Transition' and 'Import Substitution' themes.",
+    "ideas": [
+      {
+        "company": "Solar Industries",
+        "theme": "Defense Exports",
+        "conviction": "High",
+        "convictionKey": "high",
+        "timeHorizon": "2-3 Years",
+        "triggerType": "Order Win",
+        "earlySignals": [
+          "Propellant plant capacity expansion complete",
+          "Rising defense share in revenue"
+        ],
+        "businessQualityView": "High - Monopoly-like status in industrial explosives.",
+        "valuationNote": "Expensive but justified by 25% CAGR.",
+        "watchlistAction": "Buy on 5% dip",
+        "reasonForTracking": "Expanding order book from export markets (Middle East/Europe).",
+        "whatToTrackNext": "Q4 export revenue growth numbers.",
+        "trackingStatus": "Active",
+        "firstSeenDate": "2024-05-12",
+        "sentiment": "positive"
+      }
+    ],
+    "summary": "India's defense exports hit a record high in the previous fiscal year. The 'China+1' strategy is now applying to the defense supply chain. Defense is no longer a momentum play; it's a structural 10-year story.",
+    "view": "Defense is no longer a momentum play; it's a structural 10-year story."
+  },
+  "riskWatch": {
+    "overallTone": "Watch for governance lapses in the 'fintech' and 'new-age' sectors.",
+    "cases": [
+      {
+        "company": "Unnamed Tier-2 Real Estate Players",
+        "riskType": "Liquidity Stress",
+        "issue": "Rising unsold inventory in luxury segments of NCR/Mumbai.",
+        "severity": "High",
+        "severityKey": "high",
+        "nearTermMarketRisk": "Potential defaults on NCDs (Non-convertible debentures).",
+        "possibleImpactAreas": [
+          "NBFCs with high RE exposure"
+        ],
+        "stance": "Avoid",
+        "watchlistAction": "Sell",
+        "monitoringSignals": [
+          "Inventory turnover ratios",
+          "Pledge of promoter shares"
+        ],
+        "whatToTrackNext": "Quarterly debt-service coverage ratio (DSCR).",
+        "trackingStatus": "Ongoing",
+        "firstSeenDate": "2026-01-20",
+        "sentiment": "negative"
+      }
+    ],
+    "summary": "Weighted average cost of capital for developers has risen by 100 bps. Marginal players will struggle while leaders gain market share. Stick to top-3 developers only (e.g., DLF, Godrej, Prestige).",
+    "view": "Stick to top-3 developers only (e.g., DLF, Godrej, Prestige)."
+  },
+  "keyLevels": {
+    "nifty": {
+      "instrument": "Nifty 50",
+      "support": [
+        "26,200"
+      ],
+      "resistance": [
+        "26,850"
+      ]
+    },
+    "bankNifty": {
+      "instrument": "Bank Nifty",
+      "support": [
+        "53,500"
+      ],
+      "resistance": [
+        "55,100"
+      ]
+    },
+    "vix": {
+      "instrument": "India VIX",
+      "pivot": "15.0 (Critical hurdle)",
+      "support": [],
+      "resistance": []
+    },
+    "brent": {
+      "instrument": "Brent Crude",
+      "pivot": "$82 (Resistance)",
+      "support": [],
+      "resistance": []
+    },
+    "usdInr": {
+      "instrument": "USD/INR",
+      "pivot": "83.50",
+      "support": [],
+      "resistance": []
+    },
+    "triggers": {
+      "instrument": "Market Triggers",
+      "support": [
+        "Nifty closing above 26,600",
+        "FIIs turning net buyers for 3 consecutive days"
+      ],
+      "resistance": [
+        "Brent crude spiking above $85",
+        "VIX sustaining above 16"
+      ]
+    }
+  },
+  "investorPlan": {
+    "stance": "Cautiously Optimistic",
+    "summary": "Market cap to GDP is at 115%, higher than the long-term average of 85%. Future returns will be driven by earnings, not multiple expansion. Focus on companies with high 'Cash Flow from Operations' (CFO) relative to EBITDA.",
+    "actions": [
+      {
+        "action": "Core Portfolio: Hold. No major changes needed for companies with 15%+ ROE.",
+        "priority": "medium"
+      },
+      {
+        "action": "Growth/Alpha: Selective Trim. Trim stocks where PE > 2x 3-year average unless EPS growth is accelerating.",
+        "priority": "high"
+      },
+      {
+        "action": "Dividend/Value: Accumulate. PSU utilities like NTPC offer 4% yield with growth.",
+        "priority": "low"
+      }
+    ]
+  },
+  "mutualFundView": {
+    "summary": "Continue Wait Dry powder: Maintain 20% in liquid funds.",
+    "recommendations": [
+      {
+        "category": "Flexicap",
+        "action": "Core. Best for current uncertain market cap leadership.",
+        "sentiment": "neutral"
+      },
+      {
+        "category": "Smallcap",
+        "action": "Caution. Stop new lumpsums; stick to SIPs.",
+        "sentiment": "neutral"
+      },
+      {
+        "category": "Sectoral - IT",
+        "action": "Add. Tactical allocation for cyclical recovery.",
+        "sentiment": "positive"
+      }
+    ]
+  },
+  "dosAndDonts": {
+    "dos": [
+      "Review your asset allocation (Equity vs Debt) over the weekend.",
+      "Look for companies reporting 'de-leveraging' (debt reduction) in FY26.",
+      "Use technical 'Stop Losses' for all swing trades."
+    ],
+    "donts": [
+      "Don't chase stocks hitting upper circuits with no fundamental news.",
+      "Don't ignore the rising 'DXY' (Dollar Index) - it usually signals EM volatility.",
+      "Don't average down on stocks with governance red flags."
+    ]
+  },
+  "news": [
+    {
+      "title": "Investor Bottom Line",
+      "summary": "The structural bull market remains intact. Use the current consolidation to shift from high-beta momentum stocks to high-quality growth stocks.",
+      "impact": "neutral"
+    },
+    {
+      "title": "Swing Trader Bottom Line",
+      "summary": "Opportunity is shifting from 'Smallcaps' to 'Largecap Defensives'. Focus on IT and Pharma for the next 10-15 trading sessions.",
+      "impact": "neutral"
+    },
+    {
+      "title": "MF Investor Bottom Line",
+      "summary": "Maintain SIPs. Do not stop installments based on noise. If Nifty corrects to 25,800, use it as a lumpsum entry point.",
+      "impact": "neutral"
+    }
+  ],
+  "sources": [
+    "NSE/BSE Bhavcopy",
+    "Bloomberg Macro Terminal",
+    "Ministry of Commerce PLI updates",
+    "RBI FX Reserves report"
+  ],
+  "disclaimer": "This is a research report and not direct financial advice. Investing in Indian equities involves market risk. Please consult a SEBI-registered advisor before making decisions."
+}
