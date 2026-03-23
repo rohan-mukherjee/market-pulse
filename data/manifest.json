@@ -6,6 +6,26 @@
   },
   "reports": [
     {
+      "date": "2026-03-22",
+      "file": "2026-03-22.json",
+      "title": "Market Pulse Daily",
+      "subtitle": "Weekend Edition (data as of 2026-03-22)",
+      "mood": "Volatile bullish",
+      "marketStatus": "open",
+      "regime": "Volatile bullish",
+      "stance": "Cautious",
+      "mainDriver": "Middle East conflict and oil prices",
+      "summary": "Market rebounded modestly but volatility and geopolitical risks dominate. Oil and inflation remain key drivers. The report highlights caution amid mixed signals. Major themes include oil-led inflation, fiscal stability, and select sector opportunities.",
+      "tags": [
+        "IndiaEquity",
+        "DailyReview",
+        "Macro",
+        "Geopolitics",
+        "SectorRotation",
+        "InvestmentStrategy"
+      ]
+    },
+    {
       "date": "2026-03-21",
       "file": "2026-03-21.json",
       "title": "Market Pulse Daily",
@@ -203,5 +223,5 @@
       ]
     }
   ],
-  "latestReport": "2026-03-21"
+  "latestReport": "2026-03-22"
 }
