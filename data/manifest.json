@@ -6,6 +6,24 @@
   },
   "reports": [
     {
+      "date": "2026-03-24",
+      "file": "2026-03-24.json",
+      "title": "Market Pulse Daily",
+      "subtitle": "Volatile bullish",
+      "mood": "Volatile bullish",
+      "marketStatus": "closed",
+      "regime": "Volatile bullish",
+      "stance": "Cautious",
+      "mainDriver": "Temporary easing of US-Iran conflict risk and volatile global cues",
+      "summary": "Stock markets rebounded as US-Iran tensions eased, but volatility is high. Focus remains on quality stocks and cautious positioning.",
+      "tags": [
+        "IndiaEquity",
+        "MarketUpdate",
+        "Geopolitics",
+        "Volatility"
+      ]
+    },
+    {
       "date": "2026-03-23",
       "file": "2026-03-23.json",
       "title": "Market Pulse Daily",
@@ -243,5 +261,5 @@
       ]
     }
   ],
-  "latestReport": "2026-03-23"
+  "latestReport": "2026-03-24"
 }

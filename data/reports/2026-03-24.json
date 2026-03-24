@@ -1,0 +1,716 @@
+{
+  "meta": {
+    "date": "2026-03-24",
+    "title": "Market Pulse Daily",
+    "subtitle": "Volatile bullish",
+    "marketStatus": "closed",
+    "lastUpdated": "2026-03-24T20:29:00+05:30",
+    "author": "Market Pulse Research"
+  },
+  "mood": {
+    "label": "Volatile bullish",
+    "sentiment": "positive",
+    "pills": [
+      "volatile",
+      "cautious",
+      "relief"
+    ]
+  },
+  "todayIn30Seconds": [
+    "Volatile bullish",
+    "Cautious optimism",
+    "Pause in US strikes on Iran",
+    "Elevated oil prices/risk premium",
+    "Foreign fund flow swings",
+    "Lock in gains on weak names",
+    "Accumulate quality largecaps on dips",
+    "Keep strict stops",
+    "Global risk temporarily eased, lifting markets; remain selective and risk-aware"
+  ],
+  "whatChanged": [
+    {
+      "title": "Nifty 50 index",
+      "description": "22,512.65 → 22,958.40. Recovered ~400 pts after Monday's 2.6% fall【1†L486-L493】【23†L167-L169】",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Sensex index",
+      "description": "72,696.39 → 74,068.00. Up ~1,372 pts after Monday’s decline【23†L167-L169】",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Bank Nifty index",
+      "description": "51,437.75 → 52,743.45. +2.5% bounce led by financials",
+      "sentiment": "positive"
+    },
+    {
+      "title": "India VIX",
+      "description": "26.73 → 24.91. Eased 6.8% as volatility abated【37†L491-L493】",
+      "sentiment": "negative"
+    },
+    {
+      "title": "USD/INR",
+      "description": "₹93.89 → ₹93.34. Rupee gave up some early gains, trading ~93.3【39†L99-L107】",
+      "sentiment": "negative"
+    }
+  ],
+  "overview": {
+    "metrics": [
+      {
+        "label": "Nifty 50",
+        "value": "22958.40",
+        "change": "+1.98%",
+        "sentiment": "positive"
+      },
+      {
+        "label": "Sensex",
+        "value": "74068.00",
+        "change": "+1.92%",
+        "sentiment": "positive"
+      },
+      {
+        "label": "Bank Nifty",
+        "value": "52743.45",
+        "change": "+2.54%",
+        "sentiment": "positive"
+      },
+      {
+        "label": "Nifty Midcap 150",
+        "value": "19939.60",
+        "change": "+2.54%",
+        "sentiment": "positive"
+      },
+      {
+        "label": "Nifty Smallcap 250",
+        "value": "14570.90",
+        "change": "+2.38%",
+        "sentiment": "positive"
+      },
+      {
+        "label": "India VIX",
+        "value": "24.91",
+        "change": "elevated fear",
+        "sentiment": "negative"
+      },
+      {
+        "label": "USD/INR",
+        "value": "93.34",
+        "change": "",
+        "sentiment": "negative"
+      },
+      {
+        "label": "FII Net Flow",
+        "value": "-₹10,414 Cr",
+        "change": "",
+        "sentiment": "negative"
+      },
+      {
+        "label": "DII Net Flow",
+        "value": "+₹12,034 Cr",
+        "change": "",
+        "sentiment": "positive"
+      }
+    ]
+  },
+  "globalMacro": {
+    "summary": "Temporary easing of US-Iran conflict risk and volatile global cues",
+    "regions": [
+      {
+        "name": "US",
+        "index": "S&P 500",
+        "value": "6554.81",
+        "change": "-0.40%",
+        "sentiment": "negative",
+        "note": ""
+      },
+      {
+        "name": "US",
+        "index": "Nasdaq",
+        "value": "21792.94",
+        "change": "-0.70%",
+        "sentiment": "negative",
+        "note": ""
+      },
+      {
+        "name": "US",
+        "index": "Dow Jones",
+        "value": "46106.26",
+        "change": "-0.22%",
+        "sentiment": "negative",
+        "note": ""
+      },
+      {
+        "name": "Asia",
+        "index": "Nikkei 225",
+        "value": "55,100",
+        "change": "+1.20%",
+        "sentiment": "positive",
+        "note": ""
+      },
+      {
+        "name": "Asia",
+        "index": "Hang Seng",
+        "value": "25063.71",
+        "change": "+2.06%",
+        "sentiment": "positive",
+        "note": ""
+      },
+      {
+        "name": "Asia",
+        "index": "Shanghai Comp",
+        "value": "3881.28",
+        "change": "+1.78%",
+        "sentiment": "positive",
+        "note": ""
+      },
+      {
+        "name": "Europe",
+        "index": "DAX",
+        "value": "16000",
+        "change": "-0.80%",
+        "sentiment": "negative",
+        "note": ""
+      },
+      {
+        "name": "Europe",
+        "index": "FTSE 100",
+        "value": "7850",
+        "change": "-0.60%",
+        "sentiment": "negative",
+        "note": ""
+      },
+      {
+        "name": "Macro",
+        "index": "Dollar Index (DXY)",
+        "value": "99.15",
+        "change": "+0.38%",
+        "sentiment": "negative",
+        "note": "Stronger dollar vs rupee adds import pressure"
+      },
+      {
+        "name": "Macro",
+        "index": "US 10Y Yield",
+        "value": "4.378%",
+        "change": "+1.29%",
+        "sentiment": "negative",
+        "note": "Higher US yields could tighten global liquidity"
+      },
+      {
+        "name": "Macro",
+        "index": "Brent Crude",
+        "value": "98.90",
+        "change": "+3.11%",
+        "sentiment": "negative",
+        "note": "Crude around $99-100; high oil prices raise inflation concerns【41†L212-L214】"
+      },
+      {
+        "name": "Macro",
+        "index": "Gold",
+        "value": "4360.53",
+        "change": "-2.70%",
+        "sentiment": "negative",
+        "note": "Gold down as dollar firmed; supports rupee slightly"
+      },
+      {
+        "name": "Macro",
+        "index": "WTI Crude",
+        "value": "91.69",
+        "change": "+4.04%",
+        "sentiment": "negative",
+        "note": "WTI up on supply worries; upside oil risk persists【41†L212-L214】"
+      }
+    ],
+    "keyDrivers": [
+      "Weak US cues may pressure Indian equities; tech strength offset some risk",
+      "Asian markets firm; supportive for sentiment as global risk eases",
+      "Mixed European cues keep traders cautious"
+    ]
+  },
+  "globalNews": {
+    "riskLevel": "High",
+    "marketImpactHorizon": "Short-term (days-weeks)",
+    "themes": [
+      {
+        "theme": "US-Iran conflict tension",
+        "region": "Middle East",
+        "status": "Tense but paused",
+        "marketImpact": "High",
+        "indiaImpact": "Elevated oil inflation; defense sector gains; rupee volatility",
+        "affectedAssets": [
+          "Oil",
+          "Defense stocks",
+          "Airlines",
+          "Banking"
+        ],
+        "signalStrength": "Strong",
+        "whatToTrackNext": "Renewal of strikes or ceasefire news",
+        "sentiment": "positive"
+      }
+    ],
+    "summary": "US President Trump announced a 5-day delay of strikes on Iran, implying talks【41†L205-L214】; oil prices fell then rebounded. India VIX spiked with volatility. Market sees temporary relief, but Strait of Hormuz remains effectively closed【41†L219-L227】. Unresolved conflict keeps risk premium high.",
+    "view": "Monitor geopolitical news closely. In case of lasting ceasefire, we may see sustained equity gains; if conflict flares, expect another risk-off leg."
+  },
+  "indianMarket": {
+    "summary": "Relief bounce",
+    "indices": [
+      {
+        "name": "Nifty 50",
+        "close": "22958.40",
+        "change": "+1.98%",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Sensex",
+        "close": "74068.00",
+        "change": "+1.92%",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Bank Nifty",
+        "close": "52743.45",
+        "change": "+2.54%",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Midcap 150",
+        "close": "19939.60",
+        "change": "+2.54%",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Smallcap 250",
+        "close": "14570.90",
+        "change": "+2.38%",
+        "sentiment": "positive"
+      }
+    ],
+    "flows": {
+      "fii": {
+        "value": "-₹10,414 Cr",
+        "sentiment": "negative"
+      },
+      "dii": {
+        "value": "+₹12,034 Cr",
+        "sentiment": "positive"
+      }
+    },
+    "highlights": [
+      "Markets rallied ~2% with Nifty near 22,900 at close【23†L167-L169】. Midcaps and smallcaps also gained ~2-2.5%.",
+      "Relief rally driven by optimism on Iran ceasefire. Broad participation (banks, infra, consumption led) signals short-covering and some fresh buying.",
+      "Still caution on lower market breadth and FII flows. Use strength to lock in profits on weak stocks.",
+      "Gainer: InterGlobe Aviation (+4.5%) — Airlines",
+      "Loser: Power Grid (-1.0%) — Utilities"
+    ]
+  },
+  "indiaNews": {
+    "importanceLevel": "High",
+    "themes": [
+      {
+        "theme": "SEBI governance and settlement reforms",
+        "category": "Regulatory",
+        "status": "Approved (pending govt notification)",
+        "marketImpact": "Medium",
+        "affectedSectors": [
+          "Financials",
+          "Brokerages",
+          "ETFs"
+        ],
+        "affectedStocks": [],
+        "timeHorizon": "6-12 months",
+        "signalStrength": "Strong",
+        "whatToTrackNext": "Final rules notification, implementation details",
+        "sentiment": "neutral"
+      },
+      {
+        "theme": "Easing FDI in Defence sector",
+        "category": "Policy",
+        "status": "Announced",
+        "marketImpact": "Medium",
+        "affectedSectors": [
+          "Defence",
+          "Aerospace",
+          "Manufacturing"
+        ],
+        "affectedStocks": [
+          "HAL",
+          "BEL",
+          "L&T"
+        ],
+        "timeHorizon": "6-12 months",
+        "signalStrength": "Medium",
+        "whatToTrackNext": "Government notification of new FDI cap, defence budget details",
+        "sentiment": "neutral"
+      }
+    ],
+    "summary": "SEBI approved stricter conflict-of-interest rules for top officials and eased net settlement for FPIs【68†L198-L206】【68†L226-L234】. Reports also indicate FDI cap to 74% for defence auto-route【61†L213-L221】. Governance reforms improve transparency and could boost foreign inflows over time. Defence FDI lift opens sector to more investment. These structural policies are positive, but will take time.",
+    "view": "Long-term positive for financial markets and defence stocks. No immediate equity moves, but supportive for quality stocks (banks, largecap defense) ahead."
+  },
+  "marketRegime": {
+    "current": "Volatile bullish",
+    "description": "Indices have recovered sharply from lows but volatility remains high (VIX >20). The market is in a relief bounce within a larger risk-off swing. News-driven volatility is elevated. Stay disciplined. Favor defensive or high-quality sectors. Keep position sizes modest until a clear trend emerges. Sizing: Reduce trade sizes and use strict stop-losses in this choppy regime.",
+    "signals": [
+      {
+        "label": "Risk Score",
+        "value": "6/100",
+        "sentiment": "positive"
+      },
+      {
+        "label": "What Works",
+        "value": "Quality largecaps",
+        "sentiment": "positive"
+      },
+      {
+        "label": "What Works",
+        "value": "Hedged trades (covered calls, spreads)",
+        "sentiment": "positive"
+      },
+      {
+        "label": "What Works",
+        "value": "Diversified portfolios",
+        "sentiment": "positive"
+      },
+      {
+        "label": "What Fails",
+        "value": "High-beta/momentum bets",
+        "sentiment": "negative"
+      },
+      {
+        "label": "What Fails",
+        "value": "Over-leveraged positions",
+        "sentiment": "negative"
+      }
+    ]
+  },
+  "sectorRotation": {
+    "summary": "Financials and cyclicals led the rally yesterday while defensives lagged. FII flow remains cautious. Rotation into cyclicals as war fears eased; watch for reversion if flows reverse.",
+    "sectors": [
+      {
+        "name": "Banking",
+        "note": "+3% | Banks bounced strongly; likely base-building after long consolidation.",
+        "status": "Accumulate",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Infrastructure/Capital Goods",
+        "note": "+4% | L&T and infra names rallied on capex hopes.",
+        "status": "Accumulate",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Energy/Oil & Gas",
+        "note": "- | Energy stocks volatile on crude swings and regulatory scrutiny.",
+        "status": "Neutral",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Pharma/Healthcare",
+        "note": "-0.5% | Mixed demand; defensive quality but under pressure from rising yields.",
+        "status": "Hold",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "IT",
+        "note": "+2% | Some stocks rebounded (TechM), but FII selling pressure persists.",
+        "status": "Hold",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Consumer Durables",
+        "note": "+3% | Recovery in discretionary names (InterGlobe, retail) amid easing risk.",
+        "status": "Accumulate",
+        "sentiment": "positive"
+      }
+    ]
+  },
+  "breadth": {
+    "summary": "Breadth was weak at the low, improving with relief rally. Caution remains until breadth normalizes.",
+    "indicators": [
+      {
+        "label": "Advance/Decline",
+        "value": "Negative on Monday, turned positive on bounce",
+        "sentiment": "negative"
+      },
+      {
+        "label": "Sector Breadth",
+        "value": "Most sectors participating in rally",
+        "sentiment": "negative"
+      },
+      {
+        "label": "Defensives Leading?",
+        "value": "Temporarily (e.g. agro, consumer staples)",
+        "sentiment": "neutral"
+      },
+      {
+        "label": "Cyclicals Weak?",
+        "value": "Weakness earlier (auto, infra), then sharp reversal",
+        "sentiment": "negative"
+      },
+      {
+        "label": "Buying Type",
+        "value": "Short covering and value buying",
+        "sentiment": "neutral"
+      }
+    ]
+  },
+  "swingSetups": [
+    {
+      "symbol": "L&T",
+      "direction": "long",
+      "entry": "3900-3950",
+      "target": "4100, 4250",
+      "stopLoss": "3750",
+      "timeframe": "2-3 weeks",
+      "thesis": "Breakout from base Steady order inflows Blue-chip infra with fresh buying after consolidation. R:R 2:1 Invalidation: Close below 3750 Sizing: Medium",
+      "confidence": "medium"
+    },
+    {
+      "symbol": "Bajaj Finserv",
+      "direction": "long",
+      "entry": "8850-8900",
+      "target": "9200, 9500",
+      "stopLoss": "8600",
+      "timeframe": "2-4 weeks",
+      "thesis": "Flag consolidation breakout Strong Q3 results Leading NBFC resuming uptrend. R:R ≈2:1 Invalidation: Drop below 8600 Sizing: Medium",
+      "confidence": "medium"
+    },
+    {
+      "symbol": "Tech Mahindra",
+      "direction": "long",
+      "entry": "715-725",
+      "target": "760, 800",
+      "stopLoss": "700",
+      "timeframe": "1-2 weeks",
+      "thesis": "Short-term oversold bounce Deal/earnings update Speculative trade; wait for support hold. R:R 1.5:1 Invalidation: Close below 700 Sizing: Small",
+      "confidence": "low"
+    }
+  ],
+  "avoidList": [
+    {
+      "symbol": "Adani Ports",
+      "reason": "Extended correction and promoter stress"
+    },
+    {
+      "symbol": "Coal India",
+      "reason": "Technical breakdown and weak demand"
+    }
+  ],
+  "emergingOpportunities": {
+    "overallTone": "Neutral",
+    "ideas": [
+      {
+        "company": "Indian Energy Exchange",
+        "theme": "Renewable energy & power trading",
+        "conviction": "Medium",
+        "convictionKey": "medium",
+        "timeHorizon": "12-18 months",
+        "triggerType": "Industry tailwind",
+        "earlySignals": [
+          "Rising renewable bids on exchange"
+        ],
+        "businessQualityView": "High (monopoly in regulated power trading)",
+        "valuationNote": "Fairly valued",
+        "watchlistAction": "Monitor for improving volumes",
+        "reasonForTracking": "Growth in green power generation increases trading volumes",
+        "whatToTrackNext": "Electricity demand, CERC policy on green energy",
+        "trackingStatus": "watch",
+        "firstSeenDate": "2026-03-24",
+        "sentiment": "neutral"
+      },
+      {
+        "company": "AWL Agri Business",
+        "theme": "Consumer staples (food)",
+        "conviction": "Medium",
+        "convictionKey": "medium",
+        "timeHorizon": "12-24 months",
+        "triggerType": "Volume and margin improvement",
+        "earlySignals": [
+          "New product launches",
+          "Market share gains"
+        ],
+        "businessQualityView": "Good brand portfolio",
+        "valuationNote": "Trading at discount to FMCG peers",
+        "watchlistAction": "Accumulate on dips",
+        "reasonForTracking": "Leading edible oil & food products co., strong rural presence",
+        "whatToTrackNext": "Volume growth and price trends",
+        "trackingStatus": "watch",
+        "firstSeenDate": "2026-03-24",
+        "sentiment": "neutral"
+      },
+      {
+        "company": "KPIT Technologies",
+        "theme": "Auto & EV software",
+        "conviction": "Medium",
+        "convictionKey": "medium",
+        "timeHorizon": "12-18 months",
+        "triggerType": "New orders",
+        "earlySignals": [
+          "Rising order backlog"
+        ],
+        "businessQualityView": "Solid niche player",
+        "valuationNote": "Reasonable after correction",
+        "watchlistAction": "Monitor order wins",
+        "reasonForTracking": "Focus on EV/autonomous tech for automakers",
+        "whatToTrackNext": "Automotive sector demand trends",
+        "trackingStatus": "watch",
+        "firstSeenDate": "2026-03-24",
+        "sentiment": "neutral"
+      }
+    ],
+    "summary": "Underfollowed midcaps can offer growth; focus on fundamentals over popularity. Identify niche growth themes (energy, staples, tech) with good triggers. Build watchlist of high-quality small/midcaps showing clear catalysts.",
+    "view": "Build watchlist of high-quality small/midcaps showing clear catalysts."
+  },
+  "riskWatch": {
+    "overallTone": "Cautious",
+    "cases": [
+      {
+        "company": "Adani Enterprises",
+        "riskType": "Governance / Volatility",
+        "issue": "Promoter pledge and geopolitical exposure concerns",
+        "severity": "High",
+        "severityKey": "high",
+        "nearTermMarketRisk": "High volatility",
+        "possibleImpactAreas": [
+          "Power generation",
+          "Ports",
+          "Retail"
+        ],
+        "stance": "Avoid",
+        "watchlistAction": "Monitor for de-leveraging or stabilization",
+        "monitoringSignals": [
+          "News on pledges or debt"
+        ],
+        "whatToTrackNext": "Changes in pledge levels, regulatory updates",
+        "trackingStatus": "watch",
+        "firstSeenDate": "2025-11-01",
+        "sentiment": "negative"
+      }
+    ],
+    "summary": "Certain stocks remain under pressure from structural issues (e.g., high leverage, weak demand). Avoid stocks with weak fundamentals or unresolved issues, even on bounce. Focus on stability and fundamentals; trim or stop new buys in troubled companies.",
+    "view": "Focus on stability and fundamentals; trim or stop new buys in troubled companies."
+  },
+  "keyLevels": {
+    "nifty": {
+      "instrument": "Nifty 50",
+      "support": [
+        "22,500"
+      ],
+      "resistance": [
+        "23,200"
+      ]
+    },
+    "bankNifty": {
+      "instrument": "Bank Nifty",
+      "support": [
+        "50,000"
+      ],
+      "resistance": [
+        "53,000"
+      ]
+    },
+    "vix": {
+      "instrument": "India VIX",
+      "pivot": "25.0",
+      "support": [],
+      "resistance": []
+    },
+    "brent": {
+      "instrument": "Brent Crude",
+      "pivot": "100.0",
+      "support": [],
+      "resistance": []
+    },
+    "usdInr": {
+      "instrument": "USD/INR",
+      "pivot": "92.50",
+      "support": [],
+      "resistance": []
+    },
+    "triggers": {
+      "instrument": "Market Triggers",
+      "support": [
+        "Ceasefire dialogue progresses",
+        "Crude falls below $95",
+        "Stable global rates"
+      ],
+      "resistance": [
+        "Conflict escalates",
+        "Brent above $105",
+        "Fed remains hawkish"
+      ]
+    }
+  },
+  "investorPlan": {
+    "stance": "Cautious",
+    "summary": "Global uncertainty and high volatility persist (VIX surged)【37†L491-L493】. Better to preserve capital; opportunistically use pullbacks in blue-chips. Stick to core holdings; new buys only at technical supports in well-known stocks.",
+    "actions": [
+      {
+        "action": "Core Portfolio (Quality largecaps): Hold/Accumulate. Focus on fundamentally strong stocks; avoid panic selling.",
+        "priority": "low"
+      },
+      {
+        "action": "Trading Positions: Lighten. Tighten stops; reduce high-beta exposure.",
+        "priority": "medium"
+      },
+      {
+        "action": "Cash / Dry Powder: Hold. Deploy on clear dips in quality names.",
+        "priority": "medium"
+      }
+    ]
+  },
+  "mutualFundView": {
+    "summary": "Continue Defer Dry powder: Moderate",
+    "recommendations": [
+      {
+        "category": "Large Cap Funds",
+        "action": "Hold/Buy. Recovery lifts largecap funds; valuations still rich but leadership intact.",
+        "sentiment": "positive"
+      },
+      {
+        "category": "Mid/Small Cap Funds",
+        "action": "Cautious. High volatility; ensure exposure fits risk appetite.",
+        "sentiment": "negative"
+      },
+      {
+        "category": "Debt Funds",
+        "action": "Neutral. Maintain decent allocation as a hedge; yields rising.",
+        "sentiment": "neutral"
+      }
+    ]
+  },
+  "dosAndDonts": {
+    "dos": [
+      "Stay diversified and cautious",
+      "Use pullbacks to buy quality names",
+      "Maintain disciplined stops"
+    ],
+    "donts": [
+      "Chase volatile breakouts",
+      "Increase leverage in uncertainty",
+      "React to unverified news"
+    ]
+  },
+  "news": [
+    {
+      "title": "Investor Bottom Line",
+      "summary": "Relief rally is welcome, but risks remain. Maintain quality positions and avoid complacency【23†L167-L169】【68†L198-L206】.",
+      "impact": "neutral"
+    },
+    {
+      "title": "Swing Trader Bottom Line",
+      "summary": "Volatility is high. Only high-probability setups with clear technicals should be traded, and stops must be tight.",
+      "impact": "neutral"
+    },
+    {
+      "title": "MF Investor Bottom Line",
+      "summary": "Stick to SIPs and a measured investment approach. Delay fresh lumpsum allotments until trend clarity.",
+      "impact": "neutral"
+    }
+  ],
+  "sources": [
+    "NSE data",
+    "Moneycontrol",
+    "Reuters",
+    "Economic Times"
+  ],
+  "disclaimer": "This report is for informational purposes only and is not investment advice. Please consult a financial advisor before making investment decisions."
+}
