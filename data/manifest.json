@@ -6,6 +6,35 @@
   },
   "reports": [
     {
+      "date": "2026-03-25",
+      "file": "2026-03-25.json",
+      "title": "Market Pulse Daily",
+      "subtitle": "Weekend Edition (data as of 2026-03-25)",
+      "mood": "Volatile bullish",
+      "marketStatus": "closed",
+      "regime": "Volatile bullish",
+      "stance": "Constructive but cautious: okay to deploy selectively into quality large caps and strong structural themes, but avoid aggressive risk-taking in smallcaps until volatility and FII flows cool down.",
+      "mainDriver": "Global de-escalation hopes in the US–Israel–Iran conflict pulling down crude and supporting a two-day relief rally in Indian equities, even as the rupee stays weak and FIIs remain net sellers.",
+      "summary": "Nifty and Sensex staged a second strong relief rally on 25 March 2026 with broad-based gains led by PSU banks, infra and cyclicals, even as India VIX stayed elevated, FIIs continued to sell and the rupee hovered near record lows; the market regime is ‘volatile bullish’ with structural support from record public capex, defence indigenisation and manufacturing/semicon pushes, but also visible stress in weak smallcaps, governance-challenged microcaps and leveraged yield vehicles.",
+      "tags": [
+        "2026-03-25",
+        "Nifty23306",
+        "Sensex75273",
+        "ReliefRally",
+        "HighVIX",
+        "FIISelling",
+        "DIIBuying",
+        "RupeeWeakness",
+        "OilAbove100",
+        "InfraCapex",
+        "DefenceTheme",
+        "SemiconductorMission2",
+        "SmallcapCorrection",
+        "AuditResignations",
+        "REITLeverageRisk"
+      ]
+    },
+    {
       "date": "2026-03-24",
       "file": "2026-03-24.json",
       "title": "Market Pulse Daily",
@@ -261,5 +290,5 @@
       ]
     }
   ],
-  "latestReport": "2026-03-24"
+  "latestReport": "2026-03-25"
 }
