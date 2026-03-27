@@ -6,6 +6,30 @@
   },
   "reports": [
     {
+      "date": "2026-03-26",
+      "file": "2026-03-26.json",
+      "title": "Market Pulse Daily",
+      "subtitle": "Weekend Edition (data as of 2026-03-25)",
+      "mood": "Volatile bullish",
+      "marketStatus": "closed",
+      "regime": "Volatile bullish",
+      "stance": "Selective bullish but volatility-aware: stay constructive on quality large caps and strong sectors, while keeping risk size and smallcap exposure under control.",
+      "mainDriver": "Middle East conflict and oil price swings driving global risk sentiment, overlaid on a domestic relief rally driven by strong DII buying and hopes of de-escalation.",
+      "summary": "Holiday-affected India session with strong prior-day relief rally, elevated VIX, renewed global risk-off on Iran and oil, and policy tailwinds in manufacturing and defence; stance remains selectively bullish with tight risk management.",
+      "tags": [
+        "2026-03-26",
+        "volatile_bullish",
+        "india_equities",
+        "middle_east_conflict",
+        "oil_spike",
+        "india_vix_high",
+        "manufacturing_mission",
+        "defence_theme",
+        "smallcap_froth",
+        "hdfc_bank_governance"
+      ]
+    },
+    {
       "date": "2026-03-25",
       "file": "2026-03-25.json",
       "title": "Market Pulse Daily",
@@ -290,5 +314,5 @@
       ]
     }
   ],
-  "latestReport": "2026-03-25"
+  "latestReport": "2026-03-26"
 }
