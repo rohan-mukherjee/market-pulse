@@ -6,6 +6,87 @@
   },
   "reports": [
     {
+      "date": "2026-03-29",
+      "file": "2026-03-29.json",
+      "title": "Market Pulse Daily",
+      "subtitle": "Weekend Edition (data as of 2026-03-27)",
+      "mood": "Risk-off correction with elevated volatility and global macro headwinds.",
+      "marketStatus": "closed",
+      "regime": "Risk-off correction with elevated volatility and global macro headwinds.",
+      "stance": "Defensive and selective, focus on capital protection and staggered deployment rather than aggression.",
+      "mainDriver": "Middle East war-driven oil spike, strong dollar, rising US yields and heavy FII selling triggered a broad-based selloff in Indian equities.",
+      "summary": "Risk-off day for Indian equities on 27 March 2026 as Nifty and Sensex fell over 2%, Bank Nifty underperformed, VIX spiked into high‑20s, rupee hit record-weak levels, oil stayed above $100, and FIIs sold aggressively while DIIs bought; sector rotation favoured energy, telecom and IT over banks, autos and realty, with structural themes like infra, semiconductors, rail and speciality chemicals remaining intact beneath the volatility.",
+      "tags": [
+        "2026-03-27",
+        "risk-off-correction",
+        "high-vix",
+        "oil-shock",
+        "us-iran-war",
+        "fii-selling",
+        "dii-buying",
+        "rupee-weakness",
+        "budget-2026",
+        "rbi-5.25",
+        "semiconductor-india",
+        "railways-theme",
+        "speciality-chemicals",
+        "psu-banks",
+        "energy-outperformance"
+      ]
+    },
+    {
+      "date": "2026-03-28",
+      "file": "2026-03-28.json",
+      "title": "Market Pulse Daily",
+      "subtitle": "Weekend Edition (data as of 2026-03-27)",
+      "mood": "Risk-off correction with elevated volatility after an oil-and-currency shock.",
+      "marketStatus": "closed",
+      "regime": "Risk-off correction with elevated volatility after an oil-and-currency shock.",
+      "stance": "Defensive, capital-preservation focused; treat bounces as opportunities to clean up risk rather than to leverage up.",
+      "mainDriver": "Escalating US–Israel–Iran conflict keeping Brent above USD 100 and pushing the rupee to record lows, triggering FII selling and a broad risk-off move in Indian equities.",
+      "summary": "27 Mar 2026 marked a sharp risk-off day for Indian equities with a 2%+ index fall, India VIX above 26, record-weak rupee near 94.7–94.9, and elevated oil due to the Iran war, driving rotation into defensives and exporters while financials and domestic cyclicals corrected.",
+      "tags": [
+        "2026-03-27",
+        "risk-off",
+        "Iran war",
+        "Brent>100",
+        "rupee-94",
+        "high-VIX",
+        "FII-selling",
+        "India-equities",
+        "defence",
+        "capex-cycle",
+        "governance-risk",
+        "daily-report"
+      ]
+    },
+    {
+      "date": "2026-03-27",
+      "file": "2026-03-27.json",
+      "title": "Market Pulse Daily",
+      "subtitle": "",
+      "mood": "",
+      "marketStatus": "closed",
+      "regime": "",
+      "stance": "",
+      "mainDriver": "",
+      "summary": "27 Mar 2026 – Oil-and-rupee-driven risk-off day: Nifty -2.1%, VIX near 27, rupee at record lows, FIIs selling hard, government cuts fuel excise to shield OMCs, and global equities slide on Iran war and high yields.",
+      "tags": [
+        "2026-03-27",
+        "risk-off correction",
+        "Iran war",
+        "oil shock",
+        "India VIX spike",
+        "rupee weakness",
+        "FII selling",
+        "fuel excise cut",
+        "DAP 2026",
+        "defence policy",
+        "sector rotation",
+        "HDFC Bank governance"
+      ]
+    },
+    {
       "date": "2026-03-26",
       "file": "2026-03-26.json",
       "title": "Market Pulse Daily",
@@ -314,5 +395,5 @@
       ]
     }
   ],
-  "latestReport": "2026-03-26"
+  "latestReport": "2026-03-29"
 }
