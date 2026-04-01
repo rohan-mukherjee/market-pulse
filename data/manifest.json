@@ -6,6 +6,29 @@
   },
   "reports": [
     {
+      "date": "2026-03-31",
+      "file": "2026-03-31.json",
+      "title": "Market Pulse Daily",
+      "subtitle": "",
+      "mood": "",
+      "marketStatus": "closed",
+      "regime": "",
+      "stance": "",
+      "mainDriver": "",
+      "summary": "March 31, 2026 (Mahavir Jayanti holiday) – Indian equities sit in a high-volatility risk-off correction driven by oil shock, rupee weakness and FII selling, even as US markets bounce; policy supports capex and FX stability while investors rotate toward quality and structural themes.",
+      "tags": [
+        "2026-03-31",
+        "risk_off_correction",
+        "oil_shock",
+        "rupee_weakness",
+        "high_vix",
+        "defence_theme",
+        "rail_capex",
+        "smallcap_correction",
+        "rbi_fx_controls"
+      ]
+    },
+    {
       "date": "2026-03-29",
       "file": "2026-03-29.json",
       "title": "Market Pulse Daily",
@@ -395,5 +418,5 @@
       ]
     }
   ],
-  "latestReport": "2026-03-29"
+  "latestReport": "2026-03-31"
 }

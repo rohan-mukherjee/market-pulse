@@ -1,0 +1,797 @@
+{
+  "keyChanges": [
+    {
+      "label": "Local vs global drivers",
+      "oldValue": "",
+      "newValue": "Focus has shifted from purely local price action.",
+      "direction": "neutral",
+      "comment": "rather than local price action."
+    },
+    {
+      "label": "Global risk sentiment",
+      "oldValue": "Global equities had been sliding on war and oil worries, with US stocks more than 9% off recent highs.",
+      "newValue": "US indices delivered a 2.5–3.8% rally overnight as oil eased and de-escalation hopes improved, offering a short-term sentiment boost.",
+      "direction": "up",
+      "comment": "This sharp US bounce reduces immediate global panic but does not fully offset India-specific pressures from the rupee and domestic selling."
+    },
+    {
+      "label": "Oil and energy shock",
+      "oldValue": "Brent had spiked above 112–115 dollars per barrel during the height of the Hormuz disruption, up more than 50% month-on-month.",
+      "newValue": "Brent has cooled slightly toward the low-100s but remains extremely elevated versus recent history, keeping energy, inflation and current-account risks high for India.",
+      "direction": "down",
+      "comment": "The move from peak levels buys time for central banks and risk assets but is still painful for oil-importing countries like India."
+    },
+    {
+      "label": "Rupee and FX regulation",
+      "oldValue": "The rupee had been sliding with over 5% depreciation in March and more than 10% for the financial year, forcing RBI into heavy forward interventions.",
+      "newValue": "RBI has now capped banks’ net open rupee positions at 100 million dollars, which triggered a short-covering bounce in INR but does not fully reverse its weakness.",
+      "direction": "up",
+      "comment": "Policy intent is clearly to clamp down on speculative FX positions; if the rupee stabilises, equity risk premia can compress over time."
+    },
+    {
+      "label": "Institutional flows",
+      "oldValue": "FIIs had been persistent sellers through March, while DIIs were buying but not enough to prevent a sizeable drawdown.",
+      "newValue": "On March 30, FIIs sold about 10,573 crore while DIIs bought around 14,261 crore in cash, indicating strong domestic support but still net foreign risk-off.",
+      "direction": "up",
+      "comment": "DII buying is cushioning the fall, but the market will likely stay choppy until foreign selling slows and global macro stabilises."
+    }
+  ],
+  "overviewMetrics": {
+    "nifty": {
+      "value": "22331.40",
+      "changePct": "-2.14%",
+      "comment": "Nifty closed near 22,331 on March 30, down about 488 points or 2.14%, breaking key support into FY26 close on the back of oil, rupee and FII pressure."
+    },
+    "sensex": {
+      "value": "71947.55",
+      "changePct": "-2.22%",
+      "comment": "Sensex ended around 71,948, down 1,636 points or 2.22%, erasing a large part of the post-Budget rally and marking the weakest FY close in several years."
+    },
+    "bankNifty": {
+      "value": "50306.75",
+      "changePct": "-3.82%",
+      "comment": "Bank Nifty underperformed sharply, dropping about 3.8% to roughly 50,307 as both private and PSU banks bore the brunt of FII selling and rupee stress."
+    },
+    "midcap150": {
+      "value": "Using Nifty Midcap 100 proxy: 52650",
+      "changePct": "-2.68%",
+      "comment": "Midcaps fell around 2.7% on March 30 and are down high-single digits for the quarter, reflecting a broad de-rating after a very strong multi-year run."
+    },
+    "smallcap250": {
+      "value": "Using Nifty Smallcap 100 proxy: 15204",
+      "changePct": "-2.66%",
+      "comment": "Smallcaps dropped about 2.7% on the day and roughly 9–10% in the March quarter, signalling meaningful damage in frothy pockets and illiquid names."
+    },
+    "indiaVix": {
+      "value": "27.88",
+      "zone": "elevated_fear",
+      "comment": "India VIX near 28 sits firmly in the elevated fear zone, consistent with large intraday swings, gap risk and a higher probability of stop-loss hunts; this argues for smaller size and wider buffers."
+    },
+    "usdInr": {
+      "value": "≈94.3–95.0 per USD",
+      "comment": "USD/INR has been hovering around 94–95 with intraday spikes above 95, representing more than 5% depreciation in March and over 10% for the financial year, despite RBI’s heavy use of forwards and new limits on banks’ FX bets."
+    },
+    "fiiFlow": {
+      "value": "-10572.59 crore (cash, March 30)",
+      "comment": "FIIs sold roughly 10,573 crore in the cash segment on March 30, extending a month of aggressive foreign outflows from Indian equities."
+    },
+    "diiFlow": {
+      "value": "+14260.62 crore (cash, March 30)",
+      "comment": "DIIs bought about 14,261 crore on the same day, more than offsetting foreign selling in rupee terms but still unable to prevent a brutal price decline."
+    }
+  },
+  "globalMacro": {
+    "us": {
+      "sp500": {
+        "value": "6528.52",
+        "changePct": "+2.9%"
+      },
+      "nasdaq": {
+        "value": "21590.63",
+        "changePct": "+3.8%"
+      },
+      "dow": {
+        "value": "46341.51",
+        "changePct": "+2.5%"
+      },
+      "driver": "US indices staged their best day in months as oil cooled from peak levels and headlines suggested a potential path to de-escalation in the Iran war, triggering aggressive short-covering.",
+      "indiaRelevance": "The US bounce eases global risk aversion and supports the case for a tactical bounce in Indian indices, but India-specific headwinds from oil import costs, rupee weakness and foreign flows remain unresolved."
+    },
+    "asia": {
+      "nikkei": {
+        "value": "51885.85 (Mar 30) then 51063.72 (Mar 31)",
+        "changePct": "-2.8% then -1.6%"
+      },
+      "hangSeng": {
+        "value": "24750.79",
+        "changePct": "-0.81%"
+      },
+      "shanghai": {
+        "value": "3923.29",
+        "changePct": "+0.24%"
+      },
+      "indiaRelevance": "Asian markets are still digesting oil and war shocks, with Japan and Korea hit hardest while China and Hong Kong show mixed resilience; this keeps regional risk premium elevated and can influence FII risk budgets to India."
+    },
+    "europe": {
+      "dax": {
+        "value": "22562.88",
+        "changePct": "+1.18%"
+      },
+      "ftse": {
+        "value": "10176.45",
+        "changePct": "+0.48% over two sessions (approx)"
+      },
+      "indiaRelevance": "European indices are oscillating near key supports amid stagflation worries from high energy costs, signalling a fragile risk backdrop that can spill over via global funds and export demand for Indian IT, auto and capital goods."
+    },
+    "macroVariables": {
+      "dxy": {
+        "value": "≈100",
+        "changePct": "largely flat",
+        "indiaRelevance": "The dollar index hovering near 100 suggests that INR weakness is driven more by India- and oil-specific factors than an outright dollar spike, slightly limiting imported inflation but not solving currency risk."
+      },
+      "us10y": {
+        "value": "≈4.33%",
+        "changePct": "down ~0.03 percentage points day-on-day",
+        "indiaRelevance": "A modest easing in the US 10-year yield reduces some pressure on global risk assets, but with yields still above 4.3% the cost of capital backdrop remains tight, capping valuation re-rating for expensive Indian growth stocks."
+      },
+      "brent": {
+        "value": "≈112–115 USD/bbl on Mar 30, easing toward ~104 on Mar 31",
+        "changePct": "+35–55% versus a month ago despite recent dip",
+        "indiaRelevance": "Brent remaining above 100 keeps pressure on India’s current account, inflation and fiscal balance, acting as a tax on consumption and margins for oil-importing sectors such as aviation, paints and chemicals."
+      },
+      "gold": {
+        "value": "≈4500–4600 USD/oz",
+        "changePct": "up sharply year-on-year, recent week mildly lower from peak",
+        "indiaRelevance": "Gold near record territory reflects strong global risk hedging and can support Indian households with gold exposure, but also signals elevated risk perception and potential headwinds for financial assets if the safe-haven bid persists."
+      },
+      "wti": {
+        "value": "≈101 USD/bbl",
+        "changePct": "up ~40–50% over the month",
+        "indiaRelevance": "WTI tracking Brent higher reinforces the message that refined product prices, freight and input costs will stay elevated, pressuring margins across logistics-heavy and energy-intensive Indian sectors."
+      }
+    }
+  },
+  "geoPoliticsAndWorldNews": {
+    "riskLevel": "high",
+    "marketImpactHorizon": "weeks_to_quarters",
+    "themes": [
+      {
+        "themeId": "iran-war-hormuz-closure",
+        "theme": "Iran war and partial closure of Strait of Hormuz",
+        "region": "Middle East / Global",
+        "status": "ongoing_high_intensity",
+        "marketImpact": "Largest oil and LNG supply disruption in history, with exports stranded and production cuts of several million barrels per day driving extreme volatility in crude and fuel prices.",
+        "affectedAssets": ["Brent crude", "WTI crude", "LNG prices", "oil-sensitive equities", "shipping companies", "defence stocks"],
+        "indiaImpact": "Higher oil prices raise India’s import bill, weaken INR, fuel inflation and pressure fiscal math, but also boost earnings visibility for domestic defence and some energy-related plays.",
+        "signalStrength": "strong",
+        "trackingPriority": "top",
+        "firstSeenDate": "2026-02-28",
+        "lastUpdatedDate": "2026-03-31",
+        "whatToTrackNext": "Monitor any concrete ceasefire or corridor deal in Hormuz, tanker traffic resumption data, IEA updates, and whether Brent decisively falls back below 100 or spikes again toward 120–140."
+      },
+      {
+        "themeId": "shipping-attacks-and-insurance",
+        "theme": "Attacks on shipping and energy infrastructure in Gulf and surrounding waters",
+        "region": "Gulf / Red Sea",
+        "status": "active_disruptions",
+        "marketImpact": "Sustained attacks on tankers and infrastructure have raised freight rates, insurance premia and delivery times, creating a secondary inflation channel beyond pure oil prices.",
+        "affectedAssets": ["shipping stocks", "marine insurers", "global trade routes", "refiners", "commodity importers"],
+        "indiaImpact": "Higher logistics and insurance costs can raise landed prices for crude, LNG and fertilisers, putting pressure on India’s fertiliser subsidy, food inflation and margins of energy-intensive manufacturers.",
+        "signalStrength": "strong",
+        "trackingPriority": "high",
+        "firstSeenDate": "2026-03-01",
+        "lastUpdatedDate": "2026-03-31",
+        "whatToTrackNext": "Watch shipping lanes status in Hormuz and Gulf of Oman, war-risk insurance premia trends and any rerouting of Indian import cargoes through alternative ports or overland pipelines."
+      },
+      {
+        "themeId": "global-policy-and-inflation",
+        "theme": "Higher-for-longer energy prices and delayed global rate cuts",
+        "region": "Global",
+        "status": "developing",
+        "marketImpact": "Oil around or above 100 is estimated to shave roughly half a percentage point off global growth and add around one percentage point to inflation, forcing central banks to stay cautious on rate cuts.",
+        "affectedAssets": ["global equities", "bonds", "EM currencies", "rate-sensitive sectors"],
+        "indiaImpact": "Delayed DM rate cuts keep global yields elevated, sustaining the opportunity cost of holding Indian equities at rich valuations and reinforcing the need for earnings delivery in growth stories.",
+        "signalStrength": "medium",
+        "trackingPriority": "high",
+        "firstSeenDate": "2026-03-01",
+        "lastUpdatedDate": "2026-03-31",
+        "whatToTrackNext": "Track Fed, ECB and BoE rhetoric on whether the oil shock is treated as transient or persistent, and how they balance inflation vs growth in upcoming meetings."
+      }
+    ],
+    "fact": "The war in Iran and closure of the Strait of Hormuz have created the largest oil and LNG supply disruption on record, pushing Brent above 120 at the peak and lifting energy and fertiliser prices sharply.",
+    "interpretation": "This is a classic negative supply shock that hits importers like India via higher input costs, weaker currency and stickier inflation, while selectively benefiting domestic defence, energy and some commodity producers.",
+    "view": "Assume a structurally higher oil and geopolitical risk premium for the next few quarters, position portfolios with respect for this regime, and treat any sharp oil pullbacks as potentially temporary until a durable political settlement emerges."
+  },
+  "indiaPulse": {
+    "marketType": "broad-based_selloff",
+    "breadth": "Very weak: on March 30 the BSE saw about 3,563 stocks decline versus only 876 advance and 154 unchanged, showing heavy selling across the board.",
+    "topGainers": [
+      {
+        "name": "Hindalco Industries",
+        "changePct": "+2.05%",
+        "sector": "Metals and mining."
+      },
+      {
+        "name": "Coal India",
+        "changePct": "+1.22%",
+        "sector": "Coal and mining."
+      },
+      {
+        "name": "ONGC",
+        "changePct": "+0.96%",
+        "sector": "Oil and gas."
+      },
+      {
+        "name": "Power Grid Corp",
+        "changePct": "+0.21%",
+        "sector": "Power utilities."
+      }
+    ],
+    "topLosers": [
+      {
+        "name": "Bajaj Finance",
+        "changePct": "-5.01%",
+        "sector": "NBFC – consumer finance."
+      },
+      {
+        "name": "State Bank of India",
+        "changePct": "-3.94%",
+        "sector": "PSU banking."
+      },
+      {
+        "name": "Kotak Mahindra Bank",
+        "changePct": "-3.49%",
+        "sector": "Private sector banking."
+      },
+      {
+        "name": "Axis Bank",
+        "changePct": "-3.65%",
+        "sector": "Private sector banking."
+      }
+    ],
+    "fact": "Financials, PSU banks, realty, capital goods and consumption indices dropped between roughly 3% and 5%, while only a handful of commodity and energy names managed small gains.",
+    "interpretation": "Leadership flipped defensively toward metals, coal, oil and utilities, which are natural beneficiaries or hedges in an energy shock, while rate- and credit-sensitive sectors bore the brunt of de-risking.",
+    "view": "Treat current price action as a cleansing phase where overheated financials and smallcaps reset; use it to accumulate structurally sound leaders in reasonably valued pockets rather than trying to catch every intraday bounce in weak sectors."
+  },
+  "indiaStrategicNews": {
+    "importanceLevel": "high",
+    "themes": [
+      {
+        "themeId": "rbi-fx-open-position-cap",
+        "theme": "RBI caps banks’ onshore rupee open positions at 100 million dollars",
+        "category": "monetary_policy_fx_regulation",
+        "status": "announced_effective_by_April_10_2026",
+        "marketImpact": "Rule forces banks to unwind large long-dollar positions funded onshore, temporarily supporting INR but also creating mark-to-market pain in some balance sheets.",
+        "affectedSectors": ["Banks", "NBFCs with treasury operations", "exporters with hedging programmes"],
+        "affectedStocks": [],
+        "timeHorizon": "months",
+        "signalStrength": "strong",
+        "trackingPriority": "top",
+        "firstSeenDate": "2026-03-28",
+        "lastUpdatedDate": "2026-03-31",
+        "whatToTrackNext": "Watch FX volumes, onshore–offshore INR basis, bank treasury commentary and whether RBI tweaks or extends these limits if volatility persists."
+      },
+      {
+        "themeId": "state-capex-push",
+        "theme": "Centre nudges states to accelerate capex under Special Assistance to States for Capital Expenditure scheme",
+        "category": "fiscal_policy_capex",
+        "status": "ongoing",
+        "marketImpact": "Centre has released about 1.04 lakh crore under SASCI and is pushing states to utilise the 1.44 lakh crore outlay before March 31, supporting infra, construction and allied demand.",
+        "affectedSectors": ["Capital goods", "Infra and EPC", "Cement", "Railways-linked companies"],
+        "affectedStocks": [],
+        "timeHorizon": "quarters",
+        "signalStrength": "medium",
+        "trackingPriority": "high",
+        "firstSeenDate": "2026-02-17",
+        "lastUpdatedDate": "2026-03-31",
+        "whatToTrackNext": "Track actual state-level project awards and execution, especially in transport, urban infra and irrigation, and how quickly this flows into order books of listed EPC and capital goods names."
+      },
+      {
+        "themeId": "textile-pli-extension",
+        "theme": "PLI scheme for textiles – extended application window and lower investment thresholds",
+        "category": "industrial_policy_manufacturing",
+        "status": "active",
+        "marketImpact": "PLI window for MMF and technical textiles has been extended to March 31, 2026 with reduced minimum investment thresholds, encouraging more mid-sized firms and MSMEs to participate.",
+        "affectedSectors": ["Textiles", "Technical textiles", "Export-oriented manufacturing"],
+        "affectedStocks": [],
+        "timeHorizon": "1–5_years",
+        "signalStrength": "medium",
+        "trackingPriority": "medium",
+        "firstSeenDate": "2026-02-09",
+        "lastUpdatedDate": "2026-03-31",
+        "whatToTrackNext": "Monitor new PLI beneficiaries, their capex plans and whether incremental orders, margins and exports begin to show up in quarterly numbers from FY27 onward."
+      },
+      {
+        "themeId": "sebi-board-march-2026",
+        "theme": "SEBI’s March 2026 board meeting – tighter rules for AIFs and conflict-of-interest controls",
+        "category": "capital_markets_regulation",
+        "status": "announced",
+        "marketImpact": "SEBI’s board discussed new flexibility for winding up AIFs and stricter conflict-of-interest rules, part of a broader tightening cycle aimed at protecting investors amid frothy segments and mis-selling risk.",
+        "affectedSectors": ["Asset management", "Alternate investment funds", "Wealth management platforms"],
+        "affectedStocks": [],
+        "timeHorizon": "years",
+        "signalStrength": "medium",
+        "trackingPriority": "medium",
+        "firstSeenDate": "2026-03-23",
+        "lastUpdatedDate": "2026-03-31",
+        "whatToTrackNext": "Look for detailed SEBI circulars, implementation timelines and any spillover into rules for PMS, smallcap funds or leverage in structured products."
+      }
+    ],
+    "fact": "RBI has moved aggressively to curb speculative rupee trades by capping banks’ daily onshore open positions, while the Centre is simultaneously pushing state and PLI-linked capex to sustain the real-economy growth engine.",
+    "interpretation": "Policy mix is clearly trying to put a floor under macro stability (FX, inflation) without derailing India’s medium-term investment-led growth story.",
+    "view": "As an equity investor, align with the state/central capex and PLI thrust while respecting FX and regulatory risk in leveraged financials and speculative segments; these policy moves favour disciplined, compliant and execution-strong franchises over financial engineering stories."
+  },
+  "regime": {
+    "label": "Risk-off correction",
+    "riskScore": 7,
+    "fact": "Indian indices have fallen around 9–11% year-to-date in 2026, smallcaps are down nearly double digits in the March quarter, India VIX is near its 52-week highs and FIIs are significant net sellers even as DIIs absorb supply.",
+    "interpretation": "This is a classic risk-off correction driven by external shocks (oil, war, global yields) interacting with local vulnerabilities (rich valuations, frothy smallcaps, weak rupee).",
+    "view": "Assume that volatility and drawdowns can persist for weeks, but also recognise that such regimes often create the best 12–24 month entry points into structurally strong themes if you size and stagger wisely.",
+    "whatWorks": [
+      "High-quality largecaps with strong balance sheets and pricing power, especially in staples, utilities, select IT and credible private banks.",
+      "Structural themes with government-backed order visibility such as defence, railways and power transmission, accumulated on corrections rather than chased at highs.",
+      "Tactical hedges like gold exposure or energy-tilted names, sized modestly to offset portfolio shocks without overconcentrating."
+    ],
+    "whatFails": [
+      "Illiquid SME and microcap names with weak fundamentals, where SEBI has already flagged manipulation in some cases.",
+      "High-duration, expensive growth stocks with no near-term cash flows, as higher real yields and risk premia compress multiples.",
+      "Aggressive leveraged trades in banks and high-beta cyclicals when VIX is elevated, due to gap risk and whipsaws."
+    ],
+    "sizingNote": "Keep gross exposure below your normal comfort until VIX stabilises and rupee volatility cools, using staggered entries, partial profit-taking on sharp bounces and strict overall portfolio drawdown limits."
+  },
+  "sectorRotation": {
+    "leaders": [
+      "Metals and mining (Hindalco, Coal India) showed relative strength with gains in a broadly negative tape, supported by commodity pricing power.",
+      "Energy and utilities (ONGC, Power Grid, select power names) held up better than the market as oil and grid capex themes provided a cushion."
+    ],
+    "laggards": [
+      "Banks and financials, particularly PSU and private banks, with 3–5% declines and heavy FII selling.",
+      "Rate- and credit-sensitive pockets such as NBFCs, realty and consumption plays linked to discretionary spending."
+    ],
+    "relativeStrengthSectors": [
+      "Defence and PSU energy with strong order books and policy tailwinds, though many names are still expensive and prone to sharp corrections.",
+      "Railways and infra linked to record capex, where order books are strong but valuations and execution risks must be watched."
+    ],
+    "avoidForSwing": [
+      "PSU banks and weak private banks until price stabilisation and signs that FII selling has abated.",
+      "Illiquid smallcap realty, microcap industrials and SME names with sudden parabolic moves or SEBI scrutiny."
+    ],
+    "gradualAccumulationCandidates": [
+      "High-quality largecap IT and select export-oriented manufacturers, which benefit from rupee weakness if global demand holds up.",
+      "Defence and railways names with long visibility of government orders, accumulated on 15–25% corrections from peaks."
+    ],
+    "sectors": [
+      {
+        "sector": "Financials / Banks",
+        "dayPerformance": "Bank Nifty fell nearly 3.8%, with major private and PSU banks down between about 3% and 5%.",
+        "weeklyTone": "Weak, with persistent FII selling and concerns around credit quality and funding costs.",
+        "relativeStrengthVsNifty": "Underperforming.",
+        "fiiBias": "Negative.",
+        "stance": "Underweight for swings; long-term investors should use deeper corrections to upgrade only to best-in-class franchises.",
+        "comment": "Combine macro headwinds (oil, rupee, yields) with regulatory uncertainty and you get poor risk–reward for marginal capital in weaker banks right now."
+      },
+      {
+        "sector": "PSU Banks",
+        "dayPerformance": "BSE PSU Bank index plunged around 4.6%, one of the worst performers on the day.",
+        "weeklyTone": "Very weak after a strong multi-quarter run, as profit-booking meets macro concerns and elevated valuations.",
+        "relativeStrengthVsNifty": "Significantly underperforming.",
+        "fiiBias": "Negative to neutral, with domestic flows partly offsetting.",
+        "stance": "Avoid for swing; only gradual long-term accumulation in the highest-quality names on large drawdowns.",
+        "comment": "After a huge rally, PSU banks are now facing the usual combination of mean reversion, macro stress and sentiment reversal; do not treat them as safe havens in a risk-off tape."
+      },
+      {
+        "sector": "FMCG / Staples",
+        "dayPerformance": "FMCG names fell roughly 2–3%, better than financials but still part of the broad selloff.",
+        "weeklyTone": "Stable to slightly weak as input-cost worries from oil clash with defensive demand characteristics.",
+        "relativeStrengthVsNifty": "Mildly outperforming.",
+        "fiiBias": "Neutral to mildly positive in earlier data, as FIIs rotate to defensives when volatility spikes.",
+        "stance": "Core holdings can be retained; new buys only on meaningful dips as valuations are still rich.",
+        "comment": "Staples provide ballast in drawdowns but can de-rate if earnings disappoint or if consumption slows more than expected due to inflation."
+      },
+      {
+        "sector": "Pharma and Healthcare",
+        "dayPerformance": "No single-day sector print dominates, but pharma historically holds up relatively better in macro shocks and high-VIX regimes.",
+        "weeklyTone": "Neutral to slightly positive as investors look for defensives with idiosyncratic growth drivers.",
+        "relativeStrengthVsNifty": "Gradually improving.",
+        "fiiBias": "Neutral.",
+        "stance": "Selective accumulation in global-scale names and niche domestic leaders on corrections.",
+        "comment": "Given crowded trades elsewhere, quality healthcare can act as a diversifier and partial hedge, but avoid governance-questionable names even if cheap."
+      },
+      {
+        "sector": "IT Services",
+        "dayPerformance": "IT corrected but generally less than banks, with prior sessions showing relative strength on positive global cues.",
+        "weeklyTone": "Mixed but better than financials as weaker rupee aids margins if US tech spending holds up.",
+        "relativeStrengthVsNifty": "Mildly outperforming over recent weeks.",
+        "fiiBias": "Neutral to slightly positive.",
+        "stance": "Core largecap IT is a reasonable staggered buy on dips, but be valuation-conscious in midcap IT.",
+        "comment": "IT offers a hedge against rupee weakness and can benefit if US avoids a hard landing, but revenue slowdown and pricing pressure are still medium-term risks."
+      },
+      {
+        "sector": "Auto",
+        "dayPerformance": "Autos fell 2–4% alongside the market, hurt by concerns over fuel prices and discretionary demand.",
+        "weeklyTone": "Soft after a strong run, with input cost and financing worries coming back.",
+        "relativeStrengthVsNifty": "Slightly underperforming.",
+        "fiiBias": "Neutral.",
+        "stance": "Be selective; favour leaders with export or premium mix over pure entry-level discretionary names.",
+        "comment": "High fuel and borrowing costs can weigh on lower-income buyers, while premium OEMs with strong brands manage better; two-wheelers and entry cars remain higher risk."
+      },
+      {
+        "sector": "Metals",
+        "dayPerformance": "Metals outperformed with some names in the green as commodity prices and China-related hopes provided support.",
+        "weeklyTone": "Choppy but resilient given global volatility.",
+        "relativeStrengthVsNifty": "Outperforming.",
+        "fiiBias": "Balanced.",
+        "stance": "Suitable for tactical allocations and partial hedges, not for oversized structural bets at this stage of the cycle.",
+        "comment": "Global growth wobbles and war-induced cost spikes make this a high-beta space; keep it a satellite, not a core, exposure."
+      },
+      {
+        "sector": "Capital Goods / Infra / Railways",
+        "dayPerformance": "Sold off with the market but supported by strong order books and state/central capex thrust.",
+        "weeklyTone": "Structurally strong, tactically weak due to valuations and risk-off flows.",
+        "relativeStrengthVsNifty": "Mixed – leaders still above long-term trends, laggards rolling over.",
+        "fiiBias": "Neutral.",
+        "stance": "Use corrections to accumulate high-quality infra and railway names with strong execution, but avoid overpaying for hope-heavy stories.",
+        "comment": "Railway capex has more than doubled since FY22 to about 2.6 lakh crore in FY26, but execution, margins and starting valuations will separate winners from disappointments."
+      },
+      {
+        "sector": "Energy / Oil & Gas / Power",
+        "dayPerformance": "Mixed: upstream and coal names outperformed while refiners and energy-intensive users face margin pressure.",
+        "weeklyTone": "Upstream biased, downstream challenged.",
+        "relativeStrengthVsNifty": "Outperforming in upstream; underperforming in energy consumers.",
+        "fiiBias": "Stock-specific.",
+        "stance": "Upstream and grid plays can be held or added on dips; avoid structurally low-ROE downstream names unless valuations are extremely cheap.",
+        "comment": "Oil shock is a tailwind for upstream but a tax on the rest of the economy; net effect for indices is negative, so size energy winners prudently."
+      },
+      {
+        "sector": "Defence",
+        "dayPerformance": "Defence PSU names were relatively resilient, helped by strong order flows and heightened geopolitical tensions.",
+        "weeklyTone": "Strong but volatile after a big multi-year run.",
+        "relativeStrengthVsNifty": "Outperforming over 1–3 years, recently choppy.",
+        "fiiBias": "Increasing institutional interest over time.",
+        "stance": "Hold core positions and add only on meaningful corrections; do not chase parabolic moves.",
+        "comment": "India’s defence ordering pipeline and export ambitions support a long runway, but many stocks discount a lot of good news; be valuation- and governance-sensitive."
+      },
+      {
+        "sector": "Telecom and Digital",
+        "dayPerformance": "Telecom indices fell around 3% alongside the broader risk-off move.",
+        "weeklyTone": "Choppy amid regulatory, capex and pricing uncertainties.",
+        "relativeStrengthVsNifty": "Slight underperformance.",
+        "fiiBias": "Mixed.",
+        "stance": "Neutral; treat as a trading sector unless clear evidence of sustained tariff discipline and deleveraging emerges.",
+        "comment": "High capex and regulatory overhang keep risk–reward balanced despite long-term data growth tailwinds."
+      }
+    ],
+    "fact": "Sector leadership has rotated away from financials and smallcaps toward commodities, energy and policy-backed themes like defence and railways, but even these leaders are seeing volatility rather than smooth uptrends.",
+    "interpretation": "The market is in a de-risking phase where investors prefer balance sheet strength, order visibility and hard assets over leverage and narratives, a typical pattern in risk-off corrections.",
+    "view": "Align with this rotation by reducing exposure to weak financials and speculative smallcaps, and by building measured positions in structurally supported themes on corrections while retaining adequate cash buffers."
+  },
+  "breadthInternalStrength": {
+    "advanceDecline": "Advance–decline data show clear stress, with roughly four times as many stocks falling as rising on March 30 on the BSE.",
+    "sectorBreadth": "Most sectoral indices, including auto, FMCG, consumer durables, capital goods, realty, private banks and PSU banks, fell between about 2% and 4%.",
+    "defensivesLeading": "Defensive pockets such as FMCG, utilities and some PSU defensives fell less than financials and smallcaps, but they did not prevent broad market damage.",
+    "cyclicalsWeak": "Cyclicals tied to credit, real estate and discretionary demand – especially banks and NBFCs – clearly led the decline.",
+    "buyingType": "Flows and price action point to forced and panic selling from leveraged and foreign participants, with domestic institutions and retail absorbing part of the supply but not enough to stabilise prices.",
+    "summary": "Internal breadth and flows confirm a risk-off tape where de-leveraging and de-rating dominate, and any tactical bounce should be treated as fragile until VIX and FX volatility improve."
+  },
+  "swingRadar": {
+    "setupQuality": "Low to moderate; conditions favour only highly selective, index-level mean-reversion trades for experienced traders, not aggressive stock picking.",
+    "fact": "Indices have just seen a >2% down day with India VIX near 28 and very weak breadth, while global cues have improved overnight.",
+    "interpretation": "This is a treacherous environment where intraday swings and gap-risk are high, so setups must lean on well-defined support zones and conservative position sizing.",
+    "view": "If you trade swings, keep to 1–2 high-quality setups, avoid illiquid names, and treat trades as tactical mean-reversion bets rather than trend-following until the regime improves.",
+    "setups": [
+      {
+        "stock": "Nifty 50 Index via ETF (e.g., NIFTYBEES)",
+        "setupType": "Tactical mean-reversion long after crash",
+        "conviction": "moderate_for_experienced_traders_only",
+        "entryZone": "Staggered entries near 22100–22300 if intraday panic revisits this support band; avoid chasing any gap-up opens.",
+        "stopLoss": "Close-basis stop below ~21700, which multiple technical frameworks flag as a deeper support zone.",
+        "targets": [
+          "First take-profit zone near 22700–22900 where prior support and resistance clusters exist.",
+          "Stretch target toward 23200–23300 if the US bounce sustains and India VIX cools meaningfully."
+        ],
+        "timeframe": "3–10 trading days if the bounce works; exit faster if oil or VIX spike again.",
+        "riskReward": "Approximately 1:2 if entries are anchored close to support and exits are disciplined; worsens sharply if you chase strength.",
+        "technicalReason": "Nifty has fallen over 2% into a pre-identified support band around 22300–22250 after a sharp drawdown, and such moves often see short-covering bounces when global cues turn supportive.",
+        "fundamentalTrigger": "No stock-specific driver; trade is built on the combination of a temporary improvement in global sentiment as oil cools and the mechanical tendency for oversold markets to retrace part of a large single-day drop.",
+        "invalidation": "If Nifty closes convincingly below ~21700 or Brent spikes back and sustains above recent highs near 115–120, the bounce setup is invalid and capital should be protected.",
+        "positionSizeTone": "Use only a fraction of usual position size, avoid leverage, and be prepared to sit in cash if levels or volatility look disorderly.",
+        "comment": "This is a tactical trade for disciplined traders with clear exit rules, not a recommendation to increase overall equity allocation aggressively in a macro-shocked environment."
+      }
+    ],
+    "avoidList": [
+      {
+        "name": "Illiquid SME and microcap stocks flagged or similar to those in recent SEBI manipulation orders (e.g., DU Digital Global, Retro Green Revolution).",
+        "reason": "Regulatory action has shown how quickly such names can collapse after parabolic moves, with poor liquidity and governance making downside unmanageable for retail investors."
+      },
+      {
+        "name": "Stocks with auditor or cost-auditor resignations where business quality is not clearly established (e.g., Asston Pharmaceuticals, IFB Industries cost-auditor case).",
+        "reason": "Auditor churn is a weak-governance signal and adds event risk, which is magnified in a high-volatility macro environment."
+      }
+    ]
+  },
+  "directStockInvestorAngle": {
+    "buckets": [
+      {
+        "bucket": "Core quality largecaps (FMCG, IT, top private banks, select industrials)",
+        "stance": "Hold and add gradually on further market-wide panic rather than on small dips.",
+        "comment": "Valuations have corrected from peak and India’s premium to EMs has compressed below long-term averages, making disciplined, staggered additions to quality reasonable over a 3–5 year horizon."
+      },
+      {
+        "bucket": "Cyclicals and energy-sensitive plays (aviation, paints, low-margin chemicals, entry-level autos)",
+        "stance": "Underweight or avoid until oil and rupee stabilise and there is line-of-sight on margins.",
+        "comment": "Structurally higher oil and a weaker INR act as a tax on these models, compressing margins and demand simultaneously."
+      },
+      {
+        "bucket": "Policy-backed themes (defence, railways, power equipment, PLI-linked manufacturing)",
+        "stance": "Favour on 15–30% corrections from highs with a long-term lens, but avoid chasing at any price.",
+        "comment": "Defence, rail and PLI manufacturing have strong multi-year order visibility and government support, yet many stocks already embed optimistic scenarios and can be volatile around newsflow."
+      },
+      {
+        "bucket": "Smallcap and microcap stories without earnings support",
+        "stance": "Avoid or drastically downsize exposure.",
+        "comment": "The March quarter saw about 639 billion dollars of market cap wiped out with smallcaps down nearly 10%, and SEBI has acted against manipulation in some SME names; capital protection matters more than catching every bounce here."
+      }
+    ],
+    "fact": "Indian equities have corrected meaningfully in 2026, with largecaps down high single digits and smallcaps closer to double digits, but underlying GDP growth and capex trends remain solid.",
+    "interpretation": "For a direct stock investor, this is a phase to upgrade portfolios – exiting weak balance sheets, frothy smallcaps and governance-questionable names, and rotating into stronger franchises at better prices.",
+    "view": "Maintain a core-satellite framework: keep core exposure in proven compounders and policy-backed structural themes, and keep the satellite sleeve smaller, more tactical, and very selective until volatility cools."
+  },
+  "mutualFundInvestorAngle": {
+    "sip": "Continue SIPs and consider modestly increasing them in diversified equity funds if your time horizon is 7–10 years, as corrections of this magnitude historically improve long-term returns.",
+    "lumpsum": "Deploy lumpsums in staggered tranches over 3–6 months rather than all at once, given high VIX and macro uncertainty.",
+    "deploymentStyle": "Staggered and rules-based (SIP/STP) into diversified funds, with extra caution on concentrated smallcap strategies.",
+    "dryPowder": "Maintain some dry powder in liquid or ultra-short-term funds to exploit deeper equity drawdowns without being forced to sell existing holdings.",
+    "categories": [
+      {
+        "category": "Largecap / Flexicap / Multicap",
+        "stance": "Preferred category for incremental equity allocation.",
+        "comment": "Valuations have corrected closer to long-term averages and offer better risk-adjusted entry points compared with frothy segments."
+      },
+      {
+        "category": "Dedicated Smallcap and Midcap Funds",
+        "stance": "Hold existing diversified positions if suitable for your risk profile, but be very selective and staggered with any new allocations.",
+        "comment": "Small and midcaps have corrected but can fall further if redemptions spike or if macro shocks deepen; only allocate if you have a 7–10 year horizon and can digest volatility."
+      },
+      {
+        "category": "Sector and thematic funds (defence, PSU, infra, commodities)",
+        "stance": "Use sparingly and only if you fully understand the cycle and risks.",
+        "comment": "These themes are volatile and can reverse sharply; core allocations belong in diversified funds, with sector/thematic exposure as a much smaller satellite."
+      }
+    ],
+    "fact": "Market-cap erosion in the March quarter has been substantial, but valuations and India’s structural growth story look more attractive than they did at the start of 2026, especially for diversified portfolios.",
+    "interpretation": "For MF investors, this environment rewards discipline – staying invested through SIPs, avoiding timing the bottom with big lumpsums, and not over-concentrating in any one hot sector.",
+    "view": "Stick to your asset allocation, rebalance gradually if equities have fallen below target weights, and let SIP/STP mechanics work for you instead of reacting to every headline."
+  },
+  "emergingOpportunities": {
+    "overallTone": "Constructively selective – focus on underfollowed names with clear capacity, order book or policy tailwinds rather than on popular momentum trades.",
+    "ideas": [
+      {
+        "companyId": "HIMADRI",
+        "company": "Himadri Speciality Chemical",
+        "theme": "Speciality carbon black and advanced materials for EVs, plastics and coatings",
+        "reasonForTracking": "Himadri has commissioned a 70,000 MTPA speciality carbon black expansion at its Mahistikry facility, making it the world’s largest single-location speciality carbon black site with 130,000 MTPA capacity focused on high-value applications.",
+        "triggerType": "capacity_expansion",
+        "earlySignals": [
+          "Commercial operations of the new 70,000 MTPA line began on February 24, 2026, under SEBI LODR disclosure, signalling execution capability on brownfield expansion.",
+          "Management is positioning the expanded facility toward premium applications in plastics, inks, paints and coatings, which generally command higher margins than commodity grades."
+        ],
+        "businessQualityView": "Improving but still cyclical; Himadri operates in a niche with rising demand from EVs and speciality applications but remains sensitive to energy costs and global industrial cycles.",
+        "valuationNote": "The stock has already re-rated on expansion news; risk–reward looks favourable primarily on further market-wide corrections rather than at euphoric peaks.",
+        "timeHorizon": "3–5_years",
+        "conviction": "medium",
+        "trackingStatus": "active",
+        "watchlistAction": "accumulate_on_deep_dips",
+        "firstSeenDate": "2026-02-24",
+        "lastUpdatedDate": "2026-03-31",
+        "whatToTrackNext": "Monitor ramp-up to full utilisation, margin trajectory in speciality versus commodity mix, energy-cost pass-through, and balance-sheet leverage as capex is absorbed."
+      },
+      {
+        "companyId": "APOLLOMICRO",
+        "company": "Apollo Micro Systems",
+        "theme": "Defence electronics and explosives ecosystem play",
+        "reasonForTracking": "Apollo Micro Systems and its subsidiary have secured multiple defence and explosives orders, including being declared L1 for a PSU defence contract worth about 257.89 million rupees with 18-month execution, adding to a strong recent order inflow.",
+        "triggerType": "order_wins",
+        "earlySignals": [
+          "Recent regulatory filings highlight cumulative orders exceeding 570 crore across defence and explosives clients, signalling increasing relevance in the defence supply chain.",
+          "Defence sector policy and DAC approvals worth tens of thousands of crores reinforce multi-year visibility for capable mid-tier suppliers."
+        ],
+        "businessQualityView": "Execution-focused midcap with leveraged exposure to defence and explosives; customer and contract concentration, as well as working-capital management, must be monitored closely.",
+        "valuationNote": "Valuation is sensitive to order wins and sentiment around defence PSUs; accumulation should be staggered and sized modestly relative to large defence anchors.",
+        "timeHorizon": "3–5_years",
+        "conviction": "medium",
+        "trackingStatus": "active",
+        "watchlistAction": "watch_for_better_entries",
+        "firstSeenDate": "2026-01-02",
+        "lastUpdatedDate": "2026-03-31",
+        "whatToTrackNext": "Track execution on the L1 defence order, margin profile on new contracts, debtor days and any move to diversify customer and product mix."
+      },
+      {
+        "companyId": "RVNL-IRCON",
+        "company": "Rail Vikas Nigam + IRCON International (potential merger story)",
+        "theme": "Railway EPC and electrification with strong capex tailwind",
+        "reasonForTracking": "Reports of a potential RVNL–IRCON merger and commentary on rail capex highlight a combined order book above 1 lakh crore and multi-year visibility, though with execution and valuation risks.",
+        "triggerType": "policy_and_corporate_structure",
+        "earlySignals": [
+          "Railway capex has risen to about 2.6 lakh crore in FY26, more than double FY22 levels, underpinning long-term demand for EPC and rolling-stock players.",
+          "Speculation about a merger has already driven both stocks sharply higher, suggesting that the market is pricing in synergy and scale benefits ahead of hard facts."
+        ],
+        "businessQualityView": "Both are established PSU EPC players with strong order books but exposed to project execution, margin volatility and government decision timelines.",
+        "valuationNote": "After a strong rally, valuations embed optimistic scenarios; better entries are likely during broader market or theme-specific corrections.",
+        "timeHorizon": "3–7_years",
+        "conviction": "medium",
+        "trackingStatus": "active",
+        "watchlistAction": "monitor_and_add_on_corrections",
+        "firstSeenDate": "2026-03-06",
+        "lastUpdatedDate": "2026-03-31",
+        "whatToTrackNext": "Watch for any formal communication on merger structure, updated order books, margin trends and whether capex momentum is sustained in future Budgets."
+      }
+    ],
+    "fact": "Despite the risk-off tape, several underfollowed midcaps are quietly building capacity and order books in speciality materials, defence and railways.",
+    "interpretation": "These names can become future winners if they execute well and maintain balance-sheet discipline, but they require patience and sizing discipline given their midcap risk profile.",
+    "view": "Keep a curated list of such structural stories and use broad market corrections – not microcap frenzies – as opportunities to build positions slowly over time."
+  },
+  "riskAndDamageWatch": {
+    "overallTone": "Elevated caution – governance, manipulation and leverage risks in smaller names are rising and should not be ignored.",
+    "cases": [
+      {
+        "companyId": "DU-DIGITAL",
+        "company": "DU Digital Global (SME)",
+        "riskType": "market_manipulation_regulatory",
+        "issue": "SEBI found coordinated trading that artificially inflated price and volumes, imposing trading bans, disgorgement and penalties on multiple connected entities.",
+        "severity": "high",
+        "nearTermMarketRisk": "High for the stock itself, moderate signalling risk for SME microcaps more broadly.",
+        "monitoringSignals": [
+          "Any appeals, further SEBI orders or forensic findings that widen the circle of implicated entities.",
+          "Spillover SEBI actions into similar SME scrips with parabolic price histories."
+        ],
+        "possibleImpactAreas": [
+          "SME and microcap investor sentiment",
+          "Brokerage risk-controls and margin policies",
+          "Future SEBI tightening on smallcap recommendations and social media tips"
+        ],
+        "stance": "Avoid.",
+        "trackingStatus": "active",
+        "watchlistAction": "exclude_from_investable_universe",
+        "firstSeenDate": "2026-01-01",
+        "lastUpdatedDate": "2026-03-31",
+        "whatToTrackNext": "Monitor whether SEBI extends similar enforcement to other SME stocks and how brokers and exchanges tighten controls on low-float, manipulated scrips."
+      },
+      {
+        "companyId": "RGRL",
+        "company": "Retro Green Revolution Ltd",
+        "riskType": "market_manipulation_regulatory",
+        "issue": "SEBI barred 18 entities and ordered disgorgement and penalties for manipulating shares of Retro Green Revolution through coordinated, circular trading and Telegram-based tips.",
+        "severity": "high",
+        "nearTermMarketRisk": "High idiosyncratic risk; emblematic of broader smallcap froth and regulatory scrutiny.",
+        "monitoringSignals": [
+          "Any further SEBI communication expanding the investigation period or participants.",
+          "Changes in trading pattern or liquidity in similar microcaps."
+        ],
+        "possibleImpactAreas": [
+          "Sentiment in speculative microcaps",
+          "Regulatory stance toward smallcap market manipulation",
+          "Retail confidence in SME platforms"
+        ],
+        "stance": "Avoid and treat as a cautionary example.",
+        "trackingStatus": "active",
+        "watchlistAction": "avoid",
+        "firstSeenDate": "2026-03-17",
+        "lastUpdatedDate": "2026-03-31",
+        "whatToTrackNext": "Watch for thematic SEBI or exchange circulars aimed at curbing pump-and-dump style schemes in illiquid names."
+      },
+      {
+        "companyId": "ASSTONPHARMA",
+        "company": "Asston Pharmaceuticals Limited",
+        "riskType": "governance_auditor_change",
+        "issue": "Statutory auditor resigned mid-tenure citing preoccupation with other assignments, though no material concerns were formally recorded.",
+        "severity": "medium",
+        "nearTermMarketRisk": "Moderate, as markets often view unexpected auditor exits as a soft red flag even when reasons sound benign.",
+        "monitoringSignals": [
+          "Identity and reputation of the incoming auditor and tenure of engagement.",
+          "Any delays or qualifications in upcoming financial results."
+        ],
+        "possibleImpactAreas": [
+          "Perception of governance and financial-reporting quality",
+          "Cost of capital for the company",
+          "Peer-group sentiment if similar patterns emerge"
+        ],
+        "stance": "Cautious; avoid fresh exposure until the new auditor completes at least one clean audit cycle.",
+        "trackingStatus": "active",
+        "watchlistAction": "monitor_with_caution",
+        "firstSeenDate": "2026-01-28",
+        "lastUpdatedDate": "2026-03-31",
+        "whatToTrackNext": "Track exchange filings on new auditor appointment, audit opinions and any changes in key accounting policies."
+      },
+      {
+        "companyId": "IFBIND",
+        "company": "IFB Industries (cost auditor)",
+        "riskType": "governance_cost_auditor_change",
+        "issue": "Cost auditor resigned citing unavoidable circumstances, with cessation effective January 23, 2026, necessitating a replacement.",
+        "severity": "low_to_medium",
+        "nearTermMarketRisk": "Low direct financial risk but a reminder to watch governance in midcaps closely.",
+        "monitoringSignals": [
+          "Appointment and profile of the new cost auditor.",
+          "Any unusual margin or cost allocation changes in subsequent results."
+        ],
+        "possibleImpactAreas": [
+          "Perception of internal controls",
+          "Investor comfort with reported margins and cost structures"
+        ],
+        "stance": "Neutral to cautious; acceptable for diversified exposure but avoid concentrated bets until stability is proven.",
+        "trackingStatus": "active",
+        "watchlistAction": "monitor",
+        "firstSeenDate": "2026-01-24",
+        "lastUpdatedDate": "2026-03-31",
+        "whatToTrackNext": "Check for pattern of repeated auditor changes, delays in filings or any regulatory correspondence around disclosures."
+      }
+    ],
+    "fact": "Regulators have become visibly more active against manipulation and governance lapses just as smallcaps correct and volatility spikes.",
+    "interpretation": "This combination increases idiosyncratic risk in weaker names and raises the bar for governance and liquidity when selecting small and midcap stocks.",
+    "view": "De-risk by limiting exposure to any company where you cannot clearly explain the business, balance sheet and governance record; avoid chasing stories purely because they did well in the last cycle."
+  },
+  "dosAndDonts": {
+    "dos": [
+      "Do reduce exposure to leveraged, illiquid and story-only smallcaps, especially those with poor disclosures or unusual price action.",
+      "Do use this correction to upgrade into higher-quality largecaps and structural themes with strong order books and balance sheets.",
+      "Do keep position sizes smaller and stops wider than usual while India VIX remains in the high-20s.",
+      "Do maintain dry powder in safe instruments so that you can add on deeper market-wide panics without selling core holdings.",
+      "Do separate your long-term allocation decisions from short-term swing trades, with independent risk limits for each bucket."
+    ],
+    "donts": [
+      "Do not chase gap-up openings or one-day bounces in sectors that led the fall, especially banks and speculative PSU names.",
+      "Do not average down blindly in illiquid SMEs or names facing regulatory or auditor red flags.",
+      "Do not deploy large lumpsums in a single shot while VIX and macro uncertainty are elevated; prefer staged entries.",
+      "Do not ignore currency and oil risk when evaluating margin assumptions for sectors like aviation, paints, chemicals and entry-level autos."
+    ]
+  },
+  "keyLevelsAndTriggers": {
+    "niftySupport": "Immediate support around 22300–22250, then 22000 and deeper zone near 21700–21750 as per multiple technical frameworks.",
+    "niftyResistance": "Initial resistance near 22500–22600, then 22800 and the higher band around 23150–23200.",
+    "bankNiftySupport": "Key support around 52000–51000, with deeper supports near 50700 and 50000 highlighted in recent analyses.",
+    "bankNiftyResistance": "Immediate resistance in the 53000–53500 band where call OI and prior supply zones converge.",
+    "vixKeyLevel": "Sustained move back below 20 would signal real calming of fear; for now, VIX near 28 keeps risk premia high and argues for cautious sizing.",
+    "brentKeyLevel": "A decisive break and sustain below 100 USD/bbl would materially ease macro stress; sustained trading above 115–120 would increase odds of deeper corrections and inflation surprises.",
+    "usdInrKeyLevel": "Stabilisation back below 92–93 per USD would indicate that FX risk is normalising; persistent levels above 95 or sharp spikes higher would be a clear negative trigger for risk assets.",
+    "improvingTriggers": [
+      "Brent falls and holds below 100 USD/bbl for several weeks, easing inflation and current-account worries.",
+      "India VIX moves sustainably below 20 and stays there across expiry cycles, indicating calmer intraday conditions.",
+      "FII flows shift from heavy selling to at least neutral or mild buying, signalling that global allocators see value again.",
+      "RBI’s FX measures stabilise INR without triggering broader financial stress, allowing markets to refocus on earnings and growth."
+    ],
+    "worseningTriggers": [
+      "Fresh escalation in the Iran war or new disruptions in Hormuz that push Brent convincingly above 120–140 USD/bbl.",
+      "India VIX spikes above 30 and stays elevated, with multiple days of 3–4% index moves and poor breadth.",
+      "INR weakens beyond 96–98 per USD despite RBI measures, raising concerns about external stability.",
+      "Evidence of domestic credit stress or regulatory shocks in large financials, which could turn a macro correction into a more serious bear phase."
+    ]
+  },
+  "finalBottomLine": {
+    "investorConclusion": "For long-term investors, this is a time to protect capital, upgrade portfolio quality and add gradually on deeper panic into structural themes like defence, rail, power and select manufacturing, rather than trying to time the exact bottom.",
+    "swingTraderConclusion": "For swing traders, keep risk light and focused on a small number of high-quality, index-level setups with clear supports and exits, and avoid illiquid or regulatory-risk names while VIX remains elevated.",
+    "mfConclusion": "For mutual fund allocations, continue disciplined SIPs into diversified funds, stagger any lumpsums over months, and avoid overconcentration in volatile smallcap and thematic funds until the macro dust settles."
+  },
+  "archiveMeta": {
+    "summary": "March 31, 2026 (Mahavir Jayanti holiday) – Indian equities sit in a high-volatility risk-off correction driven by oil shock, rupee weakness and FII selling, even as US markets bounce; policy supports capex and FX stability while investors rotate toward quality and structural themes.",
+    "tags": [
+      "2026-03-31",
+      "risk_off_correction",
+      "oil_shock",
+      "rupee_weakness",
+      "high_vix",
+      "defence_theme",
+      "rail_capex",
+      "smallcap_correction",
+      "rbi_fx_controls"
+    ]
+  },
+  "footer": {
+    "sourceContext": [
+      "Index levels, volatility and breadth from NSE/BSE data and major Indian market wraps.",
+      "Global indices, yields, oil and gold from international market data providers and macro research.",
+      "FII/DII flows and valuation context from NSE data and institutional market commentary.",
+      "Policy, regulatory and strategic themes from RBI, central and state government, SEBI and industry analyses.",
+      "Company- and theme-specific developments from exchange filings and reputable financial news sources."
+    ],
+    "disclaimer": "This report is for informational purposes only and is not investment advice or a recommendation to buy or sell any security; investors should consider their own objectives, risk tolerance and consult a qualified adviser before acting."
+  }
+}
