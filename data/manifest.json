@@ -6,6 +6,19 @@
   },
   "reports": [
     {
+      "date": "2026-04-01",
+      "file": "2026-04-01.json",
+      "title": "Market Pulse Daily",
+      "subtitle": "",
+      "mood": "",
+      "marketStatus": "closed",
+      "regime": "",
+      "stance": "",
+      "mainDriver": "",
+      "summary": "",
+      "tags": []
+    },
+    {
       "date": "2026-03-31",
       "file": "2026-03-31.json",
       "title": "Market Pulse Daily",
@@ -418,5 +431,5 @@
       ]
     }
   ],
-  "latestReport": "2026-03-31"
+  "latestReport": "2026-04-01"
 }
