@@ -6,6 +6,56 @@
   },
   "reports": [
     {
+      "date": "2026-04-03",
+      "file": "2026-04-03.json",
+      "title": "Market Pulse Daily",
+      "subtitle": "Weekend Edition (data as of 2026-03-02)",
+      "mood": "Risk-off correction",
+      "marketStatus": "closed",
+      "regime": "Risk-off correction",
+      "stance": "Use the Holi holiday pause to reassess risk, tighten weak positions, and prepare staggered deployment plans rather than rushing in or out.",
+      "mainDriver": "The 2026 Iran war and effective disruption of traffic through the Strait of Hormuz have pushed crude sharply higher, triggered global equity risk-off and a sharp selloff in Indian equities on 2 March, even though local markets are shut on 3 March for Holi.",
+      "summary": "3 March 2026 – Indian markets shut for Holi after a sharp risk-off selloff on 2 March triggered by the Iran war and oil spike; regime shifts to a crude- and FX-driven correction with defence and select infra as relative winners, FIIs selling, DIIs absorbing and policy walking a tightrope between capex and shock management.",
+      "tags": [
+        "2026-03-03",
+        "Holi_holiday",
+        "Iran_war",
+        "oil_spike",
+        "risk_off_correction",
+        "India_VIX",
+        "FII_outflows",
+        "DII_support",
+        "defence_theme",
+        "public_capex",
+        "digital_infra",
+        "governance_and_downgrades"
+      ]
+    },
+    {
+      "date": "2026-04-02",
+      "file": "2026-04-02.json",
+      "title": "Market Pulse Daily",
+      "subtitle": "Risk-off correction",
+      "mood": "Risk-off correction",
+      "marketStatus": "closed",
+      "regime": "Risk-off correction",
+      "stance": "Defensive to selectively bullish – protect capital first, take only high-quality, low-leverage risk where relative strength is clear.",
+      "mainDriver": "US–Israel–Iran war, closure of the Strait of Hormuz and a sharp spike in crude, volatility and the US dollar are driving a global risk-off move that hit Indian equities hard today.",
+      "summary": "2 March 2026 – Indian equities sold off sharply as the US–Israel–Iran war closed the Strait of Hormuz and sent crude, the dollar and volatility higher, triggering a risk-off correction led by autos, financials and aviation while defence, metals and select defensives held up; DIIs absorbed heavy FII selling, and the regime shifted toward cautious, quality-focused positioning.",
+      "tags": [
+        "2026-03-02",
+        "Iran war",
+        "Strait of Hormuz",
+        "oil shock",
+        "India VIX spike",
+        "FII selling",
+        "DII buying",
+        "defence sector",
+        "specialty chemicals",
+        "risk-off regime"
+      ]
+    },
+    {
       "date": "2026-04-01",
       "file": "2026-04-01.json",
       "title": "Market Pulse Daily",
@@ -431,5 +481,5 @@
       ]
     }
   ],
-  "latestReport": "2026-04-01"
+  "latestReport": "2026-04-03"
 }
