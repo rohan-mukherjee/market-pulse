@@ -6,6 +6,34 @@
   },
   "reports": [
     {
+      "date": "2026-04-04",
+      "file": "2026-04-04.json",
+      "title": "Market Pulse Daily",
+      "subtitle": "Weekend Edition (data as of 2026-04-02)",
+      "mood": "Volatile bullish",
+      "marketStatus": "closed",
+      "regime": "Volatile bullish",
+      "stance": "Constructive but cautious: respect elevated volatility and crude risk, avoid over-leverage, and be very selective in adding equity risk.",
+      "mainDriver": "Geopolitical oil shock plus strong dollar and high global yields, partially offset by resilient domestic flows and IT strength.",
+      "summary": "Volatile but net-positive Indian session with Nifty and Sensex closing slightly higher after deep intraday cuts, IT and defence showing leadership, crude, dollar and VIX elevated, FIIs selling heavily while DIIs buy, and key regulatory shifts in mutual funds and trading rules shaping the medium-term landscape.",
+      "tags": [
+        "india_equities",
+        "daily_report",
+        "2026-04-05",
+        "nifty_22713",
+        "high_volatility",
+        "vix_25",
+        "oil_spike",
+        "usd_inr_93",
+        "fii_selling_dii_buying",
+        "it_leadership",
+        "defence_theme",
+        "sebi_mf_reg_2026",
+        "us_iran_conflict",
+        "sector_rotation"
+      ]
+    },
+    {
       "date": "2026-04-03",
       "file": "2026-04-03.json",
       "title": "Market Pulse Daily",
@@ -481,5 +509,5 @@
       ]
     }
   ],
-  "latestReport": "2026-04-03"
+  "latestReport": "2026-04-04"
 }
