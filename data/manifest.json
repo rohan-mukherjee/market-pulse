@@ -6,6 +6,82 @@
   },
   "reports": [
     {
+      "date": "2026-04-07",
+      "file": "2026-04-07.json",
+      "title": "Market Pulse Daily",
+      "subtitle": "Volatile bullish",
+      "mood": "Volatile bullish",
+      "marketStatus": "closed",
+      "regime": "Volatile bullish",
+      "stance": "Cautiously bullish for investors with a clear plan and risk controls; traders should respect volatility and avoid over-leverage.",
+      "mainDriver": "Middle East war and oil shock interacting with RBI policy expectations and strong domestic flows into quality largecaps.",
+      "summary": "Nifty closed above 23,100 in a volatile session as IT and metals led gains, PSU banks lagged, oil held above 110 amid the Iran war and RBI’s April policy meeting approached, creating a volatile-bullish regime driven by domestic flows and sector rotation into quality and policy-backed themes.",
+      "tags": [
+        "2026-04-07",
+        "Nifty23100",
+        "HighVIX",
+        "IranWar",
+        "HormuzClosure",
+        "OilAbove110",
+        "RBIPolicy",
+        "ITLeadership",
+        "MetalsStrength",
+        "PSUBanksWeak",
+        "DefenceTheme",
+        "RailwaysCapex",
+        "PLIManufacturing"
+      ]
+    },
+    {
+      "date": "2026-04-06",
+      "file": "2026-04-06.json",
+      "title": "Market Pulse Daily",
+      "subtitle": "Selective bullish",
+      "mood": "Selective bullish",
+      "marketStatus": "closed",
+      "regime": "Selective bullish",
+      "stance": "Constructively cautious: use bounces to upgrade quality, not to chase every move",
+      "mainDriver": "Relief rally on Middle East ceasefire hopes and strong domestic institutional buying despite elevated oil and global uncertainty",
+      "summary": "On 6 April 2026, Indian equities staged a strong rebound led by banks and autos despite elevated volatility, heavy FII selling, high oil and a fragile but supportive global backdrop, warranting selective bullishness with tight risk management.",
+      "tags": [
+        "India equities",
+        "Nifty 50",
+        "Bank Nifty",
+        "FII selling",
+        "DII buying",
+        "Middle East conflict",
+        "Oil prices",
+        "Volatility",
+        "Sector rotation",
+        "Infra and defence",
+        "Energy transition"
+      ]
+    },
+    {
+      "date": "2026-04-05",
+      "file": "2026-04-05.json",
+      "title": "Market Pulse Daily",
+      "subtitle": "Weekend Edition (data as of 2026-04-06)",
+      "mood": "Volatile bullish",
+      "marketStatus": "closed",
+      "regime": "Volatile bullish",
+      "stance": "Cautiously constructive: it is a volatile bullish phase where largecaps and quality financials can be bought on dips, but sizing must respect high volatility and event risk around oil and geopolitics.",
+      "mainDriver": "Easing near-term fear around the Iran–US–Hormuz situation and expectations of an RBI status-quo are allowing a relief rally, even as crude, elevated VIX and heavy FII selling keep risks high.",
+      "summary": "Volatile bullish relief rally in India on 06 Apr 2026 led by banks and midcaps despite heavy FII selling, with elevated VIX, high crude amid Hormuz tensions, strong DII flows and structural positives in defence, PLI-led manufacturing and data centres shaping the medium-term opportunity set.",
+      "tags": [
+        "2026-04-06",
+        "volatile_bullish",
+        "india_equity",
+        "banks_leading",
+        "oil_risk",
+        "hormuz_crisis",
+        "defence_theme",
+        "PLI_electronics",
+        "data_centre_capex",
+        "FII_selling_DII_buying"
+      ]
+    },
+    {
       "date": "2026-04-04",
       "file": "2026-04-04.json",
       "title": "Market Pulse Daily",
@@ -509,5 +585,5 @@
       ]
     }
   ],
-  "latestReport": "2026-04-04"
+  "latestReport": "2026-04-07"
 }
