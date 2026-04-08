@@ -6,6 +6,34 @@
   },
   "reports": [
     {
+      "date": "2026-04-08",
+      "file": "2026-04-08.json",
+      "title": "Market Pulse Daily",
+      "subtitle": "Volatile bullish",
+      "mood": "Volatile bullish",
+      "marketStatus": "closed",
+      "regime": "Volatile bullish",
+      "stance": "Constructive but still risk-aware: treat this as a powerful relief rally within a volatile, geopolitics-driven regime rather than a new low-risk bull market.",
+      "mainDriver": "A conditional two-week US–Iran ceasefire that sent Brent crude sharply below 100 dollars, weakened the dollar index, eased bond yields and allowed the RBI’s status quo policy to spark a broad Indian risk-on move.",
+      "summary": "8 Apr 2026 – Indian equities logged a huge ceasefire-driven relief rally with Nifty near 24,000, Bank Nifty and mid/smallcaps outperforming, India VIX dropping below 20, oil and dollar easing, RBI steady at 5.25 percent, and structural themes in defence, infra and railways gaining importance while governance and pledge risks in select smallcaps remained on the damage watch.",
+      "tags": [
+        "2026-04-08",
+        "india_equities",
+        "relief_rally",
+        "us_iran_ceasefire",
+        "brent_below_100",
+        "rbi_mpc_525",
+        "india_vix_drop",
+        "banknifty_breakout",
+        "midcap_smallcap",
+        "defence_shipbuilding",
+        "railway_infra",
+        "governance_risk",
+        "promoter_pledge",
+        "swing_trading_setups"
+      ]
+    },
+    {
       "date": "2026-04-07",
       "file": "2026-04-07.json",
       "title": "Market Pulse Daily",
@@ -585,5 +613,5 @@
       ]
     }
   ],
-  "latestReport": "2026-04-07"
+  "latestReport": "2026-04-08"
 }
